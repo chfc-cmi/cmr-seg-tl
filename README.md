@@ -6,7 +6,7 @@ Generated data is available for download at [link to be added].
 
 ## Aim
 
-TODO
+This project aims to provide guidelines, code and data for researchers and clinicians who want to train their own cardiac MR segmentation network.
 
 ## Overview
 
@@ -21,13 +21,25 @@ TODO
    + Exploration of predictions
 
 ## Data Science Bowl Cardiac Challenge Data
-TODO
+
+The [Data Science Bowl Cardiac Challenge Data](https://www.kaggle.com/c/second-annual-data-science-bowl/data) (also "Kaggle data" for brevity) consists of cardiac MR scans of 1140 patients of different ages with different pathologies. It is publically available for download [at Kaggle](https://www.kaggle.com/c/second-annual-data-science-bowl/data).
+Not much additional information is given regarding the scans but some metadata is stored in the DICOM files. The competition was to predict left ventricular (LV) volume of each patient at the end systolic (ES) and end diastolic (ED) phase. After conclusion of the competition the ground truth values for these volumes were released for all 1140 patients.
+
+If you want to reproduce our results, download the kaggle images to `data/kaggle`
 
 ### Data curation and conversion
-TODO
+
+The data set contains short axis images for all participants and has not been cleaned for the competition. Thus it contains inconsistencies:
+ - missing time points (e.g. all slices with 30 cardiac phases and one with 25)
+ - inconsistent slice spacing
+ - inconsistent image dimension
+ - repeat measurements (identical slice location)
+ - scaled images
+ - image rotations
 
 ### Creating labels with `ukbb_cardiac` by Bai et al.
-TODO
+
+As no ground truth segmentation labels are available we automatically generated them using the network published by Bai et al. (TODO cite).
 
 ### Evaluating labels by ground truth volume info
 TODO
