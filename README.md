@@ -28,8 +28,8 @@ Not much additional information is given regarding the scans but some metadata i
 If you want to reproduce our results, download and unpack the kaggle images to `data/kaggle` (~74GB). You can do this using the web interface or the command line interface (in any case you need a Kaggle account and accept the competition rules):
 
 ```bash
-mkdir -p data/kaggle
-cd data/kaggle
+mkdir -p data/kaggle/raw
+cd data/kaggle/raw
 kaggle competitions download second-annual-data-science-bowl
 unzip second-annual-data-science-bowl.zip
 rm second-annual-data-science-bowl.zip
