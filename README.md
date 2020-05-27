@@ -73,3 +73,25 @@ TODO
 ### Exploration of predictions
 TODO
 
+## Requirements
+A list of required programs and packages. The listed version is the one used for our analysis (older or newer versions might work but are untested).
+
+### Hardware
+In order to reproduce our results in an acceptable time frame GPU hardware is required. The setup we used was:
+1)	GPU Node of Julia HPC of University of Wuerzburg:
+i.	2x Intel® Xeon Gold 6134 Processor
+ii.	384 GB of memory
+iii.	2x NVIDIA Tesla P100 with 16 GB of memory
+2)	Our own HPC within the Comprehensive Heart Failure Center
+i.	8x Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+ii.	512 GB of memory
+iii.	1x NVIDIA Tesla K80 with 12 GB of memory
+All calculations on data underlying the data protection terms of the University Hospital Wuerzburg were done on our own HPC, while all calculations on publicly available data, such as the parameter search on Kaggle data were done on the Julia HPC of the University of Wuerzburg.
+### Software
+
+#### Python
+ - python 3.8.3
+ - pydicom 1.4.2
+ - pandas 1.0.3
+ - numpy 1.13.3
+ - tqdm 4.46.0
