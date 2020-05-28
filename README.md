@@ -64,8 +64,11 @@ Therefore we employ the following data cleaning steps:
 
 ```bash
 # 1. split measurements
+mkdir -p data/kaggle/nifti
 cd data/kaggle/raw
 ../../../code/kaggle/kaggle_split_multiseries.sh
+cd ../nifti
+python ../../../code/kaggle/dcm2nifti.py >../../../analysis/kaggle/conversion.log
 ```
 
 ### Creating labels with `ukbb_cardiac` by Bai et al.
