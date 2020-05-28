@@ -35,7 +35,13 @@ unzip second-annual-data-science-bowl.zip
 rm second-annual-data-science-bowl.zip
 ```
 
-To extract and analyse DICOM metadata use: TODO
+To extract and analyze DICOM metadata use [dcm2metadata.py](./code/kaggle/dcm2metadata.py):
+```bash
+mkdir -p analysis/kaggle
+cd analysis/kaggle
+# this command takes ~30 minutes and (re-)creates dicom_metadata.tsv.xz
+python ../../code/kaggle/dcm2metadata.py
+```
 
 ### Data curation and conversion
 
@@ -48,8 +54,19 @@ The data set contains short axis images for all participants and has not been cl
  - image rotations
 
 Therefore we employ the following data cleaning steps:
-1. Split completely repeated measurements
-2. TODO
+1. Split completely repeated measurements (into _a and _b)
+2. Downscale to 256px in the larger dimension
+3. Scale and rotate to consistent size and orientation (using mode)
+4. Rotate by 90° if `cols>rows` (also keep original rotation in a separate file)
+5. Remove duplicate slices
+6. Add missing slices (by duplicating existing ones)
+7. Convert DICOM to nifti
+
+```bash
+# 1. split measurements
+cd data/kaggle/raw
+../../../code/kaggle/kaggle_split_multiseries.sh
+```
 
 ### Creating labels with `ukbb_cardiac` by Bai et al.
 
@@ -91,7 +108,12 @@ All calculations on data underlying the data protection terms of the University 
 
 #### Python
  - python 3.8.3
+ - jupyter 1.0.0
  - pydicom 1.4.2
  - pandas 1.0.3
  - numpy 1.13.3
  - tqdm 4.46.0
+
+#### R
+ - R 3.6.1
+ - tidyverse 1.2.1
