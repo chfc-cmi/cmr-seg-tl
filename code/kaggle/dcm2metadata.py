@@ -47,4 +47,4 @@ for f in tqdm(files):
     metadata.append(fd)
 
 metadata_df = pd.DataFrame(metadata)
-metadata_df.to_csv("../data/kaggle-heart/nifti/dicom_metadata.tsv.xz",sep="\t",index=False)
+metadata_df.to_csv("dicom_metadata.tsv.xz",sep="\t",index=False)
