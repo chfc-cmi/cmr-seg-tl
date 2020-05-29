@@ -1,0 +1,956 @@
+870	collission	slice removed	../raw/test/test/870/study/sax_12/IM-0822-0001.dcm	../raw/test/test/870/study/sax_30/IM-0836-0001.dcm (-15.939813271725,-15.939797344717)
+870	collission	slice removed	../raw/test/test/870/study/sax_28/IM-0835-0001.dcm	../raw/test/test/870/study/sax_30/IM-0836-0001.dcm (-15.939748063459,-15.939797344717)
+870	collission	slice removed	../raw/test/test/870/study/sax_13/IM-0823-0001.dcm	../raw/test/test/870/study/sax_31/IM-0837-0001.dcm (-5.9398144267314,-5.9397985528818)
+870	collission	slice removed	../raw/test/test/870/study/sax_14/IM-0824-0001.dcm	../raw/test/test/870/study/sax_32/IM-0838-0001.dcm (4.0601866161553,4.0602025431634)
+870	collission	slice removed	../raw/test/test/870/study/sax_15/IM-0825-0001.dcm	../raw/test/test/870/study/sax_33/IM-0839-0001.dcm (14.060185959592,14.060201722121)
+870	collission	slice removed	../raw/test/test/870/study/sax_16/IM-0826-0001.dcm	../raw/test/test/870/study/sax_34/IM-0840-0001.dcm (24.060186328801,24.060201688785)
+870	collission	slice removed	../raw/test/test/870/study/sax_17/IM-0827-0001.dcm	../raw/test/test/870/study/sax_35/IM-0841-0001.dcm (34.060185563961,34.060202057994)
+870	collission	slice removed	../raw/test/test/870/study/sax_25/IM-0833-0001.dcm	../raw/test/test/870/study/sax_35/IM-0841-0001.dcm (34.060215884731,34.060202057994)
+870	collission	slice removed	../raw/test/test/870/study/sax_18/IM-0828-0001.dcm	../raw/test/test/870/study/sax_36/IM-0842-0001.dcm (44.060186262129,44.060201622112)
+870	collission	slice removed	../raw/test/test/870/study/sax_19/IM-0829-0001.dcm	../raw/test/test/870/study/sax_26/IM-0834-0001.dcm (54.060185168329,54.060191050949)
+870	collission	slice removed	../raw/test/test/870/study/sax_26/IM-0834-0001.dcm	../raw/test/test/870/study/sax_37/IM-0843-0001.dcm (54.060191050949,54.060200528312)
+870	collission	slice removed	../raw/test/test/870/study/sax_20/IM-0830-0001.dcm	../raw/test/test/870/study/sax_38/IM-0844-0001.dcm (64.060185208578,64.0602018844)
+870	collission	slice removed	../raw/test/test/870/study/sax_21/IM-0831-0001.dcm	../raw/test/test/870/study/sax_39/IM-0845-0001.dcm (74.060186564666,74.060203240487)
+870	collission	slice removed	../raw/test/test/870/study/sax_22/IM-0832-0001.dcm	../raw/test/test/870/study/sax_40/IM-0846-0001.dcm (84.060185652654,84.060201964898)
+870	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+878	slice spacing: missing	previous slice copied	../raw/test/test/878/study/sax_52/IM-8668-0001.dcm	expected: 8.0, acutal: 16.0
+719	image size >256	scaled		(384,512) scaling down with factor: 0.5
+796	image size >256	scaled		(384,512) scaling down with factor: 0.5
+736	image size >256	scaled		(384,512) scaling down with factor: 0.5
+737	image size >256	scaled		(384,512) scaling down with factor: 0.5
+946	image size >256	scaled		(300,416) scaling down with factor: 0.6153846153846154
+740	collission	slice removed	../raw/test/test/740/study/sax_10/IM-10609-0001.dcm	../raw/test/test/740/study/sax_12/IM-10611-0001.dcm (82.936617955876,82.936579473706)
+1065	collission	slice removed	../raw/test/test/1065/study/sax_6/IM-2529-0001-0001.dcm	../raw/test/test/1065/study/sax_6/IM-2529-0001-0002.dcm (7.7856322839734,7.7856322839734)
+1065	collission	slice removed	../raw/test/test/1065/study/sax_7/IM-2530-0001-0001.dcm	../raw/test/test/1065/study/sax_7/IM-2530-0001-0002.dcm (17.785632417922,17.785632417922)
+1065	collission	slice removed	../raw/test/test/1065/study/sax_8/IM-2531-0001-0001.dcm	../raw/test/test/1065/study/sax_8/IM-2531-0001-0002.dcm (27.785630311843,27.785630311843)
+1065	collission	slice removed	../raw/test/test/1065/study/sax_9/IM-2532-0001-0001.dcm	../raw/test/test/1065/study/sax_9/IM-2532-0001-0002.dcm (37.785631338941,37.785631338941)
+1065	collission	slice removed	../raw/test/test/1065/study/sax_10/IM-2533-0001-0001.dcm	../raw/test/test/1065/study/sax_10/IM-2533-0001-0002.dcm (47.785629232861,47.785629232861)
+1065	collission	slice removed	../raw/test/test/1065/study/sax_11/IM-2534-0001-0001.dcm	../raw/test/test/1065/study/sax_11/IM-2534-0001-0002.dcm (57.785630766463,57.785630766463)
+1065	collission	slice removed	../raw/test/test/1065/study/sax_12/IM-2535-0001-0001.dcm	../raw/test/test/1065/study/sax_12/IM-2535-0001-0002.dcm (67.785632300064,67.785632300064)
+1065	collission	slice removed	../raw/test/test/1065/study/sax_13/IM-2536-0001-0001.dcm	../raw/test/test/1065/study/sax_13/IM-2536-0001-0002.dcm (77.785631730801,77.785631730801)
+1065	collission	slice removed	../raw/test/test/1065/study/sax_14/IM-2537-0001-0001.dcm	../raw/test/test/1065/study/sax_14/IM-2537-0001-0002.dcm (87.785633074464,87.785633074464)
+1065	collission	slice removed	../raw/test/test/1065/study/sax_15/IM-2538-0001-0001.dcm	../raw/test/test/1065/study/sax_15/IM-2538-0001-0002.dcm (97.785629621505,97.785629621505)
+1065	collission	slice removed	../raw/test/test/1065/study/sax_16/IM-2539-0001-0001.dcm	../raw/test/test/1065/study/sax_16/IM-2539-0001-0002.dcm (107.78563384886,107.78563384886)
+1065	image size >256	scaled		(384,512) scaling down with factor: 0.5
+731	collission	slice removed	../raw/test/test/731/study/sax_10/IM-2813-0001-0011.dcm	../raw/test/test/731/study/sax_20/IM-2814-0001-0011.dcm (-14.162700506638,-14.162700506638)
+731	collission	slice removed	../raw/test/test/731/study/sax_10/IM-2813-0001-0010.dcm	../raw/test/test/731/study/sax_20/IM-2814-0001-0010.dcm (-4.1626998003629,-4.1626998003629)
+731	collission	slice removed	../raw/test/test/731/study/sax_10/IM-2813-0001-0009.dcm	../raw/test/test/731/study/sax_20/IM-2814-0001-0009.dcm (5.8372998819115,5.8372998819115)
+731	collission	slice removed	../raw/test/test/731/study/sax_10/IM-2813-0001-0008.dcm	../raw/test/test/731/study/sax_20/IM-2814-0001-0008.dcm (15.837300469469,15.837300469469)
+731	collission	slice removed	../raw/test/test/731/study/sax_10/IM-2813-0001-0007.dcm	../raw/test/test/731/study/sax_20/IM-2814-0001-0007.dcm (25.837300202331,25.837300202331)
+731	collission	slice removed	../raw/test/test/731/study/sax_10/IM-2813-0001-0006.dcm	../raw/test/test/731/study/sax_20/IM-2814-0001-0006.dcm (35.837298043642,35.837298043642)
+731	collission	slice removed	../raw/test/test/731/study/sax_10/IM-2813-0001-0005.dcm	../raw/test/test/731/study/sax_20/IM-2814-0001-0005.dcm (45.837300168581,45.837300168581)
+731	collission	slice removed	../raw/test/test/731/study/sax_10/IM-2813-0001-0004.dcm	../raw/test/test/731/study/sax_20/IM-2814-0001-0004.dcm (55.837301421116,55.837301421116)
+731	collission	slice removed	../raw/test/test/731/study/sax_10/IM-2813-0001-0003.dcm	../raw/test/test/731/study/sax_20/IM-2814-0001-0003.dcm (65.837299421803,65.837299421803)
+731	collission	slice removed	../raw/test/test/731/study/sax_10/IM-2813-0001-0002.dcm	../raw/test/test/731/study/sax_20/IM-2814-0001-0002.dcm (75.837297404782,75.837297404782)
+731	collission	slice removed	../raw/test/test/731/study/sax_10/IM-2813-0001-0001.dcm	../raw/test/test/731/study/sax_20/IM-2814-0001-0001.dcm (85.837302034297,85.837302034297)
+731	image size >256	scaled		(384,512) scaling down with factor: 0.5
+858	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+1023	collission	slice removed	../raw/test/test/1023/study/sax_5/IM-5457-0001.dcm	../raw/test/test/1023/study/sax_6/IM-5458-0001.dcm (-10.317183443792,-10.317183443792)
+888	image size >256	scaled		(512,384) scaling down with factor: 0.5
+830	collission	slice removed	../raw/test/test/830/study/sax_44/IM-7665-0001.dcm	../raw/test/test/830/study/sax_116/IM-7678-0001.dcm (-31.920142936428,-31.920106848788)
+830	collission	slice removed	../raw/test/test/830/study/sax_45/IM-7666-0001.dcm	../raw/test/test/830/study/sax_47/IM-7667-0001.dcm (-21.920141531546,-21.920172207441)
+830	collission	slice removed	../raw/test/test/830/study/sax_57/IM-7675-0001.dcm	../raw/test/test/830/study/sax_58/IM-7676-0001.dcm (-11.920199024508,-11.920199024508)
+830	collission	slice removed	../raw/test/test/830/study/sax_48/IM-7668-0001.dcm	../raw/test/test/830/study/sax_58/IM-7676-0001.dcm (-11.920170041415,-11.920199024508)
+830	collission	slice removed	../raw/test/test/830/study/sax_50/IM-7670-0001.dcm	../raw/test/test/830/study/sax_60/IM-7677-0001.dcm (8.0798339438921,8.0798590082971)
+830	rotation	rotation	../raw/test/test/830/study/sax_116/IM-7678-0001.dcm	4.11917348743288 degrees
+801	collission	slice removed	../raw/test/test/801/study/sax_14/IM-8472-0001.dcm	../raw/test/test/801/study/sax_21/IM-8479-0001.dcm (64.241810541123,64.241810541123)
+1009	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+711	image size >256	scaled		(416,312) scaling down with factor: 0.6153846153846154
+721_b	image size >256	scaled		(384,512) scaling down with factor: 0.5
+951	collission	slice removed	../raw/test/test/951/study/sax_6/IM-8371-0001.dcm	../raw/test/test/951/study/sax_7/IM-8372-0001.dcm (-77.243946614055,-77.243946614055)
+1134	image size >256	scaled		(416,512) scaling down with factor: 0.5
+730	image size >256	scaled		(384,512) scaling down with factor: 0.5
+962	slice spacing: interspersed	slice removed	../raw/test/test/962/study/sax_5/IM-6022-0001.dcm	expected: 8.7, actual: 1.9031071301140017 and 6.796899855641001
+1024	image size >256	scaled		(384,512) scaling down with factor: 0.5
+954	collission	slice removed	../raw/test/test/954/study/sax_8/IM-13484-0001.dcm	../raw/test/test/954/study/sax_10/IM-13486-0001.dcm (80.228948223475,80.228956783217)
+884	image size >256	scaled		(368,512) scaling down with factor: 0.5
+1041	collission	slice removed	../raw/test/test/1041/study/sax_6/IM-13947-0001.dcm	../raw/test/test/1041/study/sax_7/IM-13948-0001.dcm (-63.847369748478,-63.847369748478)
+845	image size >256	scaled		(512,416) scaling down with factor: 0.5
+789	image size >256	scaled		(264,352) scaling down with factor: 0.7272727272727273
+713	image size >256	scaled		(416,512) scaling down with factor: 0.5
+1082_a	image size >256	scaled		(384,512) scaling down with factor: 0.5
+752	image size >256	scaled		(384,512) scaling down with factor: 0.5
+1069	image size >256	scaled		(512,384) scaling down with factor: 0.5
+1034	collission	slice removed	../raw/test/test/1034/study/sax_49/IM-13625-0001.dcm	../raw/test/test/1034/study/sax_51/IM-13627-0001.dcm (-34.270251128479,-34.270272734369)
+1027	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+1007	image size >256	scaled		(352,264) scaling down with factor: 0.7272727272727273
+1011	slice spacing: missing	previous slice copied	../raw/test/test/1011/study/sax_7/IM-8993-0001.dcm	expected: 10.0, acutal: 20.0000025247417
+942	collission	slice removed	../raw/test/test/942/study/sax_7/IM-3942-0001.dcm	../raw/test/test/942/study/sax_8/IM-3943-0001.dcm (22.643169139697,22.643168316578)
+942	slice spacing: interspersed	slice removed	../raw/test/test/942/study/sax_6/IM-3941-0001.dcm	expected: 10.0, actual: 4.994265697122 and 5.005679710580001
+843	collission	slice removed	../raw/test/test/843/study/sax_9/IM-3081-0001-0001.dcm	../raw/test/test/843/study/sax_9/IM-3081-0001-0002.dcm (27.486241711985,27.486241711985)
+843	collission	slice removed	../raw/test/test/843/study/sax_10/IM-3082-0001-0001.dcm	../raw/test/test/843/study/sax_10/IM-3082-0001-0002.dcm (37.486243172442,37.486243172442)
+843	collission	slice removed	../raw/test/test/843/study/sax_11/IM-3083-0001-0001.dcm	../raw/test/test/843/study/sax_11/IM-3083-0001-0002.dcm (47.486243350088,47.486243350088)
+843	collission	slice removed	../raw/test/test/843/study/sax_12/IM-3084-0001-0001.dcm	../raw/test/test/843/study/sax_12/IM-3084-0001-0002.dcm (57.486243786424,57.486243786424)
+843	collission	slice removed	../raw/test/test/843/study/sax_13/IM-3085-0001-0001.dcm	../raw/test/test/843/study/sax_13/IM-3085-0001-0002.dcm (67.486242939948,67.486242939948)
+843	collission	slice removed	../raw/test/test/843/study/sax_14/IM-3086-0001-0001.dcm	../raw/test/test/843/study/sax_14/IM-3086-0001-0002.dcm (77.486240424842,77.486240424842)
+843	collission	slice removed	../raw/test/test/843/study/sax_15/IM-3087-0001-0001.dcm	../raw/test/test/843/study/sax_15/IM-3087-0001-0002.dcm (87.486243041868,87.486243041868)
+843	collission	slice removed	../raw/test/test/843/study/sax_16/IM-3088-0001-0001.dcm	../raw/test/test/843/study/sax_16/IM-3088-0001-0002.dcm (97.486239756012,97.486239756012)
+843	collission	slice removed	../raw/test/test/843/study/sax_17/IM-3089-0001-0001.dcm	../raw/test/test/843/study/sax_17/IM-3089-0001-0002.dcm (107.48624211701,107.48624211701)
+843	collission	slice removed	../raw/test/test/843/study/sax_18/IM-3090-0001-0001.dcm	../raw/test/test/843/study/sax_18/IM-3090-0001-0002.dcm (117.48623988994,117.48623988994)
+843	collission	slice removed	../raw/test/test/843/study/sax_19/IM-3091-0001-0001.dcm	../raw/test/test/843/study/sax_19/IM-3091-0001-0002.dcm (127.48624350174,127.48624350174)
+843	image size >256	scaled		(384,512) scaling down with factor: 0.5
+1062	collission	slice removed	../raw/test/test/1062/study/sax_10/IM-5563-0001.dcm	../raw/test/test/1062/study/sax_18/IM-5571-0001.dcm (-23.47851407973,-23.478540107553)
+1062	collission	slice removed	../raw/test/test/1062/study/sax_7/IM-5560-0001.dcm	../raw/test/test/1062/study/sax_17/IM-5570-0001.dcm (6.5815022079941,6.5814261038846)
+978	collission	slice removed	../raw/test/test/978/study/sax_7/IM-8968-0001.dcm	../raw/test/test/978/study/sax_9/IM-8970-0001.dcm (75.036245460521,75.0363036083)
+721_a	image size >256	scaled		(312,416) scaling down with factor: 0.6153846153846154
+1117	collission	slice removed	../raw/test/test/1117/study/sax_11/IM-4247-0001.dcm	../raw/test/test/1117/study/sax_13/IM-4249-0001.dcm (133.93270055478,133.93268715783)
+772	slice spacing: bottom	slice removed	../raw/test/test/772/study/sax_33/IM-0374-0001.dcm	expected: 10.0, actual: 3.0221573448300205
+772	image size >256	scaled		(456,608) scaling down with factor: 0.42105263157894735
+777	image size >256	scaled		(384,512) scaling down with factor: 0.5
+1070	image size >256	scaled		(384,512) scaling down with factor: 0.5
+896	collission	slice removed	../raw/test/test/896/study/sax_39/IM-11534-0001.dcm	../raw/test/test/896/study/sax_47/IM-11542-0001.dcm (-106.27253196066,-106.27251836777)
+1137	collission	slice removed	../raw/test/test/1137/study/sax_39/IM-7488-0001.dcm	../raw/test/test/1137/study/sax_40/IM-7489-0001.dcm (8.7980756079633,8.7980756079633)
+1137	collission	slice removed	../raw/test/test/1137/study/sax_42/IM-7491-0001.dcm	../raw/test/test/1137/study/sax_43/IM-7492-0001.dcm (28.798073645296,28.798073645296)
+708	orientation	slice removed	../raw/test/test/708/study/sax_19/IM-5902-0001.dcm	angleBetweenNorms:78.39204683110977
+708	orientation	slice removed	../raw/test/test/708/study/sax_17/IM-5900-0001.dcm	angleBetweenNorms:76.58482112277213
+708	orientation	slice removed	../raw/test/test/708/study/sax_16/IM-5899-0001.dcm	angleBetweenNorms:90.22229793813288
+708	orientation	slice removed	../raw/test/test/708/study/sax_18/IM-5901-0001.dcm	angleBetweenNorms:89.9945227963828
+708	collission	slice removed	../raw/test/test/708/study/sax_11/IM-5894-0001.dcm	../raw/test/test/708/study/sax_13/IM-5896-0001.dcm (81.420169852828,81.420169852828)
+1013	collission	slice removed	../raw/test/test/1013/study/sax_43/IM-3630-0001.dcm	../raw/test/test/1013/study/sax_47/IM-3634-0001.dcm (-64.042015977282,-64.042043643821)
+1013	image size >256	scaled		(512,384) scaling down with factor: 0.5
+1104	slice spacing: interspersed	slice removed	../raw/test/test/1104/study/sax_48/IM-5365-0001.dcm	expected: 10.0, actual: 3.9999390711168 and 6.0000600943802
+1104	slice spacing: interspersed	slice removed	../raw/test/test/1104/study/sax_47/IM-5364-0001.dcm	expected: 10.0, actual: 5.9999373874934 and 4.0000622845075
+916	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+1111_b	image size >256	scaled		(384,512) scaling down with factor: 0.5
+835	image size >256	scaled		(448,336) scaling down with factor: 0.5714285714285714
+949	image size >256	scaled		(312,416) scaling down with factor: 0.6153846153846154
+1074	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+1039	image size >256	scaled		(384,512) scaling down with factor: 0.5
+1135	image size >256	scaled		(384,512) scaling down with factor: 0.5
+1008	image size >256	scaled		(512,384) scaling down with factor: 0.5
+755	collission	slice removed	../raw/test/test/755/study/sax_10/IM-2660-0001.dcm	../raw/test/test/755/study/sax_16/IM-2666-0001.dcm (-42.0407480883,-42.0407480883)
+755	collission	slice removed	../raw/test/test/755/study/sax_9/IM-2659-0001.dcm	../raw/test/test/755/study/sax_15/IM-2665-0001.dcm (-32.040746980282,-32.040746980282)
+755	collission	slice removed	../raw/test/test/755/study/sax_8/IM-2658-0001.dcm	../raw/test/test/755/study/sax_14/IM-2664-0001.dcm (-22.040750435978,-22.040750435978)
+755	collission	slice removed	../raw/test/test/755/study/sax_7/IM-2657-0001.dcm	../raw/test/test/755/study/sax_13/IM-2663-0001.dcm (-12.04074951708,-12.04074951708)
+755	collission	slice removed	../raw/test/test/755/study/sax_6/IM-2656-0001.dcm	../raw/test/test/755/study/sax_12/IM-2662-0001.dcm (-2.0407473928307,-2.0407473928307)
+755	slice spacing: outlier	slice removed	../raw/test/test/755/study/sax_11/IM-2661-0001.dcm	expected: 10.0, actual: 61.804591094556706
+755	image size >256	scaled		(384,512) scaling down with factor: 0.5
+780	collission	slice removed	../raw/test/test/780/study/sax_43/IM-9767-0001.dcm	../raw/test/test/780/study/sax_44/IM-9768-0001.dcm (-132.02430581195,-132.02430581195)
+780	collission	slice removed	../raw/test/test/780/study/sax_38/IM-9762-0001.dcm	../raw/test/test/780/study/sax_39/IM-9763-0001.dcm (-92.024305074025,-92.024305074025)
+780	collission	slice removed	../raw/test/test/780/study/sax_33/IM-9757-0001.dcm	../raw/test/test/780/study/sax_34/IM-9758-0001.dcm (-52.024306032065,-52.024306032065)
+952	collission	slice removed	../raw/test/test/952/study/sax_17/IM-14119-0001.dcm	../raw/test/test/952/study/sax_19/IM-14121-0001.dcm (-93.057678659089,-93.057678659089)
+952	collission	slice removed	../raw/test/test/952/study/sax_16/IM-14118-0001.dcm	../raw/test/test/952/study/sax_19/IM-14121-0001.dcm (-93.057678659089,-93.057678659089)
+952	collission	slice removed	../raw/test/test/952/study/sax_12/IM-14114-0001.dcm	../raw/test/test/952/study/sax_20/IM-14122-0001.dcm (-53.057678483975,-53.057683692311)
+952	collission	slice removed	../raw/test/test/952/study/sax_5/IM-14107-0001.dcm	../raw/test/test/952/study/sax_6/IM-14108-0001.dcm (6.9423213860805,6.9423215747722)
+1057	image size >256	scaled		(384,512) scaling down with factor: 0.5
+898	image size >256	scaled		(288,416) scaling down with factor: 0.6153846153846154
+712	collission	slice removed	../raw/test/test/712/study/sax_28/IM-9215-0001.dcm	../raw/test/test/712/study/sax_29/IM-9216-0001.dcm (-41.744352543941,-41.744352543941)
+712	slice spacing: missing	previous slice copied	../raw/test/test/712/study/sax_30/IM-9217-0001.dcm	expected: 10.0, acutal: 20.000001093520005
+746	collission	slice removed	../raw/test/test/746/study/sax_6/IM-0714-0001.dcm	../raw/test/test/746/study/sax_13/IM-0721-0001.dcm (-37.495829736223,-37.495829736223)
+746	collission	slice removed	../raw/test/test/746/study/sax_7/IM-0715-0001.dcm	../raw/test/test/746/study/sax_14/IM-0722-0001.dcm (-27.495829411958,-27.495829411958)
+746	collission	slice removed	../raw/test/test/746/study/sax_8/IM-0716-0001.dcm	../raw/test/test/746/study/sax_15/IM-0723-0001.dcm (-17.495829010795,-17.495829010795)
+746	image size >256	scaled		(312,416) scaling down with factor: 0.6153846153846154
+822	rotation	rotation	../raw/test/test/822/study/sax_14/IM-11324-0001.dcm	68.07021258720576 degrees
+822	image size	scaling/padding/cropping	../raw/test/test/822/study/sax_14/IM-11324-0001.dcm	expected: (256, 192), actual: (192, 256)
+822	rotation	rotation	../raw/test/test/822/study/sax_13/IM-11323-0001.dcm	68.07021258720576 degrees
+822	image size	scaling/padding/cropping	../raw/test/test/822/study/sax_13/IM-11323-0001.dcm	expected: (256, 192), actual: (192, 256)
+822	rotation	rotation	../raw/test/test/822/study/sax_12/IM-11322-0001.dcm	68.07021258720576 degrees
+822	image size	scaling/padding/cropping	../raw/test/test/822/study/sax_12/IM-11322-0001.dcm	expected: (256, 192), actual: (192, 256)
+819	slice spacing: missing	previous slice copied	../raw/test/test/819/study/sax_10/IM-7156-0001.dcm	expected: 10.0, acutal: 20.22139057129
+819	image size	scaling/padding/cropping	../raw/test/test/819/study/sax_9/IM-7155-0001.dcm	expected: (256, 218), actual: (256, 192)
+824	collission	slice removed	../raw/test/test/824/study/sax_6/IM-7800-0001.dcm	../raw/test/test/824/study/sax_7/IM-7801-0001.dcm (-38.161083709793,-38.161083709793)
+824	slice spacing: interspersed	slice removed	../raw/test/test/824/study/sax_7/IM-7801-0001.dcm	expected: 10.0, actual: 6.816584147173003 and 3.183412211650996
+919	image size >256	scaled		(456,608) scaling down with factor: 0.42105263157894735
+1017	collission	slice removed	../raw/test/test/1017/study/sax_8/IM-9795-0001.dcm	../raw/test/test/1017/study/sax_9/IM-9796-0001.dcm (59.850090389603,59.850029548412)
+764	image size >256	scaled		(384,512) scaling down with factor: 0.5
+894	image size >256	scaled		(512,416) scaling down with factor: 0.5
+810	collission	slice removed	../raw/test/test/810/study/sax_49/IM-10916-0001.dcm	../raw/test/test/810/study/sax_57/IM-10924-0001.dcm (-47.052538243162,-47.052538243162)
+1101	image size >256	scaled		(384,512) scaling down with factor: 0.5
+815	image size >256	scaled		(448,336) scaling down with factor: 0.5714285714285714
+1113	collission	slice removed	../raw/test/test/1113/study/sax_7/IM-10233-0001.dcm	../raw/test/test/1113/study/sax_8/IM-10234-0001.dcm (-20.153354176635,-20.153349357518)
+1113	slice spacing: special	none	../raw/test/test/1113/study/sax_9/IM-10235-0001.dcm	expected: 10.0, actual: 14.9074225774295, next slices: ../raw/test/test/1113/study/sax_10/IM-10236-0001.dcm
+1113	slice spacing: special	none	../raw/test/test/1113/study/sax_11/IM-10237-0001.dcm	expected: 10.0, actual: 14.907402353688, next slices: ../raw/test/test/1113/study/sax_12/IM-10238-0001.dcm
+997	image size >256	scaled		(384,512) scaling down with factor: 0.5
+976	collission	slice removed	../raw/test/test/976/study/sax_7/IM-3187-0001.dcm	../raw/test/test/976/study/sax_38/IM-3196-0001.dcm (43.348075132226,43.348075132226)
+976	collission	slice removed	../raw/test/test/976/study/sax_8/IM-3188-0001.dcm	../raw/test/test/976/study/sax_39/IM-3197-0001.dcm (49.348074338556,49.348074338556)
+976	collission	slice removed	../raw/test/test/976/study/sax_9/IM-3189-0001.dcm	../raw/test/test/976/study/sax_40/IM-3198-0001.dcm (55.348075774494,55.348075774494)
+976	collission	slice removed	../raw/test/test/976/study/sax_10/IM-3190-0001.dcm	../raw/test/test/976/study/sax_41/IM-3199-0001.dcm (61.348076182775,61.348076182775)
+976	collission	slice removed	../raw/test/test/976/study/sax_11/IM-3191-0001.dcm	../raw/test/test/976/study/sax_42/IM-3200-0001.dcm (67.348075747098,67.348075747098)
+976	collission	slice removed	../raw/test/test/976/study/sax_12/IM-3192-0001.dcm	../raw/test/test/976/study/sax_43/IM-3201-0001.dcm (73.34807597795,73.34807597795)
+976	collission	slice removed	../raw/test/test/976/study/sax_13/IM-3193-0001.dcm	../raw/test/test/976/study/sax_44/IM-3202-0001.dcm (79.348076297516,79.348076297516)
+976	collission	slice removed	../raw/test/test/976/study/sax_14/IM-3194-0001.dcm	../raw/test/test/976/study/sax_45/IM-3203-0001.dcm (85.34807764474,85.34807764474)
+976	collission	slice removed	../raw/test/test/976/study/sax_15/IM-3195-0001.dcm	../raw/test/test/976/study/sax_46/IM-3204-0001.dcm (91.348074575934,91.348074575934)
+976	image size >256	scaled		(240,320) scaling down with factor: 0.8
+1136	image size >256	scaled		(384,512) scaling down with factor: 0.5
+945	slice spacing: special	none	../raw/test/test/945/study/sax_6/IM-9252-0001.dcm	expected: 10.0, actual: 11.790771718547003, next slices: ../raw/test/test/945/study/sax_5/IM-9251-0001.dcm
+887	collission	slice removed	../raw/test/test/887/study/sax_14/IM-4970-0001.dcm	../raw/test/test/887/study/sax_15/IM-4971-0001.dcm (56.177625463427,56.177625463427)
+902	image size >256	scaled		(384,512) scaling down with factor: 0.5
+969	collission	slice removed	../raw/test/test/969/study/sax_13/IM-13926-0001.dcm	../raw/test/test/969/study/sax_14/IM-13927-0001.dcm (-1.2277984253343,-1.2277984253343)
+757	image size >256	scaled		(288,384) scaling down with factor: 0.6666666666666666
+925	image size >256	scaled		(512,384) scaling down with factor: 0.5
+834	image size >256	scaled		(384,512) scaling down with factor: 0.5
+1032	orientation	slice removed	../raw/test/test/1032/study/sax_12/IM-11564-0001.dcm	angleBetweenNorms:66.59908406737505
+1032	orientation	slice removed	../raw/test/test/1032/study/sax_14/IM-11566-0001.dcm	angleBetweenNorms:88.15494360324409
+1032	orientation	slice removed	../raw/test/test/1032/study/sax_13/IM-11565-0001.dcm	angleBetweenNorms:88.15494386601765
+1032	collission	slice removed	../raw/test/test/1032/study/sax_11/IM-11563-0001.dcm	../raw/test/test/1032/study/sax_15/IM-11567-0001.dcm (89.967674,89.967674)
+977	collission	slice removed	../raw/test/test/977/study/sax_42/IM-9119-0001.dcm	../raw/test/test/977/study/sax_43/IM-9120-0001.dcm (-51.50901132992,-51.509009110415)
+977	slice spacing: missing	previous slice copied	../raw/test/test/977/study/sax_44/IM-9121-0001.dcm	expected: 10.0, acutal: 19.999996462131
+977	image size	scaling/padding/cropping	../raw/test/test/977/study/sax_41/IM-9118-0001.dcm	expected: (256, 218), actual: (256, 192)
+977	image size	scaling/padding/cropping	../raw/test/test/977/study/sax_40/IM-9117-0001.dcm	expected: (256, 218), actual: (256, 192)
+977	image size	scaling/padding/cropping	../raw/test/test/977/study/sax_39/IM-9116-0001.dcm	expected: (256, 218), actual: (256, 192)
+977	image size	scaling/padding/cropping	../raw/test/test/977/study/sax_38/IM-9115-0001.dcm	expected: (256, 218), actual: (256, 192)
+905	collission	slice removed	../raw/test/test/905/study/sax_12/IM-9233-0001.dcm	../raw/test/test/905/study/sax_108/IM-9238-0001.dcm (-63.543074234691,-63.54309063354)
+905	collission	slice removed	../raw/test/test/905/study/sax_11/IM-9232-0001.dcm	../raw/test/test/905/study/sax_107/IM-9237-0001.dcm (-53.543077402484,-53.543093127684)
+905	rotation	rotation	../raw/test/test/905/study/sax_108/IM-9238-0001.dcm	65.70973421958479 degrees
+905	image size	scaling/padding/cropping	../raw/test/test/905/study/sax_108/IM-9238-0001.dcm	expected: (256, 192), actual: (192, 256)
+905	rotation	rotation	../raw/test/test/905/study/sax_107/IM-9237-0001.dcm	65.70973421958479 degrees
+905	image size	scaling/padding/cropping	../raw/test/test/905/study/sax_107/IM-9237-0001.dcm	expected: (256, 192), actual: (192, 256)
+1063	image size >256	scaled		(512,384) scaling down with factor: 0.5
+723	collission	slice removed	../raw/test/test/723/study/sax_45/IM-7204-0001.dcm	../raw/test/test/723/study/sax_47/IM-7206-0001.dcm (-20.597197549138,-20.597197549138)
+723	collission	slice removed	../raw/test/test/723/study/sax_44/IM-7203-0001.dcm	../raw/test/test/723/study/sax_46/IM-7205-0001.dcm (-10.597197082434,-10.597197082434)
+941	collission	slice removed	../raw/test/test/941/study/sax_19/IM-6042-0001.dcm	../raw/test/test/941/study/sax_20/IM-6043-0001.dcm (116.32614,116.32614)
+806	collission	slice removed	../raw/test/test/806/study/sax_14/IM-7119-0001.dcm	../raw/test/test/806/study/sax_17/IM-7122-0001.dcm (-39.288440502274,-39.288414265784)
+806	slice spacing: interspersed	slice removed	../raw/test/test/806/study/sax_6/IM-7112-0001.dcm	expected: 10.0, actual: 2.7418401615760004 and 7.258159896416002
+707	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+971	image size >256	scaled		(456,608) scaling down with factor: 0.42105263157894735
+804	collission	slice removed	../raw/test/test/804/study/sax_40/IM-7217-0001.dcm	../raw/test/test/804/study/sax_41/IM-7218-0001.dcm (5.6131884949519,5.6131884949519)
+753	image size >256	scaled		(528,704) scaling down with factor: 0.36363636363636365
+1010	image size >256	scaled		(416,312) scaling down with factor: 0.6153846153846154
+726	image size >256	scaled		(384,512) scaling down with factor: 0.5
+832	collission	slice removed	../raw/test/test/832/study/sax_17/IM-1532-0001-0002.dcm	../raw/test/test/832/study/sax_17/IM-1532-0001-0003.dcm (17.087158533922,17.087158533922)
+832	collission	slice removed	../raw/test/test/832/study/sax_17/IM-1532-0001-0001.dcm	../raw/test/test/832/study/sax_17/IM-1532-0001-0003.dcm (17.087158533922,17.087158533922)
+832	collission	slice removed	../raw/test/test/832/study/sax_16/IM-1531-0001-0001.dcm	../raw/test/test/832/study/sax_16/IM-1531-0001-0003.dcm (23.087159570117,23.087159570117)
+832	collission	slice removed	../raw/test/test/832/study/sax_16/IM-1531-0001-0002.dcm	../raw/test/test/832/study/sax_16/IM-1531-0001-0003.dcm (23.087159570117,23.087159570117)
+832	collission	slice removed	../raw/test/test/832/study/sax_15/IM-1530-0001-0001.dcm	../raw/test/test/832/study/sax_15/IM-1530-0001-0002.dcm (29.087159400688,29.087159400688)
+832	collission	slice removed	../raw/test/test/832/study/sax_15/IM-1530-0001-0002.dcm	../raw/test/test/832/study/sax_15/IM-1530-0001-0003.dcm (29.087159400688,29.087159400688)
+832	collission	slice removed	../raw/test/test/832/study/sax_14/IM-1529-0001-0001.dcm	../raw/test/test/832/study/sax_14/IM-1529-0001-0002.dcm (35.087157720097,35.087157720097)
+832	collission	slice removed	../raw/test/test/832/study/sax_14/IM-1529-0001-0002.dcm	../raw/test/test/832/study/sax_14/IM-1529-0001-0003.dcm (35.087157720097,35.087157720097)
+832	collission	slice removed	../raw/test/test/832/study/sax_13/IM-1528-0001-0002.dcm	../raw/test/test/832/study/sax_13/IM-1528-0001-0003.dcm (41.087160978874,41.087160978874)
+832	collission	slice removed	../raw/test/test/832/study/sax_13/IM-1528-0001-0001.dcm	../raw/test/test/832/study/sax_13/IM-1528-0001-0003.dcm (41.087160978874,41.087160978874)
+832	collission	slice removed	../raw/test/test/832/study/sax_12/IM-1527-0001-0002.dcm	../raw/test/test/832/study/sax_12/IM-1527-0001-0003.dcm (47.087155761468,47.087155761468)
+832	collission	slice removed	../raw/test/test/832/study/sax_12/IM-1527-0001-0001.dcm	../raw/test/test/832/study/sax_12/IM-1527-0001-0003.dcm (47.087155761468,47.087155761468)
+832	collission	slice removed	../raw/test/test/832/study/sax_11/IM-1526-0001-0001.dcm	../raw/test/test/832/study/sax_11/IM-1526-0001-0002.dcm (53.087156345554,53.087156345554)
+832	collission	slice removed	../raw/test/test/832/study/sax_11/IM-1526-0001-0002.dcm	../raw/test/test/832/study/sax_11/IM-1526-0001-0003.dcm (53.087156345554,53.087156345554)
+832	collission	slice removed	../raw/test/test/832/study/sax_10/IM-1525-0001-0001.dcm	../raw/test/test/832/study/sax_10/IM-1525-0001-0003.dcm (59.087156929639,59.087156929639)
+832	collission	slice removed	../raw/test/test/832/study/sax_10/IM-1525-0001-0002.dcm	../raw/test/test/832/study/sax_10/IM-1525-0001-0003.dcm (59.087156929639,59.087156929639)
+832	collission	slice removed	../raw/test/test/832/study/sax_9/IM-1524-0001-0001.dcm	../raw/test/test/832/study/sax_9/IM-1524-0001-0002.dcm (65.087157664428,65.087157664428)
+832	collission	slice removed	../raw/test/test/832/study/sax_9/IM-1524-0001-0002.dcm	../raw/test/test/832/study/sax_9/IM-1524-0001-0003.dcm (65.087157664428,65.087157664428)
+832	image size >256	scaled		(264,352) scaling down with factor: 0.7272727272727273
+760	collission	slice removed	../raw/test/test/760/study/sax_16/IM-3101-0001-0007.dcm	../raw/test/test/760/study/sax_16/IM-3101-0001-0008.dcm (20.293396829133,20.293396829133)
+760	collission	slice removed	../raw/test/test/760/study/sax_16/IM-3101-0001-0005.dcm	../raw/test/test/760/study/sax_16/IM-3101-0001-0006.dcm (30.293396586847,30.293396586847)
+760	collission	slice removed	../raw/test/test/760/study/sax_16/IM-3101-0001-0003.dcm	../raw/test/test/760/study/sax_16/IM-3101-0001-0004.dcm (40.293397890248,40.293397890248)
+760	collission	slice removed	../raw/test/test/760/study/sax_16/IM-3101-0001-0001.dcm	../raw/test/test/760/study/sax_16/IM-3101-0001-0002.dcm (50.293395738404,50.293395738404)
+760	collission	slice removed	../raw/test/test/760/study/sax_18/IM-3102-0001-0013.dcm	../raw/test/test/760/study/sax_18/IM-3102-0001-0014.dcm (60.29339687408,60.29339687408)
+760	collission	slice removed	../raw/test/test/760/study/sax_18/IM-3102-0001-0011.dcm	../raw/test/test/760/study/sax_18/IM-3102-0001-0012.dcm (70.293398737497,70.293398737497)
+760	collission	slice removed	../raw/test/test/760/study/sax_18/IM-3102-0001-0009.dcm	../raw/test/test/760/study/sax_18/IM-3102-0001-0010.dcm (80.293396389507,80.293396389507)
+760	collission	slice removed	../raw/test/test/760/study/sax_18/IM-3102-0001-0010.dcm	../raw/test/test/760/study/sax_23/IM-3104-0001-0001.dcm (80.293396389507,80.293429475305)
+760	collission	slice removed	../raw/test/test/760/study/sax_23/IM-3104-0001-0001.dcm	../raw/test/test/760/study/sax_23/IM-3104-0001-0002.dcm (80.293429475305,80.293429475305)
+760	collission	slice removed	../raw/test/test/760/study/sax_21/IM-3103-0001-0002.dcm	../raw/test/test/760/study/sax_23/IM-3104-0001-0002.dcm (80.293429475305,80.293429475305)
+760	collission	slice removed	../raw/test/test/760/study/sax_21/IM-3103-0001-0001.dcm	../raw/test/test/760/study/sax_23/IM-3104-0001-0002.dcm (80.293429475305,80.293429475305)
+760	collission	slice removed	../raw/test/test/760/study/sax_18/IM-3102-0001-0007.dcm	../raw/test/test/760/study/sax_18/IM-3102-0001-0008.dcm (90.293394041518,90.293394041518)
+760	collission	slice removed	../raw/test/test/760/study/sax_18/IM-3102-0001-0005.dcm	../raw/test/test/760/study/sax_18/IM-3102-0001-0006.dcm (100.29339905315,100.29339905315)
+760	collission	slice removed	../raw/test/test/760/study/sax_18/IM-3102-0001-0003.dcm	../raw/test/test/760/study/sax_18/IM-3102-0001-0004.dcm (110.29339737606,110.29339737606)
+760	collission	slice removed	../raw/test/test/760/study/sax_18/IM-3102-0001-0001.dcm	../raw/test/test/760/study/sax_18/IM-3102-0001-0002.dcm (120.29339435717,120.29339435717)
+760	image size >256	scaled		(384,512) scaling down with factor: 0.5
+749	image size >256	scaled		(384,512) scaling down with factor: 0.5
+1120	collission	slice removed	../raw/test/test/1120/study/sax_15/IM-7130-0001.dcm	../raw/test/test/1120/study/sax_18/IM-7133-0001.dcm (14.563559323861,14.563559323861)
+1120	collission	slice removed	../raw/test/test/1120/study/sax_17/IM-7132-0001.dcm	../raw/test/test/1120/study/sax_19/IM-7134-0001.dcm (34.563558564969,34.563558564969)
+1087	image size >256	scaled		(512,384) scaling down with factor: 0.5
+727	image size >256	scaled		(352,512) scaling down with factor: 0.5
+1138	image size >256	scaled		(456,608) scaling down with factor: 0.42105263157894735
+800	collission	slice removed	../raw/test/test/800/study/sax_11/IM-1444-0001.dcm	../raw/test/test/800/study/sax_36/IM-1448-0001.dcm (36.332347137973,36.332406885226)
+800	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+1133	collission	slice removed	../raw/test/test/1133/study/sax_10/IM-11095-0001.dcm	../raw/test/test/1133/study/sax_12/IM-11097-0001.dcm (-48.319828123234,-48.319828123234)
+823	image size >256	scaled		(384,512) scaling down with factor: 0.5
+702	image size >256	scaled		(264,352) scaling down with factor: 0.7272727272727273
+989	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+914	image size >256	scaled		(384,512) scaling down with factor: 0.5
+769	collission	slice removed	../raw/test/test/769/study/sax_9/IM-4425-0001.dcm	../raw/test/test/769/study/sax_10/IM-4426-0001.dcm (-69.70299,-69.70299)
+769	collission	slice removed	../raw/test/test/769/study/sax_7/IM-4423-0001.dcm	../raw/test/test/769/study/sax_8/IM-4424-0001.dcm (-59.702988,-59.702988)
+872	image size >256	scaled		(216,288) scaling down with factor: 0.8888888888888888
+724	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+960	image size >256	scaled		(216,288) scaling down with factor: 0.8888888888888888
+791	image size >256	scaled		(416,512) scaling down with factor: 0.5
+1068	image size >256	scaled		(384,512) scaling down with factor: 0.5
+880	rotation	rotation	../raw/test/test/880/study/sax_15/IM-5412-0001.dcm	60.09001599513366 degrees
+880	image size	scaling/padding/cropping	../raw/test/test/880/study/sax_15/IM-5412-0001.dcm	expected: (256, 192), actual: (192, 256)
+880	rotation	rotation	../raw/test/test/880/study/sax_14/IM-5411-0001.dcm	60.09001599513366 degrees
+880	image size	scaling/padding/cropping	../raw/test/test/880/study/sax_14/IM-5411-0001.dcm	expected: (256, 192), actual: (192, 256)
+880	rotation	rotation	../raw/test/test/880/study/sax_13/IM-5410-0001.dcm	60.09001599513366 degrees
+880	image size	scaling/padding/cropping	../raw/test/test/880/study/sax_13/IM-5410-0001.dcm	expected: (256, 192), actual: (192, 256)
+828	image size >256	scaled		(448,336) scaling down with factor: 0.5714285714285714
+1075	image size >256	scaled		(384,512) scaling down with factor: 0.5
+875	image size >256	scaled		(240,320) scaling down with factor: 0.8
+1082_b	collission	slice removed	../raw/test/test/1082_b/study/sax_11/IM-2390-0001.dcm	../raw/test/test/1082_b/study/sax_20/IM-2391-0001-0004.dcm (21.20822211517,21.208206932076)
+1082_b	image size >256	scaled		(384,512) scaling down with factor: 0.5
+897	collission	slice removed	../raw/test/test/897/study/sax_28/IM-14265-0001.dcm	../raw/test/test/897/study/sax_32/IM-14269-0001.dcm (-0.4555114965691,-0.455484788126)
+897	collission	slice removed	../raw/test/test/897/study/sax_27/IM-14264-0001.dcm	../raw/test/test/897/study/sax_33/IM-14270-0001.dcm (9.5444849227947,9.5445276738325)
+897	collission	slice removed	../raw/test/test/897/study/sax_26/IM-14263-0001.dcm	../raw/test/test/897/study/sax_34/IM-14271-0001.dcm (19.544482692514,19.544483874446)
+897	collission	slice removed	../raw/test/test/897/study/sax_25/IM-14262-0001.dcm	../raw/test/test/897/study/sax_35/IM-14272-0001.dcm (29.544479230689,29.544512484201)
+996	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+1048	image size >256	scaled		(384,512) scaling down with factor: 0.5
+847	collission	slice removed	../raw/test/test/847/study/sax_19/IM-1044-0001.dcm	../raw/test/test/847/study/sax_22/IM-1046-0001.dcm (-20.879280172967,-20.879306458094)
+847	collission	slice removed	../raw/test/test/847/study/sax_18/IM-1043-0001.dcm	../raw/test/test/847/study/sax_20/IM-1045-0001.dcm (-12.89928169434,-12.899286680228)
+847	image size >256	scaled		(352,264) scaling down with factor: 0.7272727272727273
+921	slice spacing: interspersed	slice removed	../raw/test/test/921/study/sax_61/IM-5648-0001.dcm	expected: 10.0, actual: 7.999998780479999 and 1.9999425579512007
+921	slice spacing: special	none	../raw/test/test/921/study/sax_59/IM-5646-0001.dcm	expected: 10.0, actual: 7.999998780481, next slices: ../raw/test/test/921/study/sax_60/IM-5647-0001.dcm
+767	collission	slice removed	../raw/test/test/767/study/sax_12/IM-12731-0001.dcm	../raw/test/test/767/study/sax_13/IM-12732-0001.dcm (-52.968629541529,-52.968613444972)
+767	rotation	rotation	../raw/test/test/767/study/sax_14/IM-12733-0001.dcm	70.31110956268249 degrees
+767	image size	scaling/padding/cropping	../raw/test/test/767/study/sax_14/IM-12733-0001.dcm	expected: (256, 192), actual: (192, 256)
+767	rotation	rotation	../raw/test/test/767/study/sax_13/IM-12732-0001.dcm	70.31110956268249 degrees
+767	image size	scaling/padding/cropping	../raw/test/test/767/study/sax_13/IM-12732-0001.dcm	expected: (256, 192), actual: (192, 256)
+850	collission	slice removed	../raw/test/test/850/study/sax_7/IM-2542-0001-0001.dcm	../raw/test/test/850/study/sax_7/IM-2542-0001-0002.dcm (-16.147419371002,-16.147419371002)
+850	collission	slice removed	../raw/test/test/850/study/sax_8/IM-2543-0001-0001.dcm	../raw/test/test/850/study/sax_8/IM-2543-0001-0002.dcm (-6.147420701506,-6.147420701506)
+850	collission	slice removed	../raw/test/test/850/study/sax_9/IM-2544-0001-0001.dcm	../raw/test/test/850/study/sax_9/IM-2544-0001-0002.dcm (3.8525817704962,3.8525817704962)
+850	collission	slice removed	../raw/test/test/850/study/sax_10/IM-2545-0001-0001.dcm	../raw/test/test/850/study/sax_10/IM-2545-0001-0002.dcm (13.852581093655,13.852581093655)
+850	collission	slice removed	../raw/test/test/850/study/sax_11/IM-2546-0001-0001.dcm	../raw/test/test/850/study/sax_11/IM-2546-0001-0002.dcm (23.85257987418,23.85257987418)
+850	collission	slice removed	../raw/test/test/850/study/sax_12/IM-2547-0001-0001.dcm	../raw/test/test/850/study/sax_12/IM-2547-0001-0002.dcm (33.852578654705,33.852578654705)
+850	collission	slice removed	../raw/test/test/850/study/sax_13/IM-2548-0001-0001.dcm	../raw/test/test/850/study/sax_13/IM-2548-0001-0002.dcm (43.852581015678,43.852581015678)
+850	collission	slice removed	../raw/test/test/850/study/sax_14/IM-2549-0001-0001.dcm	../raw/test/test/850/study/sax_14/IM-2549-0001-0002.dcm (53.85257838629,53.85257838629)
+850	collission	slice removed	../raw/test/test/850/study/sax_15/IM-2550-0001-0001.dcm	../raw/test/test/850/study/sax_15/IM-2550-0001-0002.dcm (63.852578576728,63.852578576728)
+850	collission	slice removed	../raw/test/test/850/study/sax_16/IM-2551-0001-0001.dcm	../raw/test/test/850/study/sax_16/IM-2551-0001-0002.dcm (73.852581888328,73.852581888328)
+850	collission	slice removed	../raw/test/test/850/study/sax_17/IM-2552-0001-0001.dcm	../raw/test/test/850/study/sax_17/IM-2552-0001-0002.dcm (83.85257925894,83.85257925894)
+850	image size >256	scaled		(384,512) scaling down with factor: 0.5
+775	image size >256	scaled		(240,320) scaling down with factor: 0.8
+1094	image size >256	scaled		(448,336) scaling down with factor: 0.5714285714285714
+975	image size >256	scaled		(384,512) scaling down with factor: 0.5
+756	slice spacing: interspersed	slice removed	../raw/test/test/756/study/sax_79/IM-11751-0001.dcm	expected: 10.0, actual: 2.9483820444499997 and 7.051613486699992
+1055	collission	slice removed	../raw/test/test/1055/study/sax_9/IM-4087-0001.dcm	../raw/test/test/1055/study/sax_10/IM-4088-0001.dcm (-47.118849229701,-47.11884500094)
+1055	rotation	rotation	../raw/test/test/1055/study/sax_8/IM-4086-0001.dcm	56.53088226491561 degrees
+1055	image size	scaling/padding/cropping	../raw/test/test/1055/study/sax_8/IM-4086-0001.dcm	expected: (192, 256), actual: (256, 192)
+1055	rotation	rotation	../raw/test/test/1055/study/sax_7/IM-4085-0001.dcm	56.53088226491561 degrees
+1055	image size	scaling/padding/cropping	../raw/test/test/1055/study/sax_7/IM-4085-0001.dcm	expected: (192, 256), actual: (256, 192)
+1055	rotation	rotation	../raw/test/test/1055/study/sax_6/IM-4084-0001.dcm	56.53088226491561 degrees
+1055	image size	scaling/padding/cropping	../raw/test/test/1055/study/sax_6/IM-4084-0001.dcm	expected: (192, 256), actual: (256, 192)
+1055	rotation	rotation	../raw/test/test/1055/study/sax_5/IM-4083-0001.dcm	56.53088226491561 degrees
+1055	image size	scaling/padding/cropping	../raw/test/test/1055/study/sax_5/IM-4083-0001.dcm	expected: (192, 256), actual: (256, 192)
+759	image size >256	scaled		(384,512) scaling down with factor: 0.5
+848	image size >256	scaled		(384,512) scaling down with factor: 0.5
+979	collission	slice removed	../raw/test/test/979/study/sax_14/IM-10163-0001.dcm	../raw/test/test/979/study/sax_15/IM-10164-0001.dcm (68.312769766389,68.31278948456)
+979	collission	slice removed	../raw/test/test/979/study/sax_13/IM-10162-0001.dcm	../raw/test/test/979/study/sax_15/IM-10164-0001.dcm (68.312817326993,68.31278948456)
+720	image size >256	scaled		(416,312) scaling down with factor: 0.6153846153846154
+1126	image size >256	scaled		(312,416) scaling down with factor: 0.6153846153846154
+808	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+1129	image size >256	scaled		(264,352) scaling down with factor: 0.7272727272727273
+918	image size >256	scaled		(384,512) scaling down with factor: 0.5
+793_b	image size >256	scaled		(384,512) scaling down with factor: 0.5
+947	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+1116	collission	slice removed	../raw/test/test/1116/study/sax_45/IM-4044-0001.dcm	../raw/test/test/1116/study/sax_47/IM-4046-0001.dcm (25.777273836797,25.77728424464)
+1012	image size >256	scaled		(384,512) scaling down with factor: 0.5
+958	image size >256	scaled		(456,608) scaling down with factor: 0.42105263157894735
+1081	image size >256	scaled		(264,352) scaling down with factor: 0.7272727272727273
+1031	image size >256	scaled		(448,336) scaling down with factor: 0.5714285714285714
+1111_a	image size >256	scaled		(384,512) scaling down with factor: 0.5
+1127	image size >256	scaled		(416,312) scaling down with factor: 0.6153846153846154
+1029	image size >256	scaled		(384,512) scaling down with factor: 0.5
+831	collission	slice removed	../raw/test/test/831/study/sax_6/IM-1929-0001-0001.dcm	../raw/test/test/831/study/sax_6/IM-1929-0001-0002.dcm (-50.749443251258,-50.749443251258)
+831	collission	slice removed	../raw/test/test/831/study/sax_7/IM-1930-0001-0001.dcm	../raw/test/test/831/study/sax_7/IM-1930-0001-0002.dcm (-44.749443822521,-44.749443822521)
+831	collission	slice removed	../raw/test/test/831/study/sax_8/IM-1931-0001-0001.dcm	../raw/test/test/831/study/sax_8/IM-1931-0001-0002.dcm (-38.749446443598,-38.749446443598)
+831	collission	slice removed	../raw/test/test/831/study/sax_9/IM-1932-0001-0001.dcm	../raw/test/test/831/study/sax_9/IM-1932-0001-0002.dcm (-32.749443719139,-32.749443719139)
+831	collission	slice removed	../raw/test/test/831/study/sax_10/IM-1933-0001-0001.dcm	../raw/test/test/831/study/sax_10/IM-1933-0001-0002.dcm (-26.74944522505,-26.74944522505)
+831	collission	slice removed	../raw/test/test/831/study/sax_11/IM-1934-0001-0001.dcm	../raw/test/test/831/study/sax_11/IM-1934-0001-0002.dcm (-20.749442713167,-20.749442713167)
+831	collission	slice removed	../raw/test/test/831/study/sax_12/IM-1935-0001-0001.dcm	../raw/test/test/831/study/sax_12/IM-1935-0001-0002.dcm (-14.749444941149,-14.749444941149)
+831	collission	slice removed	../raw/test/test/831/study/sax_13/IM-1936-0001-0001.dcm	../raw/test/test/831/study/sax_13/IM-1936-0001-0002.dcm (-8.7494440771277,-8.7494440771277)
+831	collission	slice removed	../raw/test/test/831/study/sax_14/IM-1937-0001-0001.dcm	../raw/test/test/831/study/sax_14/IM-1937-0001-0002.dcm (-2.7494422784577,-2.7494422784577)
+831	collission	slice removed	../raw/test/test/831/study/sax_15/IM-1938-0001-0001.dcm	../raw/test/test/831/study/sax_15/IM-1938-0001-0002.dcm (3.2505566740965,3.2505566740965)
+831	collission	slice removed	../raw/test/test/831/study/sax_16/IM-1939-0001-0001.dcm	../raw/test/test/831/study/sax_16/IM-1939-0001-0002.dcm (9.2505565612991,9.2505565612991)
+831	collission	slice removed	../raw/test/test/831/study/sax_17/IM-1940-0001-0001.dcm	../raw/test/test/831/study/sax_17/IM-1940-0001-0002.dcm (15.250555981177,15.250555981177)
+831	collission	slice removed	../raw/test/test/831/study/sax_18/IM-1941-0001-0001.dcm	../raw/test/test/831/study/sax_18/IM-1941-0001-0002.dcm (21.250556641481,21.250556641481)
+831	collission	slice removed	../raw/test/test/831/study/sax_19/IM-1942-0001-0001.dcm	../raw/test/test/831/study/sax_19/IM-1942-0001-0002.dcm (27.250556119775,27.250556119775)
+831	collission	slice removed	../raw/test/test/831/study/sax_20/IM-1943-0001-0001.dcm	../raw/test/test/831/study/sax_20/IM-1943-0001-0002.dcm (33.250555656485,33.250555656485)
+831	collission	slice removed	../raw/test/test/831/study/sax_21/IM-1944-0001-0001.dcm	../raw/test/test/831/study/sax_21/IM-1944-0001-0002.dcm (39.250558023065,39.250558023065)
+831	collission	slice removed	../raw/test/test/831/study/sax_22/IM-1945-0001-0001.dcm	../raw/test/test/831/study/sax_22/IM-1945-0001-0002.dcm (45.250554788319,45.250554788319)
+831	image size >256	scaled		(264,352) scaling down with factor: 0.7272727272727273
+793_a	image size >256	scaled		(432,512) scaling down with factor: 0.5
+833	image size >256	scaled		(352,264) scaling down with factor: 0.7272727272727273
+857	collission	slice removed	../raw/test/test/857/study/sax_17/IM-10683-0001.dcm	../raw/test/test/857/study/sax_19/IM-10685-0001.dcm (-91.208783200785,-91.208783200785)
+857	collission	slice removed	../raw/test/test/857/study/sax_19/IM-10685-0001.dcm	../raw/test/test/857/study/sax_23/IM-10689-0001.dcm (-91.208783200785,-91.208783200785)
+857	collission	slice removed	../raw/test/test/857/study/sax_10/IM-10676-0001.dcm	../raw/test/test/857/study/sax_11/IM-10677-0001.dcm (-31.20878419635,-31.208785353142)
+857	collission	slice removed	../raw/test/test/857/study/sax_9/IM-10675-0001.dcm	../raw/test/test/857/study/sax_11/IM-10677-0001.dcm (-31.20878419635,-31.208785353142)
+762	collission	slice removed	../raw/test/test/762/study/sax_80/IM-14275-0001.dcm	../raw/test/test/762/study/sax_81/IM-14276-0001.dcm (11.30219461969,11.302162037067)
+762	pixel spacing	scaling/padding/cropping	../raw/test/test/762/study/sax_79/IM-14274-0001.dcm	expected: (1.484375, 1.484375), actual: (1.40625, 1.40625)
+1140	image size >256	scaled		(384,512) scaling down with factor: 0.5
+963	collission	slice removed	../raw/test/test/963/study/sax_7/IM-12785-0001.dcm	../raw/test/test/963/study/sax_8/IM-12786-0001.dcm (46.152228906947,46.152235188446)
+963	collission	slice removed	../raw/test/test/963/study/sax_12/IM-12790-0001.dcm	../raw/test/test/963/study/sax_16/IM-12794-0001.dcm (91.152158691227,91.152158691227)
+963	pixel spacing	scaling/padding/cropping	../raw/test/test/963/study/sax_6/IM-12784-0001.dcm	expected: (1.25, 1.25), actual: (1.328125, 1.328125)
+856	collission	slice removed	../raw/test/test/856/study/sax_22/IM-5798-0001.dcm	../raw/test/test/856/study/sax_25/IM-5801-0001.dcm (-79.194090815065,-79.194045957696)
+856	collission	slice removed	../raw/test/test/856/study/sax_21/IM-5797-0001.dcm	../raw/test/test/856/study/sax_24/IM-5800-0001.dcm (-69.194092341394,-69.194096539635)
+856	image size	scaling/padding/cropping	../raw/test/test/856/study/sax_23/IM-5799-0001.dcm	expected: (256, 192), actual: (256, 202)
+856	rotation	rotation	../raw/test/test/856/study/sax_25/IM-5801-0001.dcm	75.75627306143765 degrees
+856	image size	scaling/padding/cropping	../raw/test/test/856/study/sax_25/IM-5801-0001.dcm	expected: (256, 192), actual: (202, 256)
+856	rotation	rotation	../raw/test/test/856/study/sax_24/IM-5800-0001.dcm	67.35626827725741 degrees
+856	image size	scaling/padding/cropping	../raw/test/test/856/study/sax_24/IM-5800-0001.dcm	expected: (256, 192), actual: (202, 256)
+1095	collission	slice removed	../raw/test/test/1095/study/sax_13/IM-13436-0001.dcm	../raw/test/test/1095/study/sax_15/IM-13438-0001.dcm (-129.54969895411,-129.54968964576)
+1095	collission	slice removed	../raw/test/test/1095/study/sax_15/IM-13438-0001.dcm	../raw/test/test/1095/study/sax_16/IM-13439-0001.dcm (-129.54968964576,-129.54968964576)
+844	image size >256	scaled		(528,704) scaling down with factor: 0.36363636363636365
+733	image size >256	scaled		(384,512) scaling down with factor: 0.5
+1079	orientation	slice removed	../raw/test/test/1079/study/sax_40/IM-5455-0001.dcm	angleBetweenNorms:42.550386103015654
+1079	orientation	slice removed	../raw/test/test/1079/study/sax_41/IM-5456-0001.dcm	angleBetweenNorms:69.94420851329696
+994	image size >256	scaled		(384,512) scaling down with factor: 0.5
+924	image size >256	scaled		(384,512) scaling down with factor: 0.5
+778	collission	slice removed	../raw/test/test/778/study/sax_52/IM-10124-0001.dcm	../raw/test/test/778/study/sax_171/IM-10131-0001.dcm (88.014411254219,88.014411254219)
+1089	image size >256	scaled		(384,512) scaling down with factor: 0.5
+965	image size >256	scaled		(384,512) scaling down with factor: 0.5
+1109	collission	slice removed	../raw/test/test/1109/study/sax_53/IM-6136-0001.dcm	../raw/test/test/1109/study/sax_54/IM-6137-0001.dcm (-56.938887593376,-56.938892059321)
+1109	rotation	rotation	../raw/test/test/1109/study/sax_56/IM-6139-0001.dcm	63.15924001448761 degrees
+1109	image size	scaling/padding/cropping	../raw/test/test/1109/study/sax_56/IM-6139-0001.dcm	expected: (256, 218), actual: (218, 256)
+1109	rotation	rotation	../raw/test/test/1109/study/sax_55/IM-6138-0001.dcm	63.15924001448761 degrees
+1109	image size	scaling/padding/cropping	../raw/test/test/1109/study/sax_55/IM-6138-0001.dcm	expected: (256, 218), actual: (218, 256)
+1109	rotation	rotation	../raw/test/test/1109/study/sax_54/IM-6137-0001.dcm	63.15924001448761 degrees
+1109	image size	scaling/padding/cropping	../raw/test/test/1109/study/sax_54/IM-6137-0001.dcm	expected: (256, 218), actual: (218, 256)
+784	image size >256	scaled		(384,512) scaling down with factor: 0.5
+849	image size >256	scaled		(704,528) scaling down with factor: 0.36363636363636365
+920	collission	slice removed	../raw/test/test/920/study/sax_10/IM-13163-0001.dcm	../raw/test/test/920/study/sax_11/IM-13164-0001.dcm (0.52932666475168,0.52932666475168)
+985	collission	slice removed	../raw/test/test/985/study/sax_26/IM-1838-0001-0001.dcm	../raw/test/test/985/study/sax_26/IM-1838-0001-0002.dcm (-13.93168772629,-13.93168772629)
+985	collission	slice removed	../raw/test/test/985/study/sax_23/IM-1835-0001-0001.dcm	../raw/test/test/985/study/sax_26/IM-1838-0001-0002.dcm (-13.93168772629,-13.93168772629)
+985	collission	slice removed	../raw/test/test/985/study/sax_23/IM-1835-0001-0002.dcm	../raw/test/test/985/study/sax_26/IM-1838-0001-0002.dcm (-13.93168772629,-13.93168772629)
+985	collission	slice removed	../raw/test/test/985/study/sax_24/IM-1836-0001-0001.dcm	../raw/test/test/985/study/sax_24/IM-1836-0001-0002.dcm (-3.9316886119674,-3.9316886119674)
+985	collission	slice removed	../raw/test/test/985/study/sax_24/IM-1836-0001-0002.dcm	../raw/test/test/985/study/sax_27/IM-1839-0001-0001.dcm (-3.9316886119674,-3.9316886119674)
+985	collission	slice removed	../raw/test/test/985/study/sax_27/IM-1839-0001-0001.dcm	../raw/test/test/985/study/sax_27/IM-1839-0001-0002.dcm (-3.9316886119674,-3.9316886119674)
+985	collission	slice removed	../raw/test/test/985/study/sax_28/IM-1840-0001-0001.dcm	../raw/test/test/985/study/sax_28/IM-1840-0001-0002.dcm (6.0683116299135,6.0683116299135)
+985	collission	slice removed	../raw/test/test/985/study/sax_25/IM-1837-0001-0002.dcm	../raw/test/test/985/study/sax_28/IM-1840-0001-0002.dcm (6.0683116299135,6.0683116299135)
+985	collission	slice removed	../raw/test/test/985/study/sax_25/IM-1837-0001-0001.dcm	../raw/test/test/985/study/sax_28/IM-1840-0001-0002.dcm (6.0683116299135,6.0683116299135)
+985	collission	slice removed	../raw/test/test/985/study/sax_29/IM-1841-0001-0001.dcm	../raw/test/test/985/study/sax_29/IM-1841-0001-0002.dcm (16.068311050167,16.068311050167)
+985	collission	slice removed	../raw/test/test/985/study/sax_30/IM-1842-0001-0001.dcm	../raw/test/test/985/study/sax_30/IM-1842-0001-0002.dcm (26.06831028446,26.06831028446)
+985	collission	slice removed	../raw/test/test/985/study/sax_31/IM-1843-0001-0001.dcm	../raw/test/test/985/study/sax_31/IM-1843-0001-0002.dcm (36.068312805261,36.068312805261)
+985	collission	slice removed	../raw/test/test/985/study/sax_32/IM-1844-0001-0001.dcm	../raw/test/test/985/study/sax_32/IM-1844-0001-0002.dcm (46.068311791484,46.068311791484)
+985	collission	slice removed	../raw/test/test/985/study/sax_33/IM-1845-0001-0001.dcm	../raw/test/test/985/study/sax_33/IM-1845-0001-0002.dcm (56.068311397699,56.068311397699)
+985	collission	slice removed	../raw/test/test/985/study/sax_34/IM-1846-0001-0001.dcm	../raw/test/test/985/study/sax_34/IM-1846-0001-0002.dcm (66.068312926585,66.068312926585)
+985	collission	slice removed	../raw/test/test/985/study/sax_35/IM-1847-0001-0001.dcm	../raw/test/test/985/study/sax_35/IM-1847-0001-0002.dcm (76.068309246292,76.068309246292)
+985	collission	slice removed	../raw/test/test/985/study/sax_36/IM-1848-0001-0001.dcm	../raw/test/test/985/study/sax_36/IM-1848-0001-0002.dcm (86.068312139015,86.068312139015)
+985	image size >256	scaled		(384,512) scaling down with factor: 0.5
+863	image size >256	scaled		(264,352) scaling down with factor: 0.7272727272727273
+710	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+854	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+816	collission	slice removed	../raw/test/test/816/study/sax_14/IM-4583-0001.dcm	../raw/test/test/816/study/sax_15/IM-4584-0001.dcm (64.972690798985,64.972690798985)
+751	image size >256	scaled		(384,512) scaling down with factor: 0.5
+742	collission	slice removed	../raw/test/test/742/study/sax_21/IM-8547-0001.dcm	../raw/test/test/742/study/sax_22/IM-8548-0001.dcm (-75.463311048647,-75.463293945983)
+742	collission	slice removed	../raw/test/test/742/study/sax_17/IM-8543-0001.dcm	../raw/test/test/742/study/sax_20/IM-8546-0001.dcm (-45.463307779521,-45.463325481336)
+742	collission	slice removed	../raw/test/test/742/study/sax_15/IM-8541-0001.dcm	../raw/test/test/742/study/sax_20/IM-8546-0001.dcm (-45.463307779521,-45.463325481336)
+742	collission	slice removed	../raw/test/test/742/study/sax_16/IM-8542-0001.dcm	../raw/test/test/742/study/sax_20/IM-8546-0001.dcm (-45.463307779521,-45.463325481336)
+375	image size >256	scaled		(384,512) scaling down with factor: 0.5
+171	image size >256	scaled		(384,512) scaling down with factor: 0.5
+123_b	collission	slice removed	../raw/train/train/123_b/study/sax_11/IM-2395-0001.dcm	../raw/train/train/123_b/study/sax_20/IM-2396-0001-0004.dcm (21.20822211517,21.208206932076)
+123_b	image size >256	scaled		(384,512) scaling down with factor: 0.5
+131	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+64	image size >256	scaled		(528,704) scaling down with factor: 0.36363636363636365
+271	collission	slice removed	../raw/train/train/271/study/sax_35/IM-13834-0001.dcm	../raw/train/train/271/study/sax_36/IM-13835-0001.dcm (-48.788906141689,-48.788906141689)
+336	image size >256	scaled		(384,512) scaling down with factor: 0.5
+293	image size >256	scaled		(512,384) scaling down with factor: 0.5
+162	image size >256	scaled		(384,512) scaling down with factor: 0.5
+98	image size >256	scaled		(384,512) scaling down with factor: 0.5
+388	image size >256	scaled		(512,384) scaling down with factor: 0.5
+369	image size >256	scaled		(456,608) scaling down with factor: 0.42105263157894735
+313	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+300	image size >256	scaled		(432,512) scaling down with factor: 0.5
+108	image size >256	scaled		(312,416) scaling down with factor: 0.6153846153846154
+214	slice spacing: missing	previous slice copied	../raw/train/train/214/study/sax_13/IM-8352-0001.dcm	expected: 10.0, acutal: 19.999999472597004
+377	image size >256	scaled		(416,512) scaling down with factor: 0.5
+100	collission	slice removed	../raw/train/train/100/study/sax_42/IM-6384-0001.dcm	../raw/train/train/100/study/sax_43/IM-6385-0001.dcm (49.638548450404,49.638558960659)
+54	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+427	image size >256	scaled		(312,416) scaling down with factor: 0.6153846153846154
+323	image size >256	scaled		(312,416) scaling down with factor: 0.6153846153846154
+120	image size >256	scaled		(448,336) scaling down with factor: 0.5714285714285714
+416	collission	slice removed	../raw/train/train/416/study/sax_7/IM-5248-0001.dcm	../raw/train/train/416/study/sax_9/IM-5250-0001.dcm (-36.944175708519,-36.944214175181)
+416	collission	slice removed	../raw/train/train/416/study/sax_8/IM-5249-0001.dcm	../raw/train/train/416/study/sax_9/IM-5250-0001.dcm (-36.944175518856,-36.944214175181)
+416	missing frame	previous frame copied	../raw/train/train/416/study/sax_9/IM-5250-0022.dcm	frame: 22
+416	missing frame	previous frame copied	../raw/train/train/416/study/sax_9/IM-5250-0022.dcm	frame: 23
+416	missing frame	previous frame copied	../raw/train/train/416/study/sax_9/IM-5250-0022.dcm	frame: 24
+258	collission	slice removed	../raw/train/train/258/study/sax_8/IM-4283-0001.dcm	../raw/train/train/258/study/sax_9/IM-4284-0001.dcm (-55.976621955027,-55.976621955027)
+41	collission	slice removed	../raw/train/train/41/study/sax_36/IM-8954-0001.dcm	../raw/train/train/41/study/sax_37/IM-8955-0001.dcm (21.193123742889,21.193139086518)
+41	collission	slice removed	../raw/train/train/41/study/sax_43/IM-8961-0001.dcm	../raw/train/train/41/study/sax_44/IM-8962-0001.dcm (81.193155815892,81.193052442505)
+41	image size	scaling/padding/cropping	../raw/train/train/41/study/sax_35/IM-8953-0001.dcm	expected: (256, 256), actual: (256, 204)
+11	collission	slice removed	../raw/train/train/11/study/sax_10/IM-11930-0001.dcm	../raw/train/train/11/study/sax_11/IM-11931-0001.dcm (16.475398179231,16.475396703428)
+11	collission	slice removed	../raw/train/train/11/study/sax_18/IM-11938-0001.dcm	../raw/train/train/11/study/sax_19/IM-11939-0001.dcm (96.475399457992,96.475399457992)
+11	slice spacing: missing	previous slice copied	../raw/train/train/11/study/sax_12/IM-11932-0001.dcm	expected: 10.0, acutal: 20.00000111963
+26	image size >256	scaled		(384,512) scaling down with factor: 0.5
+274	rotation	rotation	../raw/train/train/274/study/sax_65/IM-3992-0001.dcm	7.659892290382031 degrees
+274	rotation	rotation	../raw/train/train/274/study/sax_66/IM-3993-0001.dcm	7.659892290382031 degrees
+274	rotation	rotation	../raw/train/train/274/study/sax_67/IM-3994-0001.dcm	28.059901918701883 degrees
+442	collission	slice removed	../raw/train/train/442/study/sax_19/IM-12682-0001.dcm	../raw/train/train/442/study/sax_20/IM-12683-0001.dcm (-89.45418424454,-89.454178162726)
+442	rotation	rotation	../raw/train/train/442/study/sax_24/IM-12687-0001.dcm	63.56047327108935 degrees
+442	image size	scaling/padding/cropping	../raw/train/train/442/study/sax_24/IM-12687-0001.dcm	expected: (256, 192), actual: (192, 256)
+442	rotation	rotation	../raw/train/train/442/study/sax_23/IM-12686-0001.dcm	63.56047327108935 degrees
+442	image size	scaling/padding/cropping	../raw/train/train/442/study/sax_23/IM-12686-0001.dcm	expected: (256, 192), actual: (192, 256)
+442	rotation	rotation	../raw/train/train/442/study/sax_22/IM-12685-0001.dcm	63.56047327108935 degrees
+442	image size	scaling/padding/cropping	../raw/train/train/442/study/sax_22/IM-12685-0001.dcm	expected: (256, 192), actual: (192, 256)
+442	rotation	rotation	../raw/train/train/442/study/sax_21/IM-12684-0001.dcm	63.56047327108935 degrees
+442	image size	scaling/padding/cropping	../raw/train/train/442/study/sax_21/IM-12684-0001.dcm	expected: (256, 192), actual: (192, 256)
+442	rotation	rotation	../raw/train/train/442/study/sax_20/IM-12683-0001.dcm	63.56047327108935 degrees
+442	image size	scaling/padding/cropping	../raw/train/train/442/study/sax_20/IM-12683-0001.dcm	expected: (256, 192), actual: (192, 256)
+371	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+341	collission	slice removed	../raw/train/train/341/study/sax_12/IM-0168-0001.dcm	../raw/train/train/341/study/sax_24/IM-0179-0001.dcm (38.233491031576,38.233491031576)
+341	collission	slice removed	../raw/train/train/341/study/sax_13/IM-0169-0001.dcm	../raw/train/train/341/study/sax_25/IM-0180-0001.dcm (48.233491300217,48.233491300217)
+341	collission	slice removed	../raw/train/train/341/study/sax_14/IM-0170-0001.dcm	../raw/train/train/341/study/sax_26/IM-0181-0001.dcm (58.233492106209,58.233492106209)
+341	collission	slice removed	../raw/train/train/341/study/sax_15/IM-0171-0001.dcm	../raw/train/train/341/study/sax_27/IM-0182-0001.dcm (68.233492099432,68.233492099432)
+341	collission	slice removed	../raw/train/train/341/study/sax_16/IM-0172-0001.dcm	../raw/train/train/341/study/sax_28/IM-0183-0001.dcm (78.233491958318,78.233491958318)
+341	collission	slice removed	../raw/train/train/341/study/sax_17/IM-0173-0001.dcm	../raw/train/train/341/study/sax_29/IM-0184-0001.dcm (88.233491750034,88.233491750034)
+341	collission	slice removed	../raw/train/train/341/study/sax_18/IM-0174-0001.dcm	../raw/train/train/341/study/sax_30/IM-0185-0001.dcm (98.233491810427,98.233491810427)
+341	collission	slice removed	../raw/train/train/341/study/sax_19/IM-0175-0001.dcm	../raw/train/train/341/study/sax_31/IM-0186-0001.dcm (108.23349389937,108.23349389937)
+341	collission	slice removed	../raw/train/train/341/study/sax_20/IM-0176-0001.dcm	../raw/train/train/341/study/sax_32/IM-0187-0001.dcm (118.23348786964,118.23348786964)
+341	collission	slice removed	../raw/train/train/341/study/sax_21/IM-0177-0001.dcm	../raw/train/train/341/study/sax_33/IM-0188-0001.dcm (128.23348846739,128.23348846739)
+341	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+121	image size >256	scaled		(512,384) scaling down with factor: 0.5
+444	image size >256	scaled		(448,336) scaling down with factor: 0.5714285714285714
+47	image size >256	scaled		(512,384) scaling down with factor: 0.5
+476	image size >256	scaled		(264,352) scaling down with factor: 0.7272727272727273
+32	image size >256	scaled		(384,512) scaling down with factor: 0.5
+105	image size >256	scaled		(264,352) scaling down with factor: 0.7272727272727273
+466	collission	slice removed	../raw/train/train/466/study/sax_37/IM-4714-0001.dcm	../raw/train/train/466/study/sax_38/IM-4715-0001.dcm (42.659847381972,42.659847381972)
+465	image size >256	scaled		(264,352) scaling down with factor: 0.7272727272727273
+279	collission	slice removed	../raw/train/train/279/study/sax_19/IM-2255-0001-0001.dcm	../raw/train/train/279/study/sax_19/IM-2255-0001-0002.dcm (-13.430343345079,-13.430343345079)
+279	collission	slice removed	../raw/train/train/279/study/sax_18/IM-2254-0001-0001.dcm	../raw/train/train/279/study/sax_18/IM-2254-0001-0002.dcm (-7.4303429417128,-7.4303429417128)
+279	collission	slice removed	../raw/train/train/279/study/sax_17/IM-2253-0001-0001.dcm	../raw/train/train/279/study/sax_17/IM-2253-0001-0002.dcm (-1.4303425191868,-1.4303425191868)
+279	collission	slice removed	../raw/train/train/279/study/sax_16/IM-2252-0001-0001.dcm	../raw/train/train/279/study/sax_16/IM-2252-0001-0002.dcm (4.5696579033392,4.5696579033392)
+279	collission	slice removed	../raw/train/train/279/study/sax_15/IM-2251-0001-0001.dcm	../raw/train/train/279/study/sax_15/IM-2251-0001-0002.dcm (10.569658688986,10.569658688986)
+279	collission	slice removed	../raw/train/train/279/study/sax_14/IM-2250-0001-0001.dcm	../raw/train/train/279/study/sax_14/IM-2250-0001-0002.dcm (16.569659474633,16.569659474633)
+279	collission	slice removed	../raw/train/train/279/study/sax_13/IM-2249-0001-0001.dcm	../raw/train/train/279/study/sax_13/IM-2249-0001-0002.dcm (22.569657278673,22.569657278673)
+279	collission	slice removed	../raw/train/train/279/study/sax_12/IM-2248-0001-0001.dcm	../raw/train/train/279/study/sax_12/IM-2248-0001-0002.dcm (28.569655998025,28.569655998025)
+279	collission	slice removed	../raw/train/train/279/study/sax_11/IM-2247-0001-0001.dcm	../raw/train/train/279/study/sax_11/IM-2247-0001-0002.dcm (34.569656602112,34.569656602112)
+279	collission	slice removed	../raw/train/train/279/study/sax_10/IM-2246-0001-0001.dcm	../raw/train/train/279/study/sax_10/IM-2246-0001-0002.dcm (40.569657251588,40.569657251588)
+279	collission	slice removed	../raw/train/train/279/study/sax_9/IM-2245-0001-0001.dcm	../raw/train/train/279/study/sax_9/IM-2245-0001-0002.dcm (46.56965792376,46.56965792376)
+279	image size >256	scaled		(312,416) scaling down with factor: 0.6153846153846154
+270	collission	slice removed	../raw/train/train/270/study/sax_9/IM-14126-0001.dcm	../raw/train/train/270/study/sax_11/IM-14128-0001.dcm (21.58037456019,21.58037456019)
+415	image size >256	scaled		(264,352) scaling down with factor: 0.7272727272727273
+65	collission	slice removed	../raw/train/train/65/study/sax_7/IM-4589-0001.dcm	../raw/train/train/65/study/sax_9/IM-4591-0001.dcm (42.292543489951,42.292541765195)
+65	collission	slice removed	../raw/train/train/65/study/sax_8/IM-4590-0001.dcm	../raw/train/train/65/study/sax_10/IM-4592-0001.dcm (52.292541330596,52.292542417282)
+65	collission	slice removed	../raw/train/train/65/study/sax_14/IM-4596-0001.dcm	../raw/train/train/65/study/sax_15/IM-4597-0001.dcm (92.292541442724,92.292565567127)
+206	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+95	image size >256	scaled		(384,512) scaling down with factor: 0.5
+203	orientation	slice removed	../raw/train/train/203/study/sax_7/IM-11132-0001.dcm	angleBetweenNorms:6.179565920123488
+297	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+321	image size >256	scaled		(264,352) scaling down with factor: 0.7272727272727273
+123_a	image size >256	scaled		(384,512) scaling down with factor: 0.5
+5	collission	slice removed	../raw/train/train/5/study/sax_14/IM-13226-0001.dcm	../raw/train/train/5/study/sax_15/IM-13227-0001.dcm (-22.321217550294,-22.321217550294)
+425	image size >256	scaled		(456,608) scaling down with factor: 0.42105263157894735
+243	collission	slice removed	../raw/train/train/243/study/sax_16/IM-2012-0001.dcm	../raw/train/train/243/study/sax_27/IM-2017-0001.dcm (-47.211993012519,-47.211970764622)
+243	collission	slice removed	../raw/train/train/243/study/sax_13/IM-2009-0001.dcm	../raw/train/train/243/study/sax_26/IM-2016-0001.dcm (-23.271991813601,-23.271959155696)
+243	image size >256	scaled		(312,416) scaling down with factor: 0.6153846153846154
+284	image size >256	scaled		(384,512) scaling down with factor: 0.5
+76	image size >256	scaled		(512,416) scaling down with factor: 0.5
+367	image size >256	scaled		(384,512) scaling down with factor: 0.5
+139	image size >256	scaled		(456,608) scaling down with factor: 0.42105263157894735
+368	collission	slice removed	../raw/train/train/368/study/sax_37/IM-9560-0001.dcm	../raw/train/train/368/study/sax_38/IM-9561-0001.dcm (32.964548408476,32.964548408476)
+51	image size >256	scaled		(384,512) scaling down with factor: 0.5
+248	image size >256	scaled		(416,512) scaling down with factor: 0.5
+234	collission	slice removed	../raw/train/train/234/study/sax_19/IM-3097-0001-0002.dcm	../raw/train/train/234/study/sax_20/IM-3098-0001-0010.dcm (-9.4152782322769,-9.4152782322769)
+234	collission	slice removed	../raw/train/train/234/study/sax_19/IM-3097-0001-0001.dcm	../raw/train/train/234/study/sax_20/IM-3098-0001-0009.dcm (0.58472238550556,0.58472238550556)
+234	image size >256	scaled		(384,512) scaling down with factor: 0.5
+374	collission	slice removed	../raw/train/train/374/study/sax_17/IM-2566-0001.dcm	../raw/train/train/374/study/sax_19/IM-2568-0001.dcm (60.6265272195,60.6265272195)
+374	collission	slice removed	../raw/train/train/374/study/sax_9/IM-2558-0001.dcm	../raw/train/train/374/study/sax_19/IM-2568-0001.dcm (60.626553933219,60.6265272195)
+374	collission	slice removed	../raw/train/train/374/study/sax_12/IM-2561-0001.dcm	../raw/train/train/374/study/sax_18/IM-2567-0001.dcm (90.626556149278,90.626573885874)
+374	image size >256	scaled		(384,512) scaling down with factor: 0.5
+212	image size >256	scaled		(288,416) scaling down with factor: 0.6153846153846154
+277	orientation	slice removed	../raw/train/train/277/study/sax_5/IM-5261-0001.dcm	angleBetweenNorms:4.192469053372404
+277	collission	slice removed	../raw/train/train/277/study/sax_13/IM-5269-0001.dcm	../raw/train/train/277/study/sax_14/IM-5270-0001.dcm (-114.3401293486,-114.3401293486)
+116	collission	slice removed	../raw/train/train/116/study/sax_51/IM-7844-0001.dcm	../raw/train/train/116/study/sax_52/IM-7845-0001.dcm (47.518952034516,47.518952034516)
+390	image size >256	scaled		(216,288) scaling down with factor: 0.8888888888888888
+282	collission	slice removed	../raw/train/train/282/study/sax_7/IM-13032-0001.dcm	../raw/train/train/282/study/sax_9/IM-13034-0001.dcm (13.438624527652,13.438624527652)
+282	collission	slice removed	../raw/train/train/282/study/sax_8/IM-13033-0001.dcm	../raw/train/train/282/study/sax_9/IM-13034-0001.dcm (13.438624527652,13.438624527652)
+282	collission	slice removed	../raw/train/train/282/study/sax_9/IM-13034-0001.dcm	../raw/train/train/282/study/sax_10/IM-13035-0001.dcm (13.438624527652,13.438635416103)
+282	collission	slice removed	../raw/train/train/282/study/sax_17/IM-13042-0001.dcm	../raw/train/train/282/study/sax_18/IM-13043-0001.dcm (83.438635745271,83.438626539251)
+335	slice spacing: missing	previous slice copied	../raw/train/train/335/study/sax_6/IM-5575-0001.dcm	expected: 10.0, acutal: 19.061020213899
+129	image size >256	scaled		(312,416) scaling down with factor: 0.6153846153846154
+344	image size >256	scaled		(384,512) scaling down with factor: 0.5
+23	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+222	rotation	rotation	../raw/train/train/222/study/sax_16/IM-10504-0001.dcm	63.28935543113963 degrees
+222	image size	scaling/padding/cropping	../raw/train/train/222/study/sax_16/IM-10504-0001.dcm	expected: (256, 218), actual: (244, 256)
+222	rotation	rotation	../raw/train/train/222/study/sax_15/IM-10503-0001.dcm	63.28935543113963 degrees
+222	image size	scaling/padding/cropping	../raw/train/train/222/study/sax_15/IM-10503-0001.dcm	expected: (256, 218), actual: (244, 256)
+222	rotation	rotation	../raw/train/train/222/study/sax_14/IM-10502-0001.dcm	63.28935543113963 degrees
+222	image size	scaling/padding/cropping	../raw/train/train/222/study/sax_14/IM-10502-0001.dcm	expected: (256, 218), actual: (244, 256)
+381	image size >256	scaled		(384,512) scaling down with factor: 0.5
+392	collission	slice removed	../raw/train/train/392/study/sax_8/IM-5739-0001.dcm	../raw/train/train/392/study/sax_16/IM-5747-0001.dcm (3.1507465919872,3.1507105982808)
+392	collission	slice removed	../raw/train/train/392/study/sax_13/IM-5744-0001.dcm	../raw/train/train/392/study/sax_17/IM-5748-0001.dcm (53.150757835969,53.150730922757)
+118	collission	slice removed	../raw/train/train/118/study/sax_14/IM-12045-0001.dcm	../raw/train/train/118/study/sax_16/IM-12047-0001.dcm (-65.513436930641,-65.513391902951)
+118	collission	slice removed	../raw/train/train/118/study/sax_13/IM-12044-0001.dcm	../raw/train/train/118/study/sax_15/IM-12046-0001.dcm (-55.51343651732,-55.513391489629)
+149	image size >256	scaled		(416,312) scaling down with factor: 0.6153846153846154
+215	image size >256	scaled		(416,312) scaling down with factor: 0.6153846153846154
+62	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+462	image size >256	scaled		(456,608) scaling down with factor: 0.42105263157894735
+61	image size >256	scaled		(384,512) scaling down with factor: 0.5
+1	collission	slice removed	../raw/train/train/1/study/sax_18/IM-4570-0001.dcm	../raw/train/train/1/study/sax_38/IM-4573-0001.dcm (-111.36649314248,-111.36648702365)
+1	collission	slice removed	../raw/train/train/1/study/sax_17/IM-4569-0001.dcm	../raw/train/train/1/study/sax_38/IM-4573-0001.dcm (-111.36648702365,-111.36648702365)
+1	collission	slice removed	../raw/train/train/1/study/sax_15/IM-4567-0001.dcm	../raw/train/train/1/study/sax_16/IM-4568-0001.dcm (-101.34651596419,-101.34648665687)
+1	collission	slice removed	../raw/train/train/1/study/sax_12/IM-4564-0001.dcm	../raw/train/train/1/study/sax_57/IM-4574-0001.dcm (-71.286516363609,-71.286516363609)
+1	collission	slice removed	../raw/train/train/1/study/sax_11/IM-4563-0001.dcm	../raw/train/train/1/study/sax_57/IM-4574-0001.dcm (-71.28647408708,-71.286516363609)
+246	image size >256	scaled		(384,512) scaling down with factor: 0.5
+305	slice spacing: missing	previous slice copied	../raw/train/train/305/study/sax_21/IM-8799-0001.dcm	expected: 8.0, acutal: 16.000000487666
+305	slice spacing: missing	previous slice copied	../raw/train/train/305/study/sax_23/IM-8801-0001.dcm	expected: 8.0, acutal: 16.000001555608
+305	image size	scaling/padding/cropping	../raw/train/train/305/study/sax_19/IM-8797-0001.dcm	expected: (256, 180), actual: (256, 256)
+117	collission	slice removed	../raw/train/train/117/study/sax_71/IM-11649-0001.dcm	../raw/train/train/117/study/sax_72/IM-11650-0001.dcm (23.940496340217,23.940496340217)
+117	collission	slice removed	../raw/train/train/117/study/sax_81/IM-11659-0001.dcm	../raw/train/train/117/study/sax_84/IM-11662-0001.dcm (103.9405206404,103.94012257734)
+117	collission	slice removed	../raw/train/train/117/study/sax_80/IM-11658-0001.dcm	../raw/train/train/117/study/sax_84/IM-11662-0001.dcm (103.94086448263,103.94012257734)
+260	collission	slice removed	../raw/train/train/260/study/sax_7/IM-14068-0001.dcm	../raw/train/train/260/study/sax_11/IM-14072-0001.dcm (-23.91165992569,-23.265086261801)
+260	collission	slice removed	../raw/train/train/260/study/sax_6/IM-14067-0001.dcm	../raw/train/train/260/study/sax_10/IM-14071-0001.dcm (-13.911661398901,-13.265085739428)
+260	collission	slice removed	../raw/train/train/260/study/sax_5/IM-14066-0001.dcm	../raw/train/train/260/study/sax_9/IM-14070-0001.dcm (-3.9116626794371,-3.2650862461668)
+260	rotation	rotation	../raw/train/train/260/study/sax_8/IM-14069-0001.dcm	26.399519409459682 degrees
+260	rotation	rotation	../raw/train/train/260/study/sax_11/IM-14072-0001.dcm	26.399519409459682 degrees
+260	rotation	rotation	../raw/train/train/260/study/sax_10/IM-14071-0001.dcm	26.399519409459682 degrees
+260	rotation	rotation	../raw/train/train/260/study/sax_9/IM-14070-0001.dcm	26.399519409459682 degrees
+97	collission	slice removed	../raw/train/train/97/study/sax_5/IM-10977-0001.dcm	../raw/train/train/97/study/sax_12/IM-10984-0001.dcm (15.94645504858,15.946432361266)
+97	collission	slice removed	../raw/train/train/97/study/sax_6/IM-10978-0001.dcm	../raw/train/train/97/study/sax_13/IM-10985-0001.dcm (25.946451168104,25.946428543905)
+97	collission	slice removed	../raw/train/train/97/study/sax_7/IM-10979-0001.dcm	../raw/train/train/97/study/sax_14/IM-10986-0001.dcm (35.946447350742,35.946426915507)
+97	collission	slice removed	../raw/train/train/97/study/sax_8/IM-10980-0001.dcm	../raw/train/train/97/study/sax_15/IM-10987-0001.dcm (45.946445882715,45.946425573709)
+97	collission	slice removed	../raw/train/train/97/study/sax_9/IM-10981-0001.dcm	../raw/train/train/97/study/sax_16/IM-10988-0001.dcm (55.94644473543,55.946418833814)
+97	collission	slice removed	../raw/train/train/97/study/sax_11/IM-10983-0001.dcm	../raw/train/train/97/study/sax_17/IM-10989-0001.dcm (65.946439014843,65.946417137131)
+97	collission	slice removed	../raw/train/train/97/study/sax_10/IM-10982-0001.dcm	../raw/train/train/97/study/sax_17/IM-10989-0001.dcm (65.946439662413,65.946417137131)
+52	image size >256	scaled		(448,336) scaling down with factor: 0.5714285714285714
+448	image size >256	scaled		(512,384) scaling down with factor: 0.5
+285	image size >256	scaled		(312,416) scaling down with factor: 0.6153846153846154
+230	image size >256	scaled		(528,704) scaling down with factor: 0.36363636363636365
+22	orientation	slice removed	../raw/train/train/22/study/sax_119/IM-10771-0001.dcm	angleBetweenNorms:47.800925979517665
+22	orientation	slice removed	../raw/train/train/22/study/sax_118/IM-10770-0001.dcm	angleBetweenNorms:47.800925979517665
+22	orientation	slice removed	../raw/train/train/22/study/sax_117/IM-10769-0001.dcm	angleBetweenNorms:47.800925979517665
+148	collission	slice removed	../raw/train/train/148/study/sax_8/IM-7861-0001.dcm	../raw/train/train/148/study/sax_12/IM-7865-0001.dcm (-32.951028499113,-32.951095082945)
+148	collission	slice removed	../raw/train/train/148/study/sax_7/IM-7860-0001.dcm	../raw/train/train/148/study/sax_11/IM-7864-0001.dcm (-22.93102508065,-22.931091510491)
+148	collission	slice removed	../raw/train/train/148/study/sax_6/IM-7859-0001.dcm	../raw/train/train/148/study/sax_10/IM-7863-0001.dcm (-12.911022501183,-12.911089398863)
+148	collission	slice removed	../raw/train/train/148/study/sax_5/IM-7858-0001.dcm	../raw/train/train/148/study/sax_9/IM-7862-0001.dcm (-2.8910194154046,-2.8910867231642)
+312	collission	slice removed	../raw/train/train/312/study/sax_5/IM-4998-0001.dcm	../raw/train/train/312/study/sax_6/IM-4999-0001.dcm (53.871984255326,53.87194095667)
+312	collission	slice removed	../raw/train/train/312/study/sax_6/IM-4999-0001.dcm	../raw/train/train/312/study/sax_7/IM-5000-0001.dcm (53.87194095667,53.87200487927)
+312	collission	slice removed	../raw/train/train/312/study/sax_8/IM-5001-0001.dcm	../raw/train/train/312/study/sax_9/IM-5002-0001.dcm (63.872007160737,63.872007160737)
+419	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+196	image size >256	scaled		(312,416) scaling down with factor: 0.6153846153846154
+452	collission	slice removed	../raw/train/train/452/study/sax_41/IM-13820-0001.dcm	../raw/train/train/452/study/sax_52/IM-13830-0001.dcm (2.0206708068843,2.0206708068843)
+303	orientation	slice removed	../raw/train/train/303/study/sax_17/IM-6450-0001.dcm	angleBetweenNorms:13.226839840910957
+303	orientation	slice removed	../raw/train/train/303/study/sax_18/IM-6451-0001.dcm	angleBetweenNorms:13.226839840910957
+303	slice spacing: missing	previous slice copied	../raw/train/train/303/study/sax_22/IM-6454-0001.dcm	expected: 10.0, acutal: 20.000001556414
+232	collission	slice removed	../raw/train/train/232/study/sax_14/IM-8157-0001.dcm	../raw/train/train/232/study/sax_15/IM-8158-0001.dcm (12.188938927135,12.188921763817)
+232	collission	slice removed	../raw/train/train/232/study/sax_17/IM-8160-0001.dcm	../raw/train/train/232/study/sax_18/IM-8161-0001.dcm (32.188921948531,32.188933588714)
+232	collission	slice removed	../raw/train/train/232/study/sax_19/IM-8162-0001.dcm	../raw/train/train/232/study/sax_20/IM-8163-0001.dcm (42.188942759579,42.188941733503)
+499	image size >256	scaled		(384,512) scaling down with factor: 0.5
+239	image size >256	scaled		(384,512) scaling down with factor: 0.5
+278	image size >256	scaled		(384,512) scaling down with factor: 0.5
+79	image size >256	scaled		(384,512) scaling down with factor: 0.5
+195	collission	slice removed	../raw/train/train/195/study/sax_90/IM-13385-0001.dcm	../raw/train/train/195/study/sax_91/IM-13386-0001.dcm (-120.23082672003,-120.23082672003)
+195	collission	slice removed	../raw/train/train/195/study/sax_85/IM-13380-0001.dcm	../raw/train/train/195/study/sax_87/IM-13382-0001.dcm (-80.230835194976,-80.230835194976)
+195	collission	slice removed	../raw/train/train/195/study/sax_82/IM-13377-0001.dcm	../raw/train/train/195/study/sax_92/IM-13387-0001.dcm (-50.230840409556,-50.230849445766)
+195	collission	slice removed	../raw/train/train/195/study/sax_79/IM-13374-0001.dcm	../raw/train/train/195/study/sax_80/IM-13375-0001.dcm (-30.230843545664,-30.230843545664)
+195	collission	slice removed	../raw/train/train/195/study/sax_77/IM-13372-0001.dcm	../raw/train/train/195/study/sax_78/IM-13373-0001.dcm (-20.230845218347,-20.230845218347)
+195	rotation	rotation	../raw/train/train/195/study/sax_92/IM-13387-0001.dcm	37.399309234434966 degrees
+195	image size	scaling/padding/cropping	../raw/train/train/195/study/sax_92/IM-13387-0001.dcm	expected: (192, 256), actual: (256, 192)
+197	collission	slice removed	../raw/train/train/197/study/sax_8/IM-4059-0001.dcm	../raw/train/train/197/study/sax_9/IM-4060-0001.dcm (-19.503081528647,-19.503081528647)
+334_b	image size >256	scaled		(384,512) scaling down with factor: 0.5
+140	image size >256	scaled		(264,352) scaling down with factor: 0.7272727272727273
+357	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+87	image size >256	scaled		(384,512) scaling down with factor: 0.5
+185	collission	slice removed	../raw/train/train/185/study/sax_6/IM-14219-0001.dcm	../raw/train/train/185/study/sax_7/IM-14220-0001.dcm (-17.651751589312,-17.6517633742)
+460	image size >256	scaled		(384,512) scaling down with factor: 0.5
+126	image size >256	scaled		(448,336) scaling down with factor: 0.5714285714285714
+492	collission	slice removed	../raw/train/train/492/study/sax_15/IM-8891-0001.dcm	../raw/train/train/492/study/sax_16/IM-8892-0001.dcm (38.764000790572,38.764000790572)
+492	collission	slice removed	../raw/train/train/492/study/sax_17/IM-8893-0001.dcm	../raw/train/train/492/study/sax_18/IM-8894-0001.dcm (48.764001383268,48.764001383268)
+492	collission	slice removed	../raw/train/train/492/study/sax_21/IM-8897-0001.dcm	../raw/train/train/492/study/sax_22/IM-8898-0001.dcm (78.763999567765,78.763999567765)
+63	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+264	image size >256	scaled		(384,512) scaling down with factor: 0.5
+307	image size >256	scaled		(264,352) scaling down with factor: 0.7272727272727273
+412	image size >256	scaled		(384,512) scaling down with factor: 0.5
+463	collission	slice removed	../raw/train/train/463/study/sax_7/IM-2774-0001-0001.dcm	../raw/train/train/463/study/sax_7/IM-2774-0001-0002.dcm (-8.0094226057171,-8.0094226057171)
+463	collission	slice removed	../raw/train/train/463/study/sax_8/IM-2775-0001-0001.dcm	../raw/train/train/463/study/sax_8/IM-2775-0001-0002.dcm (1.9905797920119,1.9905797920119)
+463	collission	slice removed	../raw/train/train/463/study/sax_9/IM-2776-0001-0001.dcm	../raw/train/train/463/study/sax_9/IM-2776-0001-0002.dcm (11.990577218129,11.990577218129)
+463	collission	slice removed	../raw/train/train/463/study/sax_10/IM-2777-0001-0001.dcm	../raw/train/train/463/study/sax_10/IM-2777-0001-0002.dcm (21.990579841383,21.990579841383)
+463	collission	slice removed	../raw/train/train/463/study/sax_11/IM-2778-0001-0001.dcm	../raw/train/train/463/study/sax_11/IM-2778-0001-0002.dcm (31.9905772675,31.9905772675)
+463	collission	slice removed	../raw/train/train/463/study/sax_12/IM-2779-0001-0001.dcm	../raw/train/train/463/study/sax_12/IM-2779-0001-0002.dcm (41.990579890754,41.990579890754)
+463	collission	slice removed	../raw/train/train/463/study/sax_13/IM-2780-0001-0001.dcm	../raw/train/train/463/study/sax_13/IM-2780-0001-0002.dcm (51.990577898588,51.990577898588)
+463	collission	slice removed	../raw/train/train/463/study/sax_14/IM-2781-0001-0001.dcm	../raw/train/train/463/study/sax_14/IM-2781-0001-0002.dcm (61.99057675546,61.99057675546)
+463	collission	slice removed	../raw/train/train/463/study/sax_15/IM-2782-0001-0001.dcm	../raw/train/train/463/study/sax_15/IM-2782-0001-0002.dcm (71.990581132625,71.990581132625)
+463	collission	slice removed	../raw/train/train/463/study/sax_72/IM-2783-0001-0001.dcm	../raw/train/train/463/study/sax_72/IM-2783-0001-0002.dcm (81.990543789171,81.990543789171)
+463	image size >256	scaled		(384,512) scaling down with factor: 0.5
+393	collission	slice removed	../raw/train/train/393/study/sax_8/IM-13323-0001.dcm	../raw/train/train/393/study/sax_9/IM-13324-0001.dcm (6.3930464507649,6.3930478974914)
+484	collission	slice removed	../raw/train/train/484/study/sax_10/IM-12527-0001.dcm	../raw/train/train/484/study/sax_11/IM-12528-0001.dcm (-23.590564299033,-23.590564299033)
+237	image size >256	scaled		(456,608) scaling down with factor: 0.42105263157894735
+362	orientation	slice removed	../raw/train/train/362/study/sax_79/IM-6979-0001.dcm	angleBetweenNorms:58.884608604623295
+362	collission	slice removed	../raw/train/train/362/study/sax_19/IM-6976-0001.dcm	../raw/train/train/362/study/sax_20/IM-6977-0001.dcm (126.85419892213,126.85419892213)
+362	collission	slice removed	../raw/train/train/362/study/sax_18/IM-6975-0001.dcm	../raw/train/train/362/study/sax_20/IM-6977-0001.dcm (126.85424030475,126.85419892213)
+136	image size >256	scaled		(368,512) scaling down with factor: 0.5
+125	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+451	collission	slice removed	../raw/train/train/451/study/sax_5/IM-5301-0001.dcm	../raw/train/train/451/study/sax_6/IM-5302-0001.dcm (-17.427258781589,-17.427258781589)
+402	image size >256	scaled		(512,384) scaling down with factor: 0.5
+44	image size >256	scaled		(512,384) scaling down with factor: 0.5
+89	collission	slice removed	../raw/train/train/89/study/sax_21/IM-5101-0001.dcm	../raw/train/train/89/study/sax_27/IM-5107-0001.dcm (-61.817216949948,-60.911932698615)
+89	collission	slice removed	../raw/train/train/89/study/sax_24/IM-5104-0001.dcm	../raw/train/train/89/study/sax_26/IM-5106-0001.dcm (-40.911932713145,-40.911932713145)
+417	image size >256	scaled		(448,336) scaling down with factor: 0.5714285714285714
+487	collission	slice removed	../raw/train/train/487/study/sax_14/IM-12097-0001.dcm	../raw/train/train/487/study/sax_15/IM-12098-0001.dcm (-60.18385036829,-60.18385036829)
+487	collission	slice removed	../raw/train/train/487/study/sax_11/IM-12094-0001.dcm	../raw/train/train/487/study/sax_12/IM-12095-0001.dcm (-40.183847767148,-40.183847767148)
+487	collission	slice removed	../raw/train/train/487/study/sax_9/IM-12092-0001.dcm	../raw/train/train/487/study/sax_10/IM-12093-0001.dcm (-30.183846201434,-30.183846201434)
+487	slice spacing: missing	previous slice copied	../raw/train/train/487/study/sax_8/IM-12091-0001.dcm	expected: 10.0, acutal: 20.0000005202758
+436	collission	slice removed	../raw/train/train/436/study/sax_6/IM-12540-0001.dcm	../raw/train/train/436/study/sax_21/IM-12553-0001.dcm (76.535309742322,76.535241311076)
+436	collission	slice removed	../raw/train/train/436/study/sax_36/IM-12558-0001.dcm	../raw/train/train/436/study/sax_37/IM-12559-0001.dcm (84.575247721379,84.575247721379)
+436	collission	slice removed	../raw/train/train/436/study/sax_35/IM-12557-0001.dcm	../raw/train/train/436/study/sax_37/IM-12559-0001.dcm (84.575260680684,84.575247721379)
+436	collission	slice removed	../raw/train/train/436/study/sax_8/IM-12542-0001.dcm	../raw/train/train/436/study/sax_33/IM-12555-0001.dcm (96.575240399996,96.575258000845)
+436	collission	slice removed	../raw/train/train/436/study/sax_15/IM-12549-0001.dcm	../raw/train/train/436/study/sax_17/IM-12551-0001.dcm (176.73522790679,176.73508715934)
+436	slice spacing: interspersed	slice removed	../raw/train/train/436/study/sax_39/IM-12561-0001.dcm	expected: 10.02, actual: 5.999996172121996 and 3.9599713123390075
+436	slice spacing: interspersed	slice removed	../raw/train/train/436/study/sax_38/IM-12560-0001.dcm	expected: 10.02, actual: 2.040005223462998 and 6.000001186839995
+436	slice spacing: interspersed	slice removed	../raw/train/train/436/study/sax_37/IM-12559-0001.dcm	expected: 10.02, actual: 6.000001186839995 and 1.9799917671970064
+436	slice spacing: interspersed	slice removed	../raw/train/train/436/study/sax_34/IM-12556-0001.dcm	expected: 10.02, actual: 4.02001728662799 and 6.000001225641
+436	slice spacing: top	slice removed	../raw/train/train/436/study/sax_41/IM-12563-0001.dcm	expected: 10.02, actual: 6.000000954032004
+486	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+29	image size >256	scaled		(312,416) scaling down with factor: 0.6153846153846154
+240	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+456	collission	slice removed	../raw/train/train/456/study/sax_64/IM-1283-0001.dcm	../raw/train/train/456/study/sax_66/IM-1284-0001.dcm (17.553827314571,17.553827314571)
+456	slice spacing: interspersed	slice removed	../raw/train/train/456/study/sax_66/IM-1284-0001.dcm	expected: 7.98, actual: 1.714958237493999 and 6.2650411959140015
+456	image size >256	scaled		(264,352) scaling down with factor: 0.7272727272727273
+37	collission	slice removed	../raw/train/train/37/study/sax_11/IM-3561-0001.dcm	../raw/train/train/37/study/sax_18/IM-3567-0001.dcm (-54.816652677191,-54.81657843708)
+37	image size >256	scaled		(512,384) scaling down with factor: 0.5
+330	image size >256	scaled		(384,512) scaling down with factor: 0.5
+241	slice spacing: interspersed	slice removed	../raw/train/train/241/study/sax_23/IM-0154-0001.dcm	expected: 10.0, actual: 6.670566608103 and 3.329432053645201
+241	image size >256	scaled		(448,336) scaling down with factor: 0.5714285714285714
+202	image size >256	scaled		(384,512) scaling down with factor: 0.5
+394	image size >256	scaled		(384,512) scaling down with factor: 0.5
+225	collission	slice removed	../raw/train/train/225/study/sax_20/IM-14088-0001.dcm	../raw/train/train/225/study/sax_23/IM-14091-0001.dcm (93.207864558198,93.207864558198)
+346	collission	slice removed	../raw/train/train/346/study/sax_33/IM-12618-0001.dcm	../raw/train/train/346/study/sax_38/IM-12623-0001.dcm (89.752935655534,89.752935655534)
+407	collission	slice removed	../raw/train/train/407/study/sax_8/IM-10966-0001.dcm	../raw/train/train/407/study/sax_9/IM-10967-0001.dcm (30.826830180619,31.226842678664)
+477	image size >256	scaled		(448,336) scaling down with factor: 0.5714285714285714
+400	image size >256	scaled		(352,264) scaling down with factor: 0.7272727272727273
+446	image size >256	scaled		(384,512) scaling down with factor: 0.5
+398	image size >256	scaled		(384,512) scaling down with factor: 0.5
+2	collission	slice removed	../raw/train/train/2/study/sax_12/IM-9580-0001.dcm	../raw/train/train/2/study/sax_13/IM-9581-0001.dcm (-73.661753618806,-73.661765451973)
+294	image size >256	scaled		(384,512) scaling down with factor: 0.5
+409	slice spacing: interspersed	slice removed	../raw/train/train/409/study/sax_6/IM-12026-0001.dcm	expected: 8.8, actual: 7.132693150548599 and 1.6673075728082
+409	slice spacing: interspersed	slice removed	../raw/train/train/409/study/sax_5/IM-12025-0001.dcm	expected: 8.8, actual: 7.1326938765243 and 1.6673079835764
+155	image size >256	scaled		(528,704) scaling down with factor: 0.36363636363636365
+382	collission	slice removed	../raw/train/train/382/study/sax_11/IM-4299-0001.dcm	../raw/train/train/382/study/sax_13/IM-4301-0001.dcm (-51.620280062399,-51.620231068183)
+244	image size >256	scaled		(384,512) scaling down with factor: 0.5
+265	image size >256	scaled		(384,512) scaling down with factor: 0.5
+459	collission	slice removed	../raw/train/train/459/study/sax_12/IM-3366-0001.dcm	../raw/train/train/459/study/sax_17/IM-3371-0001.dcm (95.728888764331,95.728893678467)
+459	image size >256	scaled		(384,512) scaling down with factor: 0.5
+315	image size >256	scaled		(512,416) scaling down with factor: 0.5
+249	image size >256	scaled		(384,512) scaling down with factor: 0.5
+50	image size >256	scaled		(384,512) scaling down with factor: 0.5
+334_a	image size >256	scaled		(384,512) scaling down with factor: 0.5
+429	image size >256	scaled		(552,736) scaling down with factor: 0.34782608695652173
+209	collission	slice removed	../raw/train/train/209/study/sax_10/IM-10901-0001.dcm	../raw/train/train/209/study/sax_15/IM-10906-0001.dcm (60.222523827675,60.222493550588)
+209	collission	slice removed	../raw/train/train/209/study/sax_11/IM-10902-0001.dcm	../raw/train/train/209/study/sax_16/IM-10907-0001.dcm (69.182523418855,69.18249317319)
+209	collission	slice removed	../raw/train/train/209/study/sax_12/IM-10903-0001.dcm	../raw/train/train/209/study/sax_18/IM-10909-0001.dcm (87.102522102246,87.102491992742)
+208	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+413	image size >256	scaled		(384,512) scaling down with factor: 0.5
+49	collission	slice removed	../raw/train/train/49/study/sax_11/IM-6824-0001.dcm	../raw/train/train/49/study/sax_20/IM-6832-0001.dcm (-97.262090752559,-97.261893063264)
+49	collission	slice removed	../raw/train/train/49/study/sax_10/IM-6823-0001.dcm	../raw/train/train/49/study/sax_12/IM-6825-0001.dcm (-87.262089407106,-87.262089407106)
+69	image size >256	scaled		(384,512) scaling down with factor: 0.5
+441	image size >256	scaled		(384,512) scaling down with factor: 0.5
+405	image size >256	scaled		(384,512) scaling down with factor: 0.5
+473	image size >256	scaled		(384,512) scaling down with factor: 0.5
+449	image size >256	scaled		(384,512) scaling down with factor: 0.5
+304	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+292	image size >256	scaled		(456,608) scaling down with factor: 0.42105263157894735
+84	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+156	image size >256	scaled		(384,512) scaling down with factor: 0.5
+83	orientation	slice removed	../raw/train/train/83/study/sax_22/IM-13920-0001.dcm	angleBetweenNorms:25.406201269005507
+66	image size >256	scaled		(216,288) scaling down with factor: 0.8888888888888888
+281	image size >256	scaled		(352,264) scaling down with factor: 0.7272727272727273
+485	image size >256	scaled		(416,512) scaling down with factor: 0.5
+223	collission	slice removed	../raw/train/train/223/study/sax_13/IM-0655-0001.dcm	../raw/train/train/223/study/sax_40/IM-0671-0001.dcm (37.36244276324,37.362494236106)
+223	image size >256	scaled		(264,352) scaling down with factor: 0.7272727272727273
+39	image size >256	scaled		(264,352) scaling down with factor: 0.7272727272727273
+253	collission	slice removed	../raw/train/train/253/study/sax_32/IM-13813-0001.dcm	../raw/train/train/253/study/sax_33/IM-13814-0001.dcm (36.831486202498,36.831485949477)
+91	collission	slice removed	../raw/train/train/91/study/sax_48/IM-8606-0001.dcm	../raw/train/train/91/study/sax_49/IM-8607-0001.dcm (63.528783552114,63.528783552114)
+500	collission	slice removed	../raw/train/train/500/study/sax_15/IM-9923-0001.dcm	../raw/train/train/500/study/sax_18/IM-9926-0001.dcm (-7.8020000287452,-7.8019857426667)
+500	slice spacing: interspersed	slice removed	../raw/train/train/500/study/sax_16/IM-9924-0001.dcm	expected: 10.0, actual: 3.7499882357254997 and 6.2500147712437
+500	slice spacing: interspersed	slice removed	../raw/train/train/500/study/sax_17/IM-9925-0001.dcm	expected: 10.0, actual: 7.499986750495999 and 2.500016360349001
+111	collission	slice removed	../raw/train/train/111/study/sax_14/IM-10172-0001.dcm	../raw/train/train/111/study/sax_15/IM-10173-0001.dcm (16.625798670908,16.625798670908)
+421	rotation	rotation	../raw/train/train/421/study/sax_13/IM-12327-0001.dcm	12.085677413188895 degrees
+421	rotation	rotation	../raw/train/train/421/study/sax_14/IM-12328-0001.dcm	12.085677413188895 degrees
+421	rotation	rotation	../raw/train/train/421/study/sax_15/IM-12329-0001.dcm	12.085677413188895 degrees
+421	rotation	rotation	../raw/train/train/421/study/sax_16/IM-12330-0001.dcm	12.085677413188895 degrees
+421	rotation	rotation	../raw/train/train/421/study/sax_17/IM-12331-0001.dcm	12.085677413188895 degrees
+471	image size >256	scaled		(384,512) scaling down with factor: 0.5
+364	collission	slice removed	../raw/train/train/364/study/sax_10/IM-7189-0001.dcm	../raw/train/train/364/study/sax_11/IM-7190-0001.dcm (4.7281351360558,4.7281617173755)
+27	pixel spacing	scaling/padding/cropping	../raw/train/train/27/study/sax_15/IM-12471-0001.dcm	expected: (1.40625, 1.40625), actual: (1.5625, 1.5625)
+27	pixel spacing	scaling/padding/cropping	../raw/train/train/27/study/sax_16/IM-12472-0001.dcm	expected: (1.40625, 1.40625), actual: (1.5625, 1.5625)
+27	pixel spacing	scaling/padding/cropping	../raw/train/train/27/study/sax_17/IM-12473-0001.dcm	expected: (1.40625, 1.40625), actual: (1.5625, 1.5625)
+27	pixel spacing	scaling/padding/cropping	../raw/train/train/27/study/sax_18/IM-12474-0001.dcm	expected: (1.40625, 1.40625), actual: (1.5625, 1.5625)
+81	collission	slice removed	../raw/train/train/81/study/sax_7/IM-3903-0001.dcm	../raw/train/train/81/study/sax_19/IM-3914-0001.dcm (31.709136308312,31.70916970802)
+81	collission	slice removed	../raw/train/train/81/study/sax_10/IM-3906-0001.dcm	../raw/train/train/81/study/sax_18/IM-3913-0001.dcm (61.709148756397,61.709066042388)
+172	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+193	image size >256	scaled		(384,512) scaling down with factor: 0.5
+272	collission	slice removed	../raw/train/train/272/study/sax_14/IM-1007-0001.dcm	../raw/train/train/272/study/sax_23/IM-1014-0001.dcm (41.323588693455,41.323582187646)
+272	collission	slice removed	../raw/train/train/272/study/sax_17/IM-1010-0001.dcm	../raw/train/train/272/study/sax_24/IM-1015-0001.dcm (65.263587372308,65.263588530457)
+272	collission	slice removed	../raw/train/train/272/study/sax_18/IM-1011-0001.dcm	../raw/train/train/272/study/sax_25/IM-1016-0001.dcm (73.243586739986,73.243630737817)
+272	image size >256	scaled		(264,352) scaling down with factor: 0.7272727272727273
+337	slice spacing: missing	previous slice copied	../raw/train/train/337/study/sax_19/IM-7062-0001.dcm	expected: 10.0, acutal: 19.999996010494
+337	image size	scaling/padding/cropping	../raw/train/train/337/study/sax_13/IM-7056-0001.dcm	expected: (256, 256), actual: (256, 230)
+337	image size	scaling/padding/cropping	../raw/train/train/337/study/sax_12/IM-7055-0001.dcm	expected: (256, 256), actual: (256, 230)
+337	image size	scaling/padding/cropping	../raw/train/train/337/study/sax_11/IM-7054-0001.dcm	expected: (256, 256), actual: (256, 230)
+337	image size	scaling/padding/cropping	../raw/train/train/337/study/sax_10/IM-7053-0001.dcm	expected: (256, 256), actual: (256, 230)
+493	image size >256	scaled		(704,528) scaling down with factor: 0.36363636363636365
+322	image size >256	scaled		(512,384) scaling down with factor: 0.5
+280	slice spacing: interspersed	slice removed	../raw/train/train/280/study/sax_18/IM-5116-0001.dcm	expected: 10.0, actual: 6.871496218800999 and 1.2647863513988007
+280	slice spacing: interspersed	slice removed	../raw/train/train/280/study/sax_17/IM-5115-0001.dcm	expected: 10.0, actual: 1.2647863513988007 and 1.8637212023686
+280	slice spacing: special	none	../raw/train/train/280/study/sax_19/IM-5117-0001.dcm	expected: 10.0, actual: 8.13627837823956, next slices: ../raw/train/train/280/study/sax_16/IM-5114-0001.dcm
+280	pixel spacing	scaling/padding/cropping	../raw/train/train/280/study/sax_16/IM-5114-0001.dcm	expected: (1.71875, 1.71875), actual: (1.5625, 1.5625)
+280	rotation	rotation	../raw/train/train/280/study/sax_16/IM-5114-0001.dcm	78.49441794435751 degrees
+280	image size	scaling/padding/cropping	../raw/train/train/280/study/sax_16/IM-5114-0001.dcm	expected: (192, 256), actual: (256, 192)
+573	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+656	image size >256	scaled		(384,512) scaling down with factor: 0.5
+588	image size >256	scaled		(384,512) scaling down with factor: 0.5
+658	image size >256	scaled		(512,384) scaling down with factor: 0.5
+514	slice spacing: interspersed	slice removed	../raw/validate/validate/514/study/sax_8/IM-12920-0001.dcm	expected: 10.0, actual: 2.849848230315004 and 7.1501527946909995
+514	slice spacing: bottom	slice removed	../raw/validate/validate/514/study/sax_7/IM-12919-0001.dcm	expected: 10.0, actual: 2.8498458844039973
+519	image size >256	scaled		(512,384) scaling down with factor: 0.5
+650	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+666	image size >256	scaled		(512,384) scaling down with factor: 0.5
+602	collission	slice removed	../raw/validate/validate/602/study/sax_6/IM-13858-0001.dcm	../raw/validate/validate/602/study/sax_9/IM-13861-0001.dcm (-53.903992619139,-53.90403053919)
+612	image size >256	scaled		(312,416) scaling down with factor: 0.6153846153846154
+682	collission	slice removed	../raw/validate/validate/682/study/sax_15/IM-8523-0001.dcm	../raw/validate/validate/682/study/sax_23/IM-8531-0001.dcm (52.824915345218,52.824932394638)
+682	collission	slice removed	../raw/validate/validate/682/study/sax_21/IM-8529-0001.dcm	../raw/validate/validate/682/study/sax_23/IM-8531-0001.dcm (52.824932394638,52.824932394638)
+682	collission	slice removed	../raw/validate/validate/682/study/sax_22/IM-8530-0001.dcm	../raw/validate/validate/682/study/sax_23/IM-8531-0001.dcm (52.824932394638,52.824932394638)
+682	collission	slice removed	../raw/validate/validate/682/study/sax_16/IM-8524-0001.dcm	../raw/validate/validate/682/study/sax_24/IM-8532-0001.dcm (62.824918171371,62.82490904173)
+682	collission	slice removed	../raw/validate/validate/682/study/sax_25/IM-8533-0001.dcm	../raw/validate/validate/682/study/sax_26/IM-8534-0001.dcm (72.824907754466,72.824907754466)
+682	collission	slice removed	../raw/validate/validate/682/study/sax_17/IM-8525-0001.dcm	../raw/validate/validate/682/study/sax_26/IM-8534-0001.dcm (72.824920110306,72.824907754466)
+698	orientation	slice removed	../raw/validate/validate/698/study/sax_33/IM-5884-0001.dcm	angleBetweenNorms:10.049755827788795
+698	orientation	slice removed	../raw/validate/validate/698/study/sax_36/IM-5887-0001.dcm	angleBetweenNorms:10.049741971890752
+698	orientation	slice removed	../raw/validate/validate/698/study/sax_35/IM-5886-0001.dcm	angleBetweenNorms:10.049741971890752
+698	orientation	slice removed	../raw/validate/validate/698/study/sax_34/IM-5885-0001.dcm	angleBetweenNorms:10.049741971890752
+628	collission	slice removed	../raw/validate/validate/628/study/sax_30/IM-4918-0001.dcm	../raw/validate/validate/628/study/sax_32/IM-4920-0001.dcm (-101.27332621945,-101.27332621945)
+628	collission	slice removed	../raw/validate/validate/628/study/sax_27/IM-4915-0001.dcm	../raw/validate/validate/628/study/sax_28/IM-4916-0001.dcm (-81.27332902223,-81.27332902223)
+628	pixel spacing	scaling/padding/cropping	../raw/validate/validate/628/study/sax_26/IM-4914-0001.dcm	expected: (1.5625, 1.5625), actual: (1.484375, 1.484375)
+628	pixel spacing	scaling/padding/cropping	../raw/validate/validate/628/study/sax_25/IM-4913-0001.dcm	expected: (1.5625, 1.5625), actual: (1.484375, 1.484375)
+628	pixel spacing	scaling/padding/cropping	../raw/validate/validate/628/study/sax_24/IM-4912-0001.dcm	expected: (1.5625, 1.5625), actual: (1.484375, 1.484375)
+628	pixel spacing	scaling/padding/cropping	../raw/validate/validate/628/study/sax_23/IM-4911-0001.dcm	expected: (1.5625, 1.5625), actual: (1.484375, 1.484375)
+628	pixel spacing	scaling/padding/cropping	../raw/validate/validate/628/study/sax_22/IM-4910-0001.dcm	expected: (1.5625, 1.5625), actual: (1.484375, 1.484375)
+628	pixel spacing	scaling/padding/cropping	../raw/validate/validate/628/study/sax_21/IM-4909-0001.dcm	expected: (1.5625, 1.5625), actual: (1.484375, 1.484375)
+562	image size >256	scaled		(580,704) scaling down with factor: 0.36363636363636365
+597	image size >256	scaled		(320,240) scaling down with factor: 0.8
+548	image size >256	scaled		(384,512) scaling down with factor: 0.5
+681	image size >256	scaled		(384,512) scaling down with factor: 0.5
+644	image size >256	scaled		(384,512) scaling down with factor: 0.5
+599	image size >256	scaled		(384,512) scaling down with factor: 0.5
+675	collission	slice removed	../raw/validate/validate/675/study/sax_45/IM-13614-0001.dcm	../raw/validate/validate/675/study/sax_46/IM-13615-0001.dcm (-37.853293864574,-37.853297694812)
+675	rotation	rotation	../raw/validate/validate/675/study/sax_44/IM-13613-0001.dcm	26.420489086515584 degrees
+675	rotation	rotation	../raw/validate/validate/675/study/sax_43/IM-13612-0001.dcm	26.420489086515584 degrees
+675	rotation	rotation	../raw/validate/validate/675/study/sax_42/IM-13611-0001.dcm	26.420489086515584 degrees
+675	rotation	rotation	../raw/validate/validate/675/study/sax_41/IM-13610-0001.dcm	26.420489086515584 degrees
+574	image size >256	scaled		(312,416) scaling down with factor: 0.6153846153846154
+652	image size >256	scaled		(384,512) scaling down with factor: 0.5
+533	orientation	slice removed	../raw/validate/validate/533/study/sax_101/IM-11802-0001.dcm	angleBetweenNorms:57.157829444883035
+533	orientation	slice removed	../raw/validate/validate/533/study/sax_36/IM-11800-0001.dcm	angleBetweenNorms:34.00092971712481
+533	orientation	slice removed	../raw/validate/validate/533/study/sax_100/IM-11801-0001.dcm	angleBetweenNorms:57.157829444883035
+699	image size >256	scaled		(264,352) scaling down with factor: 0.7272727272727273
+611	slice spacing: outlier	slice removed	../raw/validate/validate/611/study/sax_65/IM-4276-0001.dcm	expected: 10.0, actual: 32.000068287315
+611	slice spacing: outlier	slice removed	../raw/validate/validate/611/study/sax_66/IM-4277-0001.dcm	expected: 10.0, actual: 38.000065961337
+611	slice spacing: outlier	slice removed	../raw/validate/validate/611/study/sax_67/IM-4278-0001.dcm	expected: 10.0, actual: 44.00009870604299
+611	slice spacing: outlier	slice removed	../raw/validate/validate/611/study/sax_68/IM-4279-0001.dcm	expected: 10.0, actual: 50.00006023223699
+603	collission	slice removed	../raw/validate/validate/603/study/sax_10/IM-4215-0001.dcm	../raw/validate/validate/603/study/sax_11/IM-4216-0001.dcm (6.3573676052336,6.3574166540725)
+603	collission	slice removed	../raw/validate/validate/603/study/sax_14/IM-4219-0001.dcm	../raw/validate/validate/603/study/sax_21/IM-4226-0001.dcm (36.357456775754,36.357442645084)
+603	collission	slice removed	../raw/validate/validate/603/study/sax_15/IM-4220-0001.dcm	../raw/validate/validate/603/study/sax_23/IM-4228-0001.dcm (46.357457905944,46.357479381782)
+603	collission	slice removed	../raw/validate/validate/603/study/sax_22/IM-4227-0001.dcm	../raw/validate/validate/603/study/sax_23/IM-4228-0001.dcm (46.357498686372,46.357479381782)
+634	image size >256	scaled		(264,352) scaling down with factor: 0.7272727272727273
+501	collission	slice removed	../raw/validate/validate/501/study/sax_34/IM-11501-0001.dcm	../raw/validate/validate/501/study/sax_35/IM-11502-0001.dcm (-73.45284880491,-73.45284880491)
+501	collission	slice removed	../raw/validate/validate/501/study/sax_32/IM-11500-0001.dcm	../raw/validate/validate/501/study/sax_35/IM-11502-0001.dcm (-73.45284880491,-73.45284880491)
+685	collission	slice removed	../raw/validate/validate/685/study/sax_11/IM-4393-0001.dcm	../raw/validate/validate/685/study/sax_12/IM-4394-0001.dcm (-33.804643199272,-33.804644058343)
+685	collission	slice removed	../raw/validate/validate/685/study/sax_12/IM-4394-0001.dcm	../raw/validate/validate/685/study/sax_14/IM-4396-0001.dcm (-33.804644058343,-33.804632543249)
+685	collission	slice removed	../raw/validate/validate/685/study/sax_10/IM-4392-0001.dcm	../raw/validate/validate/685/study/sax_13/IM-4395-0001.dcm (-23.804644705424,-23.804637296688)
+542	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+664	collission	slice removed	../raw/validate/validate/664/study/sax_14/IM-3611-0001.dcm	../raw/validate/validate/664/study/sax_23/IM-3620-0001.dcm (-61.229968652679,-61.229977297355)
+664	image size >256	scaled		(512,384) scaling down with factor: 0.5
+613	image size >256	scaled		(384,512) scaling down with factor: 0.5
+639	image size >256	scaled		(352,264) scaling down with factor: 0.7272727272727273
+619_a	image size >256	scaled		(384,512) scaling down with factor: 0.5
+504	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+564	image size >256	scaled		(512,384) scaling down with factor: 0.5
+674	collission	slice removed	../raw/validate/validate/674/study/sax_14/IM-7318-0001.dcm	../raw/validate/validate/674/study/sax_15/IM-7319-0001.dcm (86.939321269129,86.939321895934)
+674	rotation	rotation	../raw/validate/validate/674/study/sax_15/IM-7319-0001.dcm	22.634594412277917 degrees
+674	rotation	rotation	../raw/validate/validate/674/study/sax_16/IM-7320-0001.dcm	22.634594412277917 degrees
+667	collission	slice removed	../raw/validate/validate/667/study/sax_11/IM-6230-0001.dcm	../raw/validate/validate/667/study/sax_21/IM-6240-0001.dcm (-40.592306632465,-40.592305435558)
+667	collission	slice removed	../raw/validate/validate/667/study/sax_10/IM-6229-0001.dcm	../raw/validate/validate/667/study/sax_20/IM-6239-0001.dcm (-30.592305065264,-30.592304874486)
+667	collission	slice removed	../raw/validate/validate/667/study/sax_9/IM-6228-0001.dcm	../raw/validate/validate/667/study/sax_19/IM-6238-0001.dcm (-20.592305133523,-20.59230598395)
+667	collission	slice removed	../raw/validate/validate/667/study/sax_8/IM-6227-0001.dcm	../raw/validate/validate/667/study/sax_18/IM-6237-0001.dcm (-10.592305425257,-10.59230504608)
+667	collission	slice removed	../raw/validate/validate/667/study/sax_7/IM-6226-0001.dcm	../raw/validate/validate/667/study/sax_17/IM-6236-0001.dcm (-0.5923053051168,-0.5923065323414)
+667	rotation	rotation	../raw/validate/validate/667/study/sax_6/IM-6225-0001.dcm	50.123277094281114 degrees
+667	image size	scaling/padding/cropping	../raw/validate/validate/667/study/sax_6/IM-6225-0001.dcm	expected: (192, 256), actual: (256, 192)
+623	collission	slice removed	../raw/validate/validate/623/study/sax_57/IM-10630-0001-0001.dcm	../raw/validate/validate/623/study/sax_57/IM-10630-0001-0002.dcm (-5.3320456358395,-5.3320456358395)
+623	collission	slice removed	../raw/validate/validate/623/study/sax_56/IM-10629-0001-0001.dcm	../raw/validate/validate/623/study/sax_56/IM-10629-0001-0002.dcm (4.6679493334772,4.6679493334772)
+600	image size >256	scaled		(512,384) scaling down with factor: 0.5
+649	collission	slice removed	../raw/validate/validate/649/study/sax_14/IM-0959-0001.dcm	../raw/validate/validate/649/study/sax_19/IM-0964-0001.dcm (-27.676028182,-27.676028182)
+649	collission	slice removed	../raw/validate/validate/649/study/sax_13/IM-0958-0001.dcm	../raw/validate/validate/649/study/sax_18/IM-0963-0001.dcm (-19.676029645787,-19.676029645787)
+649	collission	slice removed	../raw/validate/validate/649/study/sax_12/IM-0957-0001.dcm	../raw/validate/validate/649/study/sax_17/IM-0962-0001.dcm (-11.676024567525,-11.676024567525)
+649	collission	slice removed	../raw/validate/validate/649/study/sax_10/IM-0956-0001.dcm	../raw/validate/validate/649/study/sax_16/IM-0961-0001.dcm (-3.6760241877316,-3.6760241877316)
+649	collission	slice removed	../raw/validate/validate/649/study/sax_9/IM-0955-0001.dcm	../raw/validate/validate/649/study/sax_15/IM-0960-0001.dcm (4.3239691697601,4.3239691697601)
+649	slice spacing: interspersed	slice removed	../raw/validate/validate/649/study/sax_27/IM-0971-0001.dcm	expected: 8.0, actual: 3.9999980807889983 and 3.9997808240050006
+649	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+694	collission	slice removed	../raw/validate/validate/694/study/sax_37/IM-9344-0001.dcm	../raw/validate/validate/694/study/sax_38/IM-9345-0001.dcm (102.3727781641,102.37276635443)
+679	collission	slice removed	../raw/validate/validate/679/study/sax_14/IM-8877-0001.dcm	../raw/validate/validate/679/study/sax_49/IM-8880-0001.dcm (-6.2496600655465,-6.2496189849555)
+679	slice spacing: interspersed	slice removed	../raw/validate/validate/679/study/sax_53/IM-8884-0001.dcm	expected: 10.0, actual: 6.0000002338687 and 3.9999606112806
+679	slice spacing: interspersed	slice removed	../raw/validate/validate/679/study/sax_54/IM-8885-0001.dcm	expected: 10.0, actual: 2.0000425972088 and 7.9999590857574
+679	slice spacing: special	none	../raw/validate/validate/679/study/sax_52/IM-8883-0001.dcm	expected: 10.0, actual: 6.000001721179, next slices: ../raw/validate/validate/679/study/sax_51/IM-8882-0001.dcm
+679	slice spacing: special	none	../raw/validate/validate/679/study/sax_51/IM-8882-0001.dcm	expected: 10.0, actual: 6.000000233869001, next slices: ../raw/validate/validate/679/study/sax_50/IM-8881-0001.dcm
+679	slice spacing: special	none	../raw/validate/validate/679/study/sax_50/IM-8881-0001.dcm	expected: 10.0, actual: 6.000001587042499, next slices: ../raw/validate/validate/679/study/sax_49/IM-8880-0001.dcm
+663	collission	slice removed	../raw/validate/validate/663/study/sax_11/IM-11967-0001.dcm	../raw/validate/validate/663/study/sax_12/IM-11968-0001.dcm (13.840709506197,13.840709506197)
+575	image size >256	scaled		(352,264) scaling down with factor: 0.7272727272727273
+684	image size >256	scaled		(312,416) scaling down with factor: 0.6153846153846154
+526	collission	slice removed	../raw/validate/validate/526/study/sax_29/IM-9195-0001.dcm	../raw/validate/validate/526/study/sax_30/IM-9196-0001.dcm (-45.214085,-45.214108)
+526	collission	slice removed	../raw/validate/validate/526/study/sax_26/IM-9192-0001.dcm	../raw/validate/validate/526/study/sax_27/IM-9193-0001.dcm (-25.214037,-25.214085)
+526	collission	slice removed	../raw/validate/validate/526/study/sax_25/IM-9191-0001.dcm	../raw/validate/validate/526/study/sax_27/IM-9193-0001.dcm (-25.214037,-25.214085)
+546	slice spacing: interspersed	slice removed	../raw/validate/validate/546/study/sax_45/IM-2751-0001.dcm	expected: 10.0, actual: 6.266806618918 and 3.7331956079486996
+546	slice spacing: interspersed	slice removed	../raw/validate/validate/546/study/sax_44/IM-2750-0001.dcm	expected: 10.0, actual: 6.2668043060876 and 3.7331956079485
+546	slice spacing: interspersed	slice removed	../raw/validate/validate/546/study/sax_43/IM-2749-0001.dcm	expected: 10.0, actual: 6.266804306087599 and 3.7331956079486
+546	slice spacing: special	none	../raw/validate/validate/546/study/sax_9/IM-2736-0001.dcm	expected: 10.0, actual: 6.266805672086999, next slices: ../raw/validate/validate/546/study/sax_42/IM-2748-0001.dcm
+546	image size >256	scaled		(384,512) scaling down with factor: 0.5
+592	image size >256	scaled		(384,512) scaling down with factor: 0.5
+583	image size >256	scaled		(384,512) scaling down with factor: 0.5
+579	orientation	slice removed	../raw/validate/validate/579/study/sax_23/IM-5726-0001.dcm	angleBetweenNorms:51.09671392442158
+579	collission	slice removed	../raw/validate/validate/579/study/sax_11/IM-5718-0001.dcm	../raw/validate/validate/579/study/sax_12/IM-5719-0001.dcm (-148.36891932926,-148.36891932926)
+540	slice spacing: missing	previous slice copied	../raw/validate/validate/540/study/sax_15/IM-11215-0001.dcm	expected: 8.0, acutal: 15.999998718738993
+568	collission	slice removed	../raw/validate/validate/568/study/sax_26/IM-1197-0001.dcm	../raw/validate/validate/568/study/sax_39/IM-1199-0001.dcm (-19.580474123668,-19.580474123668)
+568	collission	slice removed	../raw/validate/validate/568/study/sax_13/IM-1186-0001.dcm	../raw/validate/validate/568/study/sax_39/IM-1199-0001.dcm (-19.580415657957,-19.580474123668)
+568	collission	slice removed	../raw/validate/validate/568/study/sax_22/IM-1194-0001.dcm	../raw/validate/validate/568/study/sax_40/IM-1200-0001.dcm (44.259586302966,44.259610397452)
+568	collission	slice removed	../raw/validate/validate/568/study/sax_27/IM-1198-0001.dcm	../raw/validate/validate/568/study/sax_40/IM-1200-0001.dcm (44.259610397452,44.259610397452)
+568	image size >256	scaled		(264,352) scaling down with factor: 0.7272727272727273
+651	image size >256	scaled		(312,416) scaling down with factor: 0.6153846153846154
+571	image size >256	scaled		(384,512) scaling down with factor: 0.5
+511	collission	slice removed	../raw/validate/validate/511/study/sax_21/IM-8683-0001.dcm	../raw/validate/validate/511/study/sax_22/IM-8684-0001.dcm (-112.07773608995,-112.07779507974)
+511	slice spacing: interspersed	slice removed	../raw/validate/validate/511/study/sax_13/IM-8675-0001.dcm	expected: 10.0, actual: 7.161402446104006 and 2.8385937508529935
+550	collission	slice removed	../raw/validate/validate/550/study/sax_14/IM-4634-0001.dcm	../raw/validate/validate/550/study/sax_15/IM-4635-0001.dcm (-104.97971171828,-104.97967498187)
+527	image size >256	scaled		(384,512) scaling down with factor: 0.5
+618	image size >256	scaled		(312,416) scaling down with factor: 0.6153846153846154
+516_b	image size >256	scaled		(416,512) scaling down with factor: 0.5
+516_a	image size >256	scaled		(416,512) scaling down with factor: 0.5
+593	image size >256	scaled		(312,416) scaling down with factor: 0.6153846153846154
+654	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+688	collission	slice removed	../raw/validate/validate/688/study/sax_58/IM-13402-0001.dcm	../raw/validate/validate/688/study/sax_63/IM-13407-0001.dcm (-81.723755112758,-81.723764283167)
+688	collission	slice removed	../raw/validate/validate/688/study/sax_59/IM-13403-0001.dcm	../raw/validate/validate/688/study/sax_63/IM-13407-0001.dcm (-81.723746363284,-81.723764283167)
+688	collission	slice removed	../raw/validate/validate/688/study/sax_57/IM-13401-0001.dcm	../raw/validate/validate/688/study/sax_62/IM-13406-0001.dcm (-71.70376295654,-71.703766278102)
+688	collission	slice removed	../raw/validate/validate/688/study/sax_56/IM-13400-0001.dcm	../raw/validate/validate/688/study/sax_61/IM-13405-0001.dcm (-61.683765639025,-61.683771898879)
+688	collission	slice removed	../raw/validate/validate/688/study/sax_55/IM-13399-0001.dcm	../raw/validate/validate/688/study/sax_60/IM-13404-0001.dcm (-51.663768621852,-51.663776460593)
+622	image size >256	scaled		(352,264) scaling down with factor: 0.7272727272727273
+591	image size >256	scaled		(456,608) scaling down with factor: 0.42105263157894735
+619_b	image size >256	scaled		(384,512) scaling down with factor: 0.5
+572	image size >256	scaled		(384,512) scaling down with factor: 0.5
+598	image size >256	scaled		(512,384) scaling down with factor: 0.5
+553	collission	slice removed	../raw/validate/validate/553/study/sax_48/IM-10618-0001.dcm	../raw/validate/validate/553/study/sax_49/IM-10619-0001.dcm (-12.897352793538,-12.897352793538)
+614	image size >256	scaled		(416,512) scaling down with factor: 0.5
+506	slice spacing: metadata	none		observed values: [ 4. 10.]
+506	slice spacing: interspersed	slice removed	../raw/validate/validate/506/study/sax_60/IM-0256-0001.dcm	expected: 10.0, actual: 3.2998852910859995 and 3.9999993218249976
+506	slice spacing: interspersed	slice removed	../raw/validate/validate/506/study/sax_59/IM-0255-0001.dcm	expected: 10.0, actual: 3.9999993218249976 and 2.7001144466970004
+506	slice spacing: interspersed	slice removed	../raw/validate/validate/506/study/sax_57/IM-0253-0001.dcm	expected: 10.0, actual: 1.2998814170749995 and 4.000001339768005
+506	slice spacing: interspersed	slice removed	../raw/validate/validate/506/study/sax_58/IM-0254-0001.dcm	expected: 10.0, actual: 4.000001339768005 and 4.700115291021994
+506	image size >256	scaled		(336,448) scaling down with factor: 0.5714285714285714
+692	collission	slice removed	../raw/validate/validate/692/study/sax_15/IM-13572-0001.dcm	../raw/validate/validate/692/study/sax_16/IM-13573-0001.dcm (10.577569564472,10.577569564472)
+629	collission	slice removed	../raw/validate/validate/629/study/sax_18/IM-12869-0001.dcm	../raw/validate/validate/629/study/sax_22/IM-12873-0001.dcm (8.1304223290128,8.1304226961905)
+629	collission	slice removed	../raw/validate/validate/629/study/sax_19/IM-12870-0001.dcm	../raw/validate/validate/629/study/sax_23/IM-12874-0001.dcm (18.130424553266,18.130424974956)
+629	collission	slice removed	../raw/validate/validate/629/study/sax_20/IM-12871-0001.dcm	../raw/validate/validate/629/study/sax_21/IM-12872-0001.dcm (28.130428069465,28.130427075744)
+629	collission	slice removed	../raw/validate/validate/629/study/sax_21/IM-12872-0001.dcm	../raw/validate/validate/629/study/sax_24/IM-12875-0001.dcm (28.130427075744,28.130428582164)
+515	collission	slice removed	../raw/validate/validate/515/study/sax_69/IM-6417-0001.dcm	../raw/validate/validate/515/study/sax_70/IM-6418-0001.dcm (92.959176056699,92.959176056699)
+643	orientation	slice removed	../raw/validate/validate/643/study/sax_17/IM-10516-0001.dcm	angleBetweenNorms:82.72712371971082
+643	collission	slice removed	../raw/validate/validate/643/study/sax_12/IM-10512-0001.dcm	../raw/validate/validate/643/study/sax_13/IM-10513-0001.dcm (-91.941010743508,-91.941010743508)
+643	slice spacing: special	none	../raw/validate/validate/643/study/sax_9/IM-10509-0001.dcm	expected: 10.0, actual: 11.582959254013005, next slices: ../raw/validate/validate/643/study/sax_8/IM-10508-0001.dcm
+643	image size	scaling/padding/cropping	../raw/validate/validate/643/study/sax_8/IM-10508-0001.dcm	expected: (216, 256), actual: (192, 256)
+643	image size	scaling/padding/cropping	../raw/validate/validate/643/study/sax_7/IM-10507-0001.dcm	expected: (216, 256), actual: (192, 256)
+557	collission	slice removed	../raw/validate/validate/557/study/sax_5/IM-5025-0001.dcm	../raw/validate/validate/557/study/sax_6/IM-5026-0001.dcm (-17.18368396682,-17.18368396682)
+617	slice spacing: missing	previous slice copied	../raw/validate/validate/617/study/sax_47/IM-9748-0001.dcm	expected: 10.0, acutal: 19.9999952409643
+578	collission	slice removed	../raw/validate/validate/578/study/sax_5/IM-5531-0001.dcm	../raw/validate/validate/578/study/sax_6/IM-5532-0001.dcm (-10.177232824388,-10.177208555096)
+578	collission	slice removed	../raw/validate/validate/578/study/sax_6/IM-5532-0001.dcm	../raw/validate/validate/578/study/sax_7/IM-5533-0001.dcm (-10.177208555096,-10.177203916865)
+578	slice spacing: interspersed	slice removed	../raw/validate/validate/578/study/sax_9/IM-5535-0001.dcm	expected: 10.0, actual: 4.405701572101002 and 5.594298592600001
+578	slice spacing: interspersed	slice removed	../raw/validate/validate/578/study/sax_8/IM-5534-0001.dcm	expected: 10.0, actual: 4.405701791393998 and 5.594300492665001
+578	slice spacing: bottom	slice removed	../raw/validate/validate/578/study/sax_7/IM-5533-0001.dcm	expected: 10.0, actual: 4.405701892312999
+517	image size >256	scaled		(240,320) scaling down with factor: 0.8
+595	image size >256	scaled		(528,704) scaling down with factor: 0.36363636363636365
+566	collission	slice removed	../raw/validate/validate/566/study/sax_17/IM-1211-0001.dcm	../raw/validate/validate/566/study/sax_22/IM-1216-0001.dcm (101.74893035125,101.74893419352)
+566	image size >256	scaled		(608,608) scaling down with factor: 0.42105263157894735
+561	orientation	slice removed	../raw/validate/validate/561/study/sax_38/IM-10871-0001.dcm	angleBetweenNorms:56.15871471889824
+561	orientation	slice removed	../raw/validate/validate/561/study/sax_39/IM-10872-0001.dcm	angleBetweenNorms:56.15871471889824
+561	orientation	slice removed	../raw/validate/validate/561/study/sax_36/IM-10869-0001.dcm	angleBetweenNorms:56.15871471889824
+561	orientation	slice removed	../raw/validate/validate/561/study/sax_37/IM-10870-0001.dcm	angleBetweenNorms:56.15871471889824
+561	orientation	slice removed	../raw/validate/validate/561/study/sax_41/IM-10873-0001.dcm	angleBetweenNorms:56.15871471889824
+522	image size >256	scaled		(416,512) scaling down with factor: 0.5
+590	collission	slice removed	../raw/validate/validate/590/study/sax_10/IM-3744-0001-0001.dcm	../raw/validate/validate/590/study/sax_10/IM-3744-0001-0002.dcm (19.372701841007,19.372701841007)
+590	collission	slice removed	../raw/validate/validate/590/study/sax_11/IM-3745-0001-0001.dcm	../raw/validate/validate/590/study/sax_11/IM-3745-0001-0002.dcm (29.372701428748,29.372701428748)
+590	collission	slice removed	../raw/validate/validate/590/study/sax_12/IM-3746-0001-0001.dcm	../raw/validate/validate/590/study/sax_12/IM-3746-0001-0002.dcm (39.372701375506,39.372701375506)
+590	collission	slice removed	../raw/validate/validate/590/study/sax_13/IM-3747-0001-0001.dcm	../raw/validate/validate/590/study/sax_13/IM-3747-0001-0002.dcm (49.37270348087,49.37270348087)
+590	collission	slice removed	../raw/validate/validate/590/study/sax_14/IM-3748-0001-0001.dcm	../raw/validate/validate/590/study/sax_14/IM-3748-0001-0002.dcm (59.372701125493,59.372701125493)
+590	collission	slice removed	../raw/validate/validate/590/study/sax_15/IM-3749-0001-0001.dcm	../raw/validate/validate/590/study/sax_15/IM-3749-0001-0002.dcm (69.372703374386,69.372703374386)
+590	collission	slice removed	../raw/validate/validate/590/study/sax_16/IM-3750-0001-0001.dcm	../raw/validate/validate/590/study/sax_16/IM-3750-0001-0002.dcm (79.372699708816,79.372699708816)
+590	collission	slice removed	../raw/validate/validate/590/study/sax_17/IM-3751-0001-0001.dcm	../raw/validate/validate/590/study/sax_17/IM-3751-0001-0002.dcm (89.372702058582,89.372702058582)
+590	collission	slice removed	../raw/validate/validate/590/study/sax_18/IM-3752-0001-0001.dcm	../raw/validate/validate/590/study/sax_18/IM-3752-0001-0002.dcm (99.372699703205,99.372699703205)
+590	collission	slice removed	../raw/validate/validate/590/study/sax_19/IM-3753-0001-0001.dcm	../raw/validate/validate/590/study/sax_19/IM-3753-0001-0002.dcm (109.3727019521,109.3727019521)
+590	collission	slice removed	../raw/validate/validate/590/study/sax_20/IM-3754-0001-0001.dcm	../raw/validate/validate/590/study/sax_20/IM-3754-0001-0002.dcm (119.37269913559,119.37269913559)
+590	image size >256	scaled		(384,512) scaling down with factor: 0.5
