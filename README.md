@@ -57,7 +57,7 @@ Therefore we employ the following data cleaning steps:
 1. Split completely repeated measurements (into _a and _b)
 2. Downscale to 256px in the larger dimension
 3. Scale and rotate to consistent size and orientation (using mode)
-4. Rotate by 90° if `cols>rows` (also keep original rotation in a separate file)
+4. Rotate by 90° if `Rows<Columns` (also keep original rotation in a separate file)
 5. Remove duplicate slices
 6. Add missing slices (by duplicating existing ones)
 7. Convert DICOM to nifti
@@ -68,8 +68,15 @@ mkdir -p data/kaggle/nifti
 cd data/kaggle/raw
 ../../../code/kaggle/kaggle_split_multiseries.sh
 cd ../nifti
+# 2.-7. this command takes ~2 hours and creates one sa.nii.gz file per patient in the kaggle dataset
 python ../../../code/kaggle/dcm2nifti.py >../../../analysis/kaggle/conversion.log
 ```
+
+These commands create one nifti file per patient in `data/kaggle/nifti` (plus a rotated one for patients where `Rows<Columns`).
+Additionally these tables are created in `analysis/kaggle`:
+ - [conversion.log](analysis/kaggle/conversion.log) - tab-separated info about conversion problems (columns: `pid,problem,resolution,image,extra_info`)
+ - [used_dicoms.log](analysis/kaggle/used_dicoms.log) - tab-separated info about all dicom images used in the created niftis (columns: `pid,slice,frame,series,file_name`)
+ - [patient_dimensions.tsv](analysis/kaggle/patient_dimensions.tsv) - tab-separated info about image dimensions by patient (columns: `pid,X,Y,pixelSpacingX,pixelSpacingY,sliceSpacing,scaleFactor`)
 
 ### Creating labels with `ukbb_cardiac` by Bai et al.
 
@@ -113,8 +120,11 @@ All calculations on data underlying the data protection terms of the University 
  - python 3.8.3
  - jupyter 1.0.0
  - pydicom 1.4.2
+ - nibabel 3.1.0
  - pandas 1.0.3
  - numpy 1.13.3
+ - scipy 1.4.1
+ - scikit-image 0.16.2
  - tqdm 4.46.0
 
 #### R
