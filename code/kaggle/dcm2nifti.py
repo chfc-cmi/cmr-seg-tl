@@ -3,6 +3,7 @@
 
 import pydicom as dicom
 import numpy as np
+import pandas as pd
 import nibabel as nib
 from glob import glob
 from pathlib import Path
