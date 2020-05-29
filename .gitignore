@@ -1,5 +1,6 @@
 # Data folders
 data/kaggle/raw
+data/kaggle/nifti
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
