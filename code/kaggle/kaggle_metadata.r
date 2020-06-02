@@ -1,22 +1,22 @@
 library(tidyverse)
 
-dicom_metadata <- read_tsv("../../analysis/kaggle/dicom_metadata.tsv.xz", guess_max = 200000)
-used_files <- read_tsv("../../analysis/kaggle/used_dicoms.log", col_names=c("pid","slice","frame","dir","file"), guess_max=200000) %>% mutate(used = T)
-patient_dim <- read_tsv("../../analysis/kaggle/patient_dimensions.tsv")
-truth_train <- read_csv("../analysis/kaggle-heart/train.csv") %>% mutate(EF = (Diastole-Systole)/Diastole, set="train")
-truth_val <- read_csv("../analysis/kaggle-heart/validate.csv") %>% mutate(EF = (Diastole-Systole)/Diastole, set="validate")
-truth_test <- read_csv("../analysis/kaggle-heart/solution.csv") %>%
+dicom_metadata <- read_tsv("analysis/kaggle/dicom_metadata.tsv.xz", guess_max = 200000) %>% rename(Id=pid)
+used_files <- read_tsv("analysis/kaggle/used_dicoms.log", col_names=c("pid","slice","frame","dir","file"), guess_max=200000) %>% mutate(Id=as.numeric(str_remove(pid,"_[ab]")), used = T)
+metadata <- left_join(dicom_metadata,used_files,by=c("Id","dir","file")) %>%
+    replace_na(list(used=F)) %>%
+    mutate(set=if_else(`Patient ID`<501,'train',if_else(`Patient ID`>700,'test','validate')))
+
+write_tsv(metadata, "analysis/kaggle/combined_metadata.tsv.xz")
+
+patient_dim <- read_tsv("analysis/kaggle/patient_dimensions.tsv")
+truth_train <- read_csv("analysis/kaggle/truth/train.csv") %>% mutate(EF = (Diastole-Systole)/Diastole, set="train")
+truth_val <- read_csv("analysis/kaggle/truth/validate.csv") %>% mutate(EF = (Diastole-Systole)/Diastole, set="validate")
+truth_test <- read_csv("analysis/kaggle/truth/solution.csv") %>%
     separate(Id, into=c("Id", "Phase"), sep="_") %>%
     spread(Phase, Volume) %>%
     select(-Usage) %>%
     mutate(Id = as.numeric(Id), EF = (Diastole-Systole)/Diastole, set="test")
 truth <- bind_rows(truth_train, truth_val, truth_test)
-
-metadata <- left_join(dicom_metadata,used_files,by=c("pid","dir","file")) %>%
-    replace_na(list(used=F)) %>%
-    mutate(set=if_else(`Patient ID`<501,'train',if_else(`Patient ID`>700,'test','validate')))
-
-write_tsv(metadata, "analysis/kaggle-heart/combined_metadata.tsv.xz")
 
 patient_metadata <- metadata %>%
     select(
@@ -47,7 +47,7 @@ patient_metadata <- metadata %>%
         SequenceName=`Sequence Name`,
         SequenceVariant=`Sequence Variant`,
         SliceThickness=`Slice Thickness`, # we would need to use the empirical thickness
-        SoftwareVersion=`Software Version(s)`,
+        SoftwareVersion=`Software Versions`,
         # SpacingBetweenSlices=`Spacing Between Slices`, # we would need to use the empirical thickness
         dBdt=`dB/dt`) %>%
     separate(PatientsAge, into=c("PatientsAgeNum","PatientsAgeUnit"), sep=-1) %>%
@@ -78,4 +78,4 @@ patient_metadata <- patient_metadata %>%
 
 patient_metadata <- patient_metadata %>% left_join(truth, by=c("PatientID"="Id","set")) 
 
-write_tsv(patient_metadata, "analysis/kaggle-heart/patient_metadata.tsv")
+write_tsv(patient_metadata, "analysis/kaggle/patient_metadata.tsv")
