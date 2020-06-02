@@ -78,6 +78,15 @@ Additionally these tables are created in `analysis/kaggle`:
  - [used_dicoms.log](analysis/kaggle/used_dicoms.log) - tab-separated info about all dicom images used in the created niftis (columns: `pid,slice,frame,series,file_name`)
  - [patient_dimensions.tsv](analysis/kaggle/patient_dimensions.tsv) - tab-separated info about image dimensions by patient (columns: `pid,X,Y,pixelSpacingX,pixelSpacingY,sliceSpacing,scaleFactor`)
 
+### Gather metadata and ground truth by patient
+
+```
+mkdir -p analysis/kaggle/truth
+cp data/kaggle/raw/{solution,train,validate}.csv analysis/kaggle/truth
+# This command creates the two files: combined_metadata.csv and patient_metadata.csv
+Rscript code/kaggle/kaggle_metadata.r
+```
+
 ### Creating labels with `ukbb_cardiac` by Bai et al.
 
 As no ground truth segmentation labels are available we automatically generated them using the network published by Bai et al. (TODO cite).
