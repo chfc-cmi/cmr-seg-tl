@@ -87,6 +87,8 @@ cp data/kaggle/raw/{solution,train,validate}.csv analysis/kaggle/truth
 Rscript code/kaggle/kaggle_metadata.r
 ```
 
+Now you can interactively explore the metadata in this notebook (requires an R kernel): [kaggle_metadata.ipynb](code/kaggle/kaggle_metadata.ipynb)
+
 ### Creating labels with `ukbb_cardiac` by Bai et al.
 
 As no ground truth segmentation labels are available we automatically generated them using the network published by Bai et al. (TODO cite).
