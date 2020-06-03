@@ -91,10 +91,29 @@ Now you can interactively explore the metadata in this notebook (requires an R k
 
 ### Creating labels with `ukbb_cardiac` by Bai et al.
 
-As no ground truth segmentation labels are available we automatically generated them using the network published by Bai et al. (TODO cite).
+As no ground truth segmentation labels are available we automatically generate them using the network published by Bai et al.:
+
+> W. Bai, et al. Automated cardiovascular magnetic resonance image analysis with fully convolutional networks. Journal of Cardiovascular Magnetic Resonance, 20:65, 2018. https://doi.org/10.1186/s12968-018-0471-x
+
+Source code is available at: https://github.com/baiwenjia/ukbb_cardiac under Apache-2.0 license.
+
+```
+# download ukbb_cardiac (from fork so ED frame is determined by volume rather than assumed at frame 1 and for compatibility with tensorflow v2)
+git clone https://github.com/chfc-cmi/ukbb_cardiac ~/ukbb_cardiac
+# make sure to install all dependencies, I recommend a separate conda environment
+cd ~/ukbb_cardiac
+# to test that everything is working and to download the pre-trained models
+python demo_pipeline.py
+# cd in the cmr-seg-tl/data/kaggle/nifti directory
+python ~/ukbb_cardiac/common/deploy_network.py --seq_name sa --data_dir . --model_path ~/ukbb_cardiac/trained_model/FCN_sa
+python ~/ukbb_cardiac/short_axis/eval_ventricular_volume.py --data_dir . --output_csv ../../../analysis/kaggle/ukbb_ventricular_volumes.csv
+```
+
+This creates a prediction file `seg_sa.nii.gz` for each patient in the data subfolders. In addition files and predictions for the end systolic (`sa_ES.nii.gz`, `seg_sa_ES.nii.gz`) and end diastolic phase (`sa_ED.nii.gz`, `seg_sa_ED.nii.gz`) are created. Volumes are automatically derived with the last command and stored in [`ukbb_ventricular_volumes.csv`](analysis/kaggle/ukbb_ventricular_volumes.csv).
 
 ### Evaluating labels by ground truth volume info
-TODO
+
+The `ukbb_cardiac` network by Bai et al. is trained on homogenous UK Biobank data and not expected to perform well on every patient of the heterogeneous Kaggle data.
 
 ### Training own U-Nets on these labels - hyperparameter search
 TODO
@@ -137,6 +156,7 @@ All calculations on data underlying the data protection terms of the University 
  - scipy 1.4.1
  - scikit-image 0.16.2
  - tqdm 4.46.0
+ - ukbb_cardiac v2.0 (dependencies incl. tensorflow 2.1.0 installed in a separate conda env)
 
 #### R
  - R 3.6.1
