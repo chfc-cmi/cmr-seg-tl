@@ -113,17 +113,17 @@ python ~/ukbb_cardiac/short_axis/eval_ventricular_volume.py --data_dir . --outpu
 
 This creates a prediction file `seg_sa.nii.gz` for each patient in the data subfolders. In addition files and predictions for the end systolic (`sa_ES.nii.gz`, `seg_sa_ES.nii.gz`) and end diastolic phase (`sa_ED.nii.gz`, `seg_sa_ED.nii.gz`) are created. Volumes are automatically derived with the last command and stored in [`ukbb_ventricular_volumes.csv`](analysis/kaggle/ukbb_ventricular_volumes.csv).
 
-In order to easily use the data with fastai the images and corresponding created masks need to be converted to png.
+In order to easily use the data with fastai the images and corresponding created masks need to be converted to png (in `data/kaggle`). This will take some time and result in three sub folders (`images`, `masks` and `masks_2class`):
 
 ```bash
 # in data/kaggle
 mkdir -p masks masks_2class images
 for i in nifti/*/seg_sa.nii.gz
 do
-    BASE=$(basename (dirname $i))
+    BASE=$(basename $(dirname $i))
     mkdir -p masks/$BASE masks_2class/$BASE
-    echo $i | tee --append mask_conversion.log
-    miconv -noscale -pflip $i masks/$BASE/$BASE.png 2>>mask_conversion.log
+    echo $i
+    miconv -noscale -pflip $i masks/$BASE/$BASE.png
 done
 
 find masks | xargs rename 's/_time/-frame0/;s/_slice(\d+)/sprintf "-slice%03d", $1/e'
@@ -132,14 +132,28 @@ python ../../code/kaggle/from3to2.py
 for i in nifti/*/sa.nii.gz
 do
     BASE=$(basename $(dirname $i))
-    echo $i | tee --append imagePng_conversion.log
-    med2image -i $i -d images/$BASE -o $BASE.png -t png 2>>imagePng_conversion.log
+    echo $i
+    med2image -i $i -d images/$BASE -o $BASE.png -t png
 done
 ```
+
+Two different conversion tools are used for images and masks. The reason is that `med2image` does a good job scaling the grey range but there is no way to disable normalization (like the `-noscale` option in `miconv`) which results in erroneous grey values for masks that lack some classes.
+
+The intermediate step of renaming is to match the filenames of the images and masks. We produce dedicated images with just two (non-background) classes (left ventricle and myocardium) while marking the right ventricle as background. This helps avoid a pre-processing step in further steps as we only want to train models on this two class setting.
 
 ### Evaluating labels by ground truth volume info
 
 The `ukbb_cardiac` network by Bai et al. is trained on homogenous UK Biobank data and not expected to perform well on every patient of the heterogeneous Kaggle data.
+
+We use the ground truth data for the end systolic and end diastolic left ventricular volume as provided by Kaggle to estimate the confidence in the masks of each patient. It is important to note that this estimation solely relies on the LV class at two distinct timepoints. Also the volume information alone does not guarantee segmentation of the correct structure. Still, limited visual inspection showed good correspondence between these confidence values and qualitative segmentation performance.
+
+We define the confidence value as the larger of the absolute deviations between calculated and true volume at end diastole and end systole in percent.
+
+A table with confidence values can be created with this command:
+
+```
+
+```
 
 ### Training own U-Nets on these labels - hyperparameter search
 TODO
