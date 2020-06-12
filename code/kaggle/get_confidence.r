@@ -14,7 +14,10 @@ diff_data <- data %>%
     mutate(dia_diff = LVEDV-Diastole, dia_perc = dia_diff/Diastole) %>%
     mutate(max_abs_perc_diff = pmax(abs(sys_perc),abs(dia_perc)))
 
-diff_data %>% write_tsv("confidence_by_patient.tsv")
+diff_data %>%
+    select(Id,predicted_LVEDV=LVEDV,predicted_LVESV=LVESV,predicted_LVEF=LVEF,true_LVEDV=Diastole,true_LVESV=Systole,true_LVEF=EF,set,sys_diff,sys_perc,dia_diff,dia_perc,confidence=max_abs_perc_diff) %>%
+    mutate(true_LVEF=100*true_LVEF) %>%
+    write_tsv("confidence_by_patient.tsv")
 
 # if there is a rotated version, keep only that one
 all_images %>%
