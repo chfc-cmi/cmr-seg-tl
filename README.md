@@ -2,9 +2,8 @@
 
 This repository supplements the publication [link to be added], it contains the code, models and intermediate results to reproduce and further explore the presented results.
 You can also use everything in this repository for your own research under [MIT License](./LICENSE). Please cite our publication if you do.
-Generated data is available for download at [link to be added].
 
-**Note:** This README reports all the commands necessary to reproduce our results from the raw data. However, if you want to use some intermediate files you do not need to follow all steps but you can find the precalculated data either in this repository or at zenodo [link to be added].
+**Note:** This README reports all the commands necessary to reproduce our results from the raw data. However, if you want to use some intermediate files you do not need to follow all steps but you can find the precalculated data either in this repository or at zenodo [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3876351.svg)](https://doi.org/10.5281/zenodo.3876351).
 
 ## Aim
 
@@ -145,6 +144,10 @@ The intermediate step of renaming is to match the filenames of the images and ma
 
 The last command creates a list of all image files with patient id.
 
+These images and masks are available for download together with the confidence values created in the next section at zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3876351.svg)](https://doi.org/10.5281/zenodo.3876351)
+
+
+
 ### Evaluating labels by ground truth volume info
 
 The `ukbb_cardiac` network by Bai et al. is trained on homogenous UK Biobank data and not expected to perform well on every patient of the heterogeneous Kaggle data.
@@ -153,11 +156,13 @@ We use the ground truth data for the end systolic and end diastolic left ventric
 
 We define the confidence value as the larger of the absolute deviations between calculated and true volume at end diastole and end systole in percent.
 
-A table with confidence values can be created with this command:
+A table with confidence values can be created with this command (in `analysis/kaggle`):
 
+```bash
+Rscript ../../code/kaggle/get_confidence.r
 ```
 
-```
+This will create the two files `confidence_by_patient.tsv` and `image_list_filtered_score.tsv` which are also included in the zenodo archive.
 
 ### Training own U-Nets on these labels - hyperparameter search
 TODO
