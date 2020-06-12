@@ -14,6 +14,8 @@ diff_data <- data %>%
     mutate(dia_diff = LVEDV-Diastole, dia_perc = dia_diff/Diastole) %>%
     mutate(max_abs_perc_diff = pmax(abs(sys_perc),abs(dia_perc)))
 
+diff_data %>% write_tsv("confidence_by_patient.tsv")
+
 # if there is a rotated version, keep only that one
 all_images %>%
     left_join(select(diff_data,Id,pid,score=max_abs_perc_diff,set)) %>%
