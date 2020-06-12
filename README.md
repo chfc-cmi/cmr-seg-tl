@@ -135,11 +135,15 @@ do
     echo $i
     med2image -i $i -d images/$BASE -o $BASE.png -t png
 done
+
+find images -name "*.png" | perl -F"/" -ape '$_="$F[1]\t$_"' | xz >../../analysis/kaggle/image_list.tsv.xz
 ```
 
 Two different conversion tools are used for images and masks. The reason is that `med2image` does a good job scaling the grey range but there is no way to disable normalization (like the `-noscale` option in `miconv`) which results in erroneous grey values for masks that lack some classes.
 
 The intermediate step of renaming is to match the filenames of the images and masks. We produce dedicated images with just two (non-background) classes (left ventricle and myocardium) while marking the right ventricle as background. This helps avoid a pre-processing step in further steps as we only want to train models on this two class setting.
+
+The last command creates a list of all image files with patient id.
 
 ### Evaluating labels by ground truth volume info
 
