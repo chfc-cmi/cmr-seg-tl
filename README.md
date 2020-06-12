@@ -4,6 +4,8 @@ This repository supplements the publication [link to be added], it contains the 
 You can also use everything in this repository for your own research under [MIT License](./LICENSE). Please cite our publication if you do.
 Generated data is available for download at [link to be added].
 
+**Note:** This README reports all the commands necessary to reproduce our results from the raw data. However, if you want to use some intermediate files you do not need to follow all steps but you can find the precalculated data either in this repository or at zenodo [link to be added].
+
 ## Aim
 
 This project aims to provide guidelines, code and data for researchers and clinicians who want to train their own cardiac MR segmentation network.
@@ -80,7 +82,7 @@ Additionally these tables are created in `analysis/kaggle`:
 
 ### Gather metadata and ground truth by patient
 
-```
+```bash
 mkdir -p analysis/kaggle/truth
 cp data/kaggle/raw/{solution,train,validate}.csv analysis/kaggle/truth
 # This command creates the two files: combined_metadata.csv and patient_metadata.csv
@@ -97,7 +99,7 @@ As no ground truth segmentation labels are available we automatically generate t
 
 Source code is available at: https://github.com/baiwenjia/ukbb_cardiac under Apache-2.0 license.
 
-```
+```bash
 # download ukbb_cardiac (from fork so ED frame is determined by volume rather than assumed at frame 1 and for compatibility with tensorflow v2)
 git clone https://github.com/chfc-cmi/ukbb_cardiac ~/ukbb_cardiac
 # make sure to install all dependencies, I recommend a separate conda environment
@@ -110,6 +112,30 @@ python ~/ukbb_cardiac/short_axis/eval_ventricular_volume.py --data_dir . --outpu
 ```
 
 This creates a prediction file `seg_sa.nii.gz` for each patient in the data subfolders. In addition files and predictions for the end systolic (`sa_ES.nii.gz`, `seg_sa_ES.nii.gz`) and end diastolic phase (`sa_ED.nii.gz`, `seg_sa_ED.nii.gz`) are created. Volumes are automatically derived with the last command and stored in [`ukbb_ventricular_volumes.csv`](analysis/kaggle/ukbb_ventricular_volumes.csv).
+
+In order to easily use the data with fastai the images and corresponding created masks need to be converted to png.
+
+```bash
+# in data/kaggle
+mkdir -p masks masks_2class images
+for i in nifti/*/seg_sa.nii.gz
+do
+    BASE=$(basename (dirname $i))
+    mkdir -p masks/$BASE masks_2class/$BASE
+    echo $i | tee --append mask_conversion.log
+    miconv -noscale -pflip $i masks/$BASE/$BASE.png 2>>mask_conversion.log
+done
+
+find masks | xargs rename 's/_time/-frame0/;s/_slice(\d+)/sprintf "-slice%03d", $1/e'
+python ../../code/kaggle/from3to2.py
+
+for i in nifti/*/sa.nii.gz
+do
+    BASE=$(basename $(dirname $i))
+    echo $i | tee --append imagePng_conversion.log
+    med2image -i $i -d images/$BASE -o $BASE.png -t png 2>>imagePng_conversion.log
+done
+```
 
 ### Evaluating labels by ground truth volume info
 
@@ -161,3 +187,7 @@ All calculations on data underlying the data protection terms of the University 
 #### R
  - R 3.6.1
  - tidyverse 1.2.1
+
+#### Other
+ - [med2image](https://github.com/FNNDSC/med2image) 2.0.1
+ - [mitools](http://neuro.debian.net/pkgs/mitools.html) 2.0.3 (miconv)
