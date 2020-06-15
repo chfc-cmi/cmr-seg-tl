@@ -165,7 +165,37 @@ Rscript ../../code/kaggle/get_confidence.r
 This will create the two files `confidence_by_patient.tsv` and `image_list_filtered_score.tsv` which are also included in the zenodo archive.
 
 ### Training own U-Nets on these labels - hyperparameter search
-TODO
+
+Different U-Nets were trained using the `fastai` framework and a range of parameters with regard to:
+ - backbone architecture
+ - data augmentations
+ - image size
+ - input data (confidence sets)
+
+In order to run the following commands (in a sensible time frame) you need access to a machine with a GPU unit. Put your kaggle `images` and `masks_2class` as well as the `image_list.tsv.xz` and `image_list_filtered_score.tsv` in one folder on that machine. There you can run this script with the parameters of your choice. These were the experiments we tried:
+
+```bash
+python train_fastai_segmentation.py --size 256 --bs 32 --confidence 5 --model resnet34 --tfms normal --loss ce
+# Try different models
+python train_fastai_segmentation.py --size 256 --bs 8 --confidence 5 --model resnet50 --tfms normal --loss ce
+python train_fastai_segmentation.py --size 256 --bs 8 --confidence 5 --model vgg16 --tfms normal --loss ce
+# Try different loss functions
+python train_fastai_segmentation.py --size 256 --bs 32 --confidence 5 --model resnet34 --tfms normal --loss focal
+python train_fastai_segmentation.py --size 256 --bs 32 --confidence 5 --model resnet34 --tfms normal --loss softdice
+# Try different confidence sets
+python train_fastai_segmentation.py --size 256 --bs 32 --confidence 10 --model resnet34 --tfms normal --loss ce
+python train_fastai_segmentation.py --size 256 --bs 32 --confidence 15 --model resnet34 --tfms normal --loss ce
+# Try different image size
+python train_fastai_segmentation.py --size 128 --bs 32 --confidence 5 --model resnet34 --tfms normal --loss ce
+# Try different augmentation
+python train_fastai_segmentation.py --size 256 --bs 32 --confidence 5 --model resnet34 --tfms extreme --loss ce
+```
+
+This creates one model per run (+checkpoints) and a `predictions.tsv` file with predicted number of LV and MY pixels for all images.
+
+The `predictions.tsv` files we generated are in `analysis/kaggle/predictions`.
+
+TODO evaluation notebooks with figures
 
 ## Transfer Learning: 7T human cardiac cine MRI
 TODO

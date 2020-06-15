@@ -49,10 +49,10 @@ os.mkdir(name)
 
 get_y_fn = lambda x: str(x).replace("images", "masks_2class")
 
-imgList = pd.read_csv("nifti/image_list_filtered_score.tsv", sep="\t")
+imgList = pd.read_csv("image_list_filtered_score.tsv", sep="\t")
 filteredList = imgList[imgList.score<=confidence_cutoff]
 
-src = (SegmentationItemList.from_df(filteredList,path="nifti",cols="file")
+src = (SegmentationItemList.from_df(filteredList,path=".",cols="file")
        .split_from_df(col='is_val')
        .label_from_func(get_y_fn, classes=np.array(["background","left_ventricle","myocardium"])))
 
@@ -205,7 +205,7 @@ learn.export('model.pkl')
 
 # Make Predictions
 
-fullImgList = pd.read_csv("nifti/image_list.tsv", sep="\t", header=None, names=["pid","file"])
+fullImgList = pd.read_csv("image_list.tsv.xz", sep="\t", header=None, names=["pid","file"])
 
 pixelTable = pd.DataFrame({'file': [], 'lv_pixels': [], 'my_pixels': []})
 for i in tqdm(range(int(fullImgList.shape[0]/10000)+1)):
