@@ -271,7 +271,13 @@ done
 ```
 
 ### Comparsion of plain learning with transfer learning and double transfer learning
-TODO
+
+Use [this notebook](./code/7T/transfer_learning.ipynb) to train three models on this data:
+ - a plain model with random weights (further referred to as `R`)
+ - a model with backbone weights from ImageNet pre-training (further referred to as `TL`)
+ - the model we trained on the kaggle data (`r34_p05_s256` referred to as `base`) (further referred to as `TL2`)
+
+ In addition to the models, also predictions on all images for all models (`R`, `TL`, `TL2` and `base`) are generated as images (raw: as probabilities in the color channels and discretized as masks).
 
 ### Assessing data requirements: training with subsets
 TODO
