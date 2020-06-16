@@ -213,7 +213,27 @@ Detailed evaluations and figures are in this notebook: [`code/kaggle/compare_pre
  The resnet34 backbone on the 5% confidence set, image size 256, cross entropy loass and normal transformation has lowest mean absolute difference.  When applied on the images with `Rows<Columns` (unrotated) however, the model with extreme transformations clearly outperforms all other models.
 
 ## Transfer Learning: 7T human cardiac cine MRI
-TODO
+
+This section describes all the computational steps required to perform transfer learning on your own data. In our case it was CINE images acquired at 7T. Ethics approval for this study was granted by the local ethics commitee (University Hospital Würzburg, 7/17-SC) and written informed consent from all participants was obtained. Unfortunately, we are not allowed to share the acquired images data due to data protection and privacy regulations.
+
+### Data preparation
+
+#### Images
+
+#### Masks
+
+The manual segmentation was performed using `QMass` from the [Medis Suite](https://medisimaging.com/apps/lv-rv-function/) (version TODO). The endocardial and epicardial contours were drawn for all slices and timepoints. For each volunteer the contours were then exported as one `.con` file.
+
+To convert the `.con` files to `.png` images the following steps were applied with all `.con` files in `data/7T/contours/original`:
+
+```bash
+# in data/7T/contours
+bash ../../../code/7T/con_to_png.sh
+```
+
+This converts each con file into a tsv and then creates png files from these. It also creates a `resolution.tsv` file and black png files with proper dimensions. These are later used to fill slices and timepoints with empty masks if they are not part of the con files.
+
+
 
 ### Comparsion of plain learning with transfer learning and double transfer learning
 TODO
@@ -263,3 +283,4 @@ All calculations on data underlying the data protection terms of the University 
 #### Other
  - [med2image](https://github.com/FNNDSC/med2image) 2.0.1
  - [mitools](http://neuro.debian.net/pkgs/mitools.html) 2.0.3 (miconv)
+ - dos2unix 7.4.0
