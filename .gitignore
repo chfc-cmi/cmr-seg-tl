@@ -4,6 +4,7 @@ data/kaggle/nifti
 data/kaggle/images
 data/kaggle/masks
 data/kaggle/masks_2class
+data/7T
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
