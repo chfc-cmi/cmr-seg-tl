@@ -195,7 +195,22 @@ This creates one model per run (+checkpoints) and a `predictions.tsv` file with 
 
 The `predictions.tsv` files we generated are in `analysis/kaggle/predictions`.
 
-TODO evaluation notebooks with figures
+Detailed evaluations and figures are in this notebook: [`code/kaggle/compare_predictions.ipynb`](./code/kaggle/compare_predictions.ipynb). An important result from that evaluation is this table of absolute differences in ejection fraction (EF) between predictions and truth:
+
+| method | mean | sd | median | iqr |
+|--------|-----:|---:|-------:|----:|
+| r34_p05_s256 | 3.64 | 3.38 | 2.87 | 3.72 |
+| r50_p05_s256 | 3.71|3.73|2.79|3.70|
+| r34_p15_s256 | 3.73|3.38|2.91|3.72|
+| r34_p05_s256_focal | 3.75|3.90|2.86|3.80|
+| r34_p10_s256 | 3.77|4.44|2.89|3.76|
+| r34_p05_s256_extremeTfms | 3.78|3.59|2.89|3.64|
+| r34_p05_s128 | 3.90|4.26|3.05|3.86|
+| r34_p05_s256_dice | 3.93|3.43|3.07|3.91|
+| v16_p05_s256 | 4.06|4.94|3.02|3.87|
+| UKBB | 5.42|8.83|3.72|4.34|
+
+ The resnet34 backbone on the 5% confidence set, image size 256, cross entropy loass and normal transformation has lowest mean absolute difference.  When applied on the images with `Rows<Columns` (unrotated) however, the model with extreme transformations clearly outperforms all other models.
 
 ## Transfer Learning: 7T human cardiac cine MRI
 TODO
@@ -236,10 +251,14 @@ All calculations on data underlying the data protection terms of the University 
  - scikit-image 0.16.2
  - tqdm 4.46.0
  - ukbb_cardiac v2.0 (dependencies incl. tensorflow 2.1.0 installed in a separate conda env)
+ - pytorch 1.4.0
+ - fastai 1.0.60
 
 #### R
  - R 3.6.1
  - tidyverse 1.2.1
+ - patchwork 1.0.0
+ - ggfortify 0.4.10
 
 #### Other
  - [med2image](https://github.com/FNNDSC/med2image) 2.0.1
