@@ -220,6 +220,13 @@ This section describes all the computational steps required to perform transfer 
 
 #### Images
 
+All dicom files for the short axis cine are stored in `data/7T/dicom` with sub directories for each volunteer. These dicom files were converted into consistently named png files using this code:
+
+```bash
+# in data/7T/images
+bash ../../../code/7T/dcm2png.sh
+```
+
 #### Masks
 
 The manual segmentation was performed using `QMass` from the [Medis Suite](https://medisimaging.com/apps/lv-rv-function/) (version TODO). The endocardial and epicardial contours were drawn for all slices and timepoints. For each volunteer the contours were then exported as one `.con` file.
@@ -231,9 +238,37 @@ To convert the `.con` files to `.png` images the following steps were applied wi
 bash ../../../code/7T/con_to_png.sh
 ```
 
-This converts each con file into a tsv and then creates png files from these. It also creates a `resolution.tsv` file and black png files with proper dimensions. These are later used to fill slices and timepoints with empty masks if they are not part of the con files.
+This converts each con file into a tsv and then creates png files from these. It also creates a `resolution.tsv` file and black png files with proper dimensions. These are used to fill slices and timepoints with empty masks if they are not part of the con files:
 
+```bash
+ls masks | grep "\-mask" | cut -f1 -d"-" >masklist
+ls images | cut -f1 -d"-" >imagelist
 
+for i in $(cat imagelist masklist | sort | uniq -u)
+do
+    COL=$(grep -w $(echo $i | cut -c1,2) contours/resolution.tsv | cut -f2)
+    cp masks/empty_${COL}x*.png masks/$i-mask.png
+done
+
+rm masklist imagelist
+```
+
+In our case a second expert labeled some of the volunteers again, independently. These labels are used to assess interobserver variability. The same steps for conversion from con files to png need to be repeated.
+
+#### Split into training, validation and test set
+
+The test set was chosen as those volunteers labeled by both experts (ids 26, 27 and 28). Five of the remaining 19 volunteers were selected for the validation set, randomly:
+
+```bash
+# in data/7T
+mkdir -p {masks,images}/{train,test,val}
+for i in images masks
+do
+	mv $i/{26,27,28}_*.png $i/test
+	mv $i/{30,36,19,42,35}_*.png $i/val
+	mv $i/*-*.png $i/train
+done
+```
 
 ### Comparsion of plain learning with transfer learning and double transfer learning
 TODO
