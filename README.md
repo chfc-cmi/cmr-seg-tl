@@ -272,7 +272,22 @@ do
 done
 ```
 
-### Comparsion of plain learning with transfer learning and double transfer learning
+A table with pixel counts per class [pixel_counts_by_class.tsv](./analysis/7T/pixel_counts_by_class.tsv) can be generated with:
+
+```bash
+python code/7T/count_classes_in_masks.py
+```
+
+This can be used to determine end-systolic and end-diastolic phases.
+To further sub-divide the training set into smaller sub-sets for data requirement determination run this command:
+
+```bash
+Rscript code/7T/create_subset_table.r
+```
+
+it creates the two files [esed_frames.tsv](./analysis/7T/esed_frames.tsv) and [image_subsets.tsv](./analysis/7T/image_subsets.tsv) in `analysis/7T`.
+
+### Train networks with plain learning, transfer learning, and double transfer learning
 
 Use [this notebook](./code/7T/transfer_learning.ipynb) to train three models on this data:
  - a plain model with random weights (further referred to as `R`)
@@ -282,7 +297,21 @@ Use [this notebook](./code/7T/transfer_learning.ipynb) to train three models on 
  In addition to the models, also predictions on all images for all models (`R`, `TL`, `TL2` and `base`) are generated as images (raw: as probabilities in the color channels and discretized as masks).
 
 ### Assessing data requirements: training with subsets
-TODO
+
+With the [image_subsets.tsv](./analysis/7T/image_subsets.tsv) file in the same folder as the images and masks you can run training with the defined subsets like this:
+
+```bash
+python segmentation_with_reduced_set.py --set v7                  
+python segmentation_with_reduced_set.py --set r7                              
+python segmentation_with_reduced_set.py --set v3
+python segmentation_with_reduced_set.py --set r3
+python segmentation_with_reduced_set.py --set v1
+python segmentation_with_reduced_set.py --set r1
+python segmentation_with_reduced_set.py --set esed
+python segmentation_with_reduced_set.py --set r_esed
+# make full predictions on all images
+python full_prediction_reduced_sets.py
+```
 
 ### Exploration of predictions
 TODO
