@@ -212,6 +212,8 @@ Detailed evaluations and figures are in this notebook: [`code/kaggle/compare_pre
 
  The resnet34 backbone on the 5% confidence set, image size 256, cross entropy loass and normal transformation has lowest mean absolute difference.  When applied on the images with `Rows<Columns` (unrotated) however, the model with extreme transformations clearly outperforms all other models.
 
+ The final model with extreme transforms was uploaded as part of the preliminary release as it is too large to be included in the repository: https://github.com/chfc-cmi/cmr-seg-tl/releases/download/v0.1.0/resnet34_5percent_size256_extremeTfms_ceLoss.pkl
+
 ## Transfer Learning: 7T human cardiac cine MRI
 
 This section describes all the computational steps required to perform transfer learning on your own data. In our case it was CINE images acquired at 7T. Ethics approval for this study was granted by the local ethics commitee (University Hospital Würzburg, 7/17-SC) and written informed consent from all participants was obtained. Unfortunately, we are not allowed to share the acquired images data due to data protection and privacy regulations.
