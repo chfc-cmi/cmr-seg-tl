@@ -314,7 +314,16 @@ python full_prediction_reduced_sets.py
 ```
 
 Again in addition to the models, predictions on all images for all models are generated in accordingly named subfolders of `preds`. Furthermore, logs of the training process with validation performance after each epoch are written.
-These are collected into one tsv file using this command: TODO
+These are collected into one tsv file using this command:
+
+```bash
+# in data/7T/images
+echo epoch,train_loss,valid_loss,acc_seg,diceComb,diceLV,diceMY,time,model >../../../analysis/7T/train_log_combined.csv
+for i in *_log.csv
+do
+  perl -ne 'BEGIN{$l=0}chomp;s/^\d+,/$l,/;unless(/n/){print "$_,'$(basename $i _log.csv)'\n";$l++}' $i >>../../../analysis/7T/train_log_combined.csv
+done
+```
 
 ### Exploration of predictions
 
@@ -328,8 +337,21 @@ python code/7T/predict_pngs_ukbbCardiac.py
 The consistently scaled masks (manually created and predicted using the different models) can be used to calculate pair-wise confusion matrices (per-image):
 
 ```bash
-
+CODE=../../code/7T
+OUT=../../analysis/7T/confusion_tables
+mkdir -p $OUT
+# in data/7T
+python $CODE/confusion_matrix.py scaled_masks preds/plainLearn $OUT/confusion_WS_plainLearn.tsv
+python $CODE/confusion_matrix.py scaled_masks preds/imagenetTransferLearn $OUT/confusion_WS_imagenetTransferLearn.tsv
+python $CODE/confusion_matrix.py scaled_masks preds/baseModel $OUT/confusion_WS_base.tsv
+python $CODE/confusion_matrix.py scaled_masks preds/doubleTransferLearn $OUT/confusion_WS_doubleTransferLearn.tsv
+python $CODE/confusion_matrix.py scaled_masks preds/doubleTransferLearn_esed $OUT/confusion_WS_doubleTL-esed.tsv
+python $CODE/confusion_matrix.py scaled_masks scaled_masks_TR $OUT/confusion_WS_TR.tsv
+python $CODE/confusion_matrix.py scaled_masks ukbb_preds_3class $OUT/confusion_WS_ukbbCardiac.tsv
+python $CODE/confusion_matrix.py scaled_masks_TR preds/doubleTransferLearn $OUT/confusion_TR_doubleTransferLearn.tsv
 ```
+
+These confusion tables are included in the repository.
 
 ## Requirements
 A list of required programs and packages. The listed version is the one used for our analysis (older or newer versions might work but are untested).
