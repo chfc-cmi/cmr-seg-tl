@@ -294,7 +294,7 @@ Use [this notebook](./code/7T/transfer_learning.ipynb) to train three models on 
  - a model with backbone weights from ImageNet pre-training (further referred to as `TL`)
  - the model we trained on the kaggle data (`r34_p05_s256` referred to as `base`) (further referred to as `TL2`)
 
- In addition to the models, also predictions on all images for all models (`R`, `TL`, `TL2` and `base`) are generated as images (raw: as probabilities in the color channels and discretized as masks).
+In addition to the models, also predictions on all images for all models (`R`, `TL`, `TL2` and `base`) are generated as images (raw: as probabilities in the color channels and discretized as masks).
 
 ### Assessing data requirements: training with subsets
 
@@ -313,8 +313,23 @@ python segmentation_with_reduced_set.py --set r_esed
 python full_prediction_reduced_sets.py
 ```
 
+Again in addition to the models, predictions on all images for all models are generated in accordingly named subfolders of `preds`. Furthermore, logs of the training process with validation performance after each epoch are written.
+These are collected into one tsv file using this command: TODO
+
 ### Exploration of predictions
-TODO
+
+For detailed exploration and comparison of predictions (with pixel resolution) consistently downscaled versions of the original images and masks as well as full predictions using `ukbb_cardiac` on these are generated with:
+
+```bash
+python code/7T/rescale_images_masks.py
+python code/7T/predict_pngs_ukbbCardiac.py
+```
+
+The consistently scaled masks (manually created and predicted using the different models) can be used to calculate pair-wise confusion matrices (per-image):
+
+```bash
+
+```
 
 ## Requirements
 A list of required programs and packages. The listed version is the one used for our analysis (older or newer versions might work but are untested).
