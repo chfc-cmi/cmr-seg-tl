@@ -370,6 +370,14 @@ python $CODE/confusion_matrix.py scaled_masks_TR preds/doubleTransferLearn $OUT/
 
 These confusion tables are included in the repository.
 
+#### Analysis notebooks
+
+These notebooks can be used to analyse the data. Except for the last one they only use the derived data included in the repository. So you can use them to reproduce our results and analyze them in more detail. The last notebook can be used with your own data to inspect specific predictions in comparison to ground truth:
+
+- [compare_predictions.ipynb](./code/7T/compare_predictions.ipynb) - analysis of the image-wise predictions of the different models
+- [tl_performance.ipynb](./code/7T/tl_performance.ipynb) - analysis of performance throughout training on the validation set, comparison of subsets
+- [image_overlay.ipynb](./code/7T/image_overlay.ipynb) - overlay of predictions on images and ground truth
+
 ## Requirements
 A list of required programs and packages. The listed version is the one used for our analysis (older or newer versions might work but are untested).
 
@@ -399,6 +407,7 @@ All calculations on data underlying the data protection terms of the University 
  - ukbb_cardiac v2.0 (dependencies incl. tensorflow 2.1.0 installed in a separate conda env)
  - pytorch 1.4.0
  - fastai 1.0.60
+ - seaborn 0.10.1
 
 #### R
  - R 3.6.1
