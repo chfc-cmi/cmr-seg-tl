@@ -1,7 +1,24 @@
 # Knowledge Transfer and Transfer Learning for Cardiac Image Segmentation
 
-This repository supplements the publication [link to be added], it contains the code, models and intermediate results to reproduce and further explore the presented results.
-You can also use everything in this repository for your own research under [MIT License](./LICENSE). Please cite our publication if you do.
+This repository supplements the publication [*A Deep Learning Based Cardiac Cine Segmentation Framework for Clinicians - Transfer Learning Application to 7T*](https://doi.org/10.1101/2020.06.15.20131656 ), it contains the code, models and intermediate results to reproduce and further explore the presented results.
+You can also use everything in this repository for your own research under [MIT License](./LICENSE). Please cite our publication if you do:
+>  A Deep Learning Based Cardiac Cine Segmentation Framework for Clinicians - Transfer Learning Application to 7T
+Markus J Ankenbrand, David Lohr, Wiebke Schlötelburg, Theresa Reiter, Tobias Wech, Laura Maria Schreiber
+medRxiv 2020.06.15.20131656; doi: https://doi.org/10.1101/2020.06.15.20131656 
+
+```BibTeX
+@article {Ankenbrand2020.06.15.20131656,
+	author = {Ankenbrand, Markus J and Lohr, David and Schl{\"o}telburg, Wiebke and Reiter, Theresa and Wech, Tobias and Schreiber, Laura Maria},
+	title = {A Deep Learning Based Cardiac Cine Segmentation Framework for Clinicians - Transfer Learning Application to 7T},
+	elocation-id = {2020.06.15.20131656},
+	year = {2020},
+	doi = {10.1101/2020.06.15.20131656},
+	publisher = {Cold Spring Harbor Laboratory Press},
+	URL = {https://www.medrxiv.org/content/early/2020/06/17/2020.06.15.20131656},
+	eprint = {https://www.medrxiv.org/content/early/2020/06/17/2020.06.15.20131656.full.pdf},
+	journal = {medRxiv}
+}
+```
 
 **Note:** This README reports all the commands necessary to reproduce our results from the raw data. However, if you want to use some intermediate files you do not need to follow all steps but you can find the precalculated data either in this repository or at zenodo [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3876351.svg)](https://doi.org/10.5281/zenodo.3876351).
 
