@@ -22,6 +22,35 @@ medRxiv 2020.06.15.20131656; doi: https://doi.org/10.1101/2020.06.15.20131656
 
 **Note:** This README reports all the commands necessary to reproduce our results from the raw data. However, if you want to use some intermediate files you do not need to follow all steps but you can find the precalculated data either in this repository or at zenodo [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3876351.svg)](https://doi.org/10.5281/zenodo.3876351).
 
+<!-- TOC -->
+
+- [Knowledge Transfer and Transfer Learning for Cardiac Image Segmentation](#knowledge-transfer-and-transfer-learning-for-cardiac-image-segmentation)
+    - [Aim](#aim)
+    - [Overview](#overview)
+    - [Data Science Bowl Cardiac Challenge Data](#data-science-bowl-cardiac-challenge-data)
+        - [Data curation and conversion](#data-curation-and-conversion)
+        - [Gather metadata and ground truth by patient](#gather-metadata-and-ground-truth-by-patient)
+        - [Creating labels with `ukbb_cardiac` by Bai et al.](#creating-labels-with-ukbb_cardiac-by-bai-et-al)
+        - [Evaluating labels by ground truth volume info](#evaluating-labels-by-ground-truth-volume-info)
+        - [Training own U-Nets on these labels - hyperparameter search](#training-own-u-nets-on-these-labels---hyperparameter-search)
+    - [Transfer Learning: 7T human cardiac cine MRI](#transfer-learning-7t-human-cardiac-cine-mri)
+        - [Data preparation](#data-preparation)
+            - [Images](#images)
+            - [Masks](#masks)
+            - [Split into training, validation and test set](#split-into-training-validation-and-test-set)
+        - [Train networks with plain learning, transfer learning, and double transfer learning](#train-networks-with-plain-learning-transfer-learning-and-double-transfer-learning)
+        - [Assessing data requirements: training with subsets](#assessing-data-requirements-training-with-subsets)
+        - [Exploration of predictions](#exploration-of-predictions)
+            - [Analysis notebooks](#analysis-notebooks)
+    - [Requirements](#requirements)
+        - [Hardware](#hardware)
+        - [Software](#software)
+            - [Python](#python)
+            - [R](#r)
+            - [Other](#other)
+
+<!-- /TOC -->
+
 ## Aim
 
 This project aims to provide guidelines, code and data for researchers and clinicians who want to train their own cardiac MR segmentation network.
