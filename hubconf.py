@@ -13,6 +13,6 @@ def cmr_seg_base(**kwargs):
     # Call the model, load pretrained weights
     url = "https://github.com/chfc-cmi/cmr-seg-tl/releases/download/v0.1.0/resnet34_5percent_size256_extremeTfms_ceLoss.pkl"
     dst = tempfile.NamedTemporaryFile()
-    torch.hub.download_url_to_file(url,dst,progress=False)
+    torch.hub.download_url_to_file(url,dst.name,progress=False)
     model = load_learner(path=tempfile.gettempdir(),file=dst.name,tfm_y=False)
     return model
