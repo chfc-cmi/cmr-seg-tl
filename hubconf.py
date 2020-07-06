@@ -14,7 +14,7 @@ def cmr_seg_base(**kwargs):
         target = target.squeeze(1)
         return (input.argmax(dim=1)==target).float().mean()
 
-    def multi_dice(input:Tensor, targs:Tensor, class_id=0, inverse=False)->Rank0Tensor:
+    def multi_dice(input, targs, class_id=0, inverse=False):
         n = targs.shape[0]
         input = input.argmax(dim=1).view(n,-1)
         # replace all with class_id with 1 all else with 0 to have binary case
