@@ -256,9 +256,15 @@ Detailed evaluations and figures are in this notebook: [`code/kaggle/compare_pre
 | v16_p05_s256 | 4.06|4.94|3.02|3.87|
 | UKBB | 5.42|8.83|3.72|4.34|
 
- The resnet34 backbone on the 5% confidence set, image size 256, cross entropy loass and normal transformation has lowest mean absolute difference.  When applied on the images with `Rows<Columns` (unrotated) however, the model with extreme transformations clearly outperforms all other models.
+The resnet34 backbone on the 5% confidence set, image size 256, cross entropy loass and normal transformation has lowest mean absolute difference.  When applied on the images with `Rows<Columns` (unrotated) however, the model with extreme transformations clearly outperforms all other models.
 
- The final model with extreme transforms was uploaded as part of the preliminary release as it is too large to be included in the repository: https://github.com/chfc-cmi/cmr-seg-tl/releases/download/v0.1.0/resnet34_5percent_size256_extremeTfms_ceLoss.pkl
+The final model with extreme transforms was uploaded as part of the preliminary release as it is too large to be included in the repository: https://github.com/chfc-cmi/cmr-seg-tl/releases/download/v0.1.0/resnet34_5percent_size256_extremeTfms_ceLoss.pkl
+
+You can get the pretrained model as a fastai (v1) learner with a single command using torch hub:
+
+```python
+model = torch.hub.load("chfc-cmi/cmr-seg-tl","cmr_seg_base")
+```
 
 ## Transfer Learning: 7T human cardiac cine MRI
 
