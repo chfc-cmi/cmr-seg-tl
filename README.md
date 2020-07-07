@@ -264,6 +264,8 @@ You can get the pretrained model as a fastai (v1) learner with a single command 
 
 ```python
 model = torch.hub.load("chfc-cmi/cmr-seg-tl","cmr_seg_base")
+# alternatively download the pkl file and load it manually
+model = fastai.vision.load_learner(path=".", file="resnet34_5percent_size256_extremeTfms_ceLoss.pkl", tfm_y=False)
 ```
 
 ## Transfer Learning: 7T human cardiac cine MRI
