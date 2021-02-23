@@ -210,6 +210,14 @@ Rscript ../../code/kaggle/get_confidence.r
 
 This will create the two files `confidence_by_patient.tsv` and `image_list_filtered_score.tsv` which are also included in the zenodo archive.
 
+An excellent point was raised by an anonymous reviewer (paraphrased):
+
+> There might be systematic differences between the confidence sets (e.g. underrepresentation of extrem EF values in the high confidence sets).
+> Minimally, the statistics of the volume and EF results for the sub-cohorts should be reported.
+
+The sub-cohorts are further analyzed for any systematic differences in [confidence_set_info.ipynb](./code/kaggle/confidence_set_info.ipynb).
+
+
 ### Training own U-Nets on these labels - hyperparameter search
 
 Different U-Nets were trained using the `fastai` framework and a range of parameters with regard to:
@@ -256,7 +264,7 @@ Detailed evaluations and figures are in this notebook: [`code/kaggle/compare_pre
 | v16_p05_s256 | 4.06|4.94|3.02|3.87|
 | UKBB | 5.42|8.83|3.72|4.34|
 
-The resnet34 backbone on the 5% confidence set, image size 256, cross entropy loass and normal transformation has lowest mean absolute difference.  When applied on the images with `Rows<Columns` (unrotated) however, the model with extreme transformations clearly outperforms all other models.
+The resnet34 backbone on the 5% confidence set, image size 256, cross entropy loss and normal transformation has lowest mean absolute difference.  When applied on the images with `Rows<Columns` (unrotated) however, the model with extreme transformations clearly outperforms all other models.
 
 The final model with extreme transforms was uploaded as part of the preliminary release as it is too large to be included in the repository: https://github.com/chfc-cmi/cmr-seg-tl/releases/download/v0.1.0/resnet34_5percent_size256_extremeTfms_ceLoss.pkl
 
@@ -267,6 +275,12 @@ model = torch.hub.load("chfc-cmi/cmr-seg-tl","cmr_seg_base")
 # alternatively download the pkl file and load it manually
 model = fastai.vision.load_learner(path=".", file="resnet34_5percent_size256_extremeTfms_ceLoss.pkl", tfm_y=False)
 ```
+
+An excellent point was raised by an anonymous reviewer (paraphrased):
+
+> Using EF to evaluate prediction performance might be problematic as errors in systolic and diastolic volume might cancel out and produce good EF estimates.
+
+We further investigated this phenomenon and found that good EF estimates despite wrong volumes occur rather rarely: [good_ef_bad_volumes.ipynb](./code/kaggle/good_ef_bad_volumes.ipynb).
 
 ## Transfer Learning: 7T human cardiac cine MRI
 
