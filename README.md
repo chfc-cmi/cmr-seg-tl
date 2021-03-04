@@ -217,6 +217,11 @@ An excellent point was raised by an anonymous reviewer (paraphrased):
 
 The sub-cohorts are further analyzed for any systematic differences in [confidence_set_info.ipynb](./code/kaggle/confidence_set_info.ipynb).
 
+### Evaluating labels by manual annotations
+
+In addition to the ground truth volume information we manually labeled 816 images from 9 patients to do a more detailed quality evaluation.
+The manually created masks are stored in [data/kaggle/manual/own_masks](data/kaggle/manual/own_masks).
+Derived volumes and comparison with ukbb_cardiac masks was performed in: [compare_manual_contours.ipynb](code/kaggle/compare_manual_contours.ipynb).
 
 ### Training own U-Nets on these labels - hyperparameter search
 
