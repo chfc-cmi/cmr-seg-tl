@@ -1,5 +1,6 @@
 # Data folders
 data/kaggle/raw
+data/kaggle/manual
 data/kaggle/nifti
 data/kaggle/images
 data/kaggle/masks
