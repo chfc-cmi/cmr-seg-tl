@@ -1,6 +1,6 @@
 # Knowledge Transfer and Transfer Learning for Cardiac Image Segmentation
 
-This repository supplements the publication [*A Deep Learning Based Cardiac Cine Segmentation Framework for Clinicians - Transfer Learning Application to 7T*](https://doi.org/10.1101/2020.06.15.20131656 ), it contains the code, models and intermediate results to reproduce and further explore the presented results.
+This repository supplements the publication [*Deep learning-based cardiac cine segmentation: Transfer learning application to 7T ultrahigh-field MRI*](https://doi.org/10.1002/mrm.28822 ), it contains the code, models and intermediate results to reproduce and further explore the presented results.
 You can also use everything in this repository for your own research under [MIT License](./LICENSE). Please cite our publication if you do:
 >  A Deep Learning Based Cardiac Cine Segmentation Framework for Clinicians - Transfer Learning Application to 7T
 Markus J Ankenbrand, David Lohr, Wiebke Schlötelburg, Theresa Reiter, Tobias Wech, Laura Maria Schreiber
@@ -9,14 +9,11 @@ medRxiv 2020.06.15.20131656; doi: https://doi.org/10.1101/2020.06.15.20131656
 ```BibTeX
 @article {Ankenbrand2020.06.15.20131656,
 	author = {Ankenbrand, Markus J and Lohr, David and Schl{\"o}telburg, Wiebke and Reiter, Theresa and Wech, Tobias and Schreiber, Laura Maria},
-	title = {A Deep Learning Based Cardiac Cine Segmentation Framework for Clinicians - Transfer Learning Application to 7T},
-	elocation-id = {2020.06.15.20131656},
-	year = {2020},
-	doi = {10.1101/2020.06.15.20131656},
-	publisher = {Cold Spring Harbor Laboratory Press},
-	URL = {https://www.medrxiv.org/content/early/2020/06/17/2020.06.15.20131656},
-	eprint = {https://www.medrxiv.org/content/early/2020/06/17/2020.06.15.20131656.full.pdf},
-	journal = {medRxiv}
+	title = {Deep learning-based cardiac cine segmentation: Transfer learning application to 7T ultrahigh-field MRI},
+	year = {2021},
+	doi = {10.1002/mrm.28822},
+	URL = {https://onlinelibrary.wiley.com/doi/10.1002/mrm.28822},
+	journal = {Magnetic Resonance in Medicine}
 }
 ```
 
