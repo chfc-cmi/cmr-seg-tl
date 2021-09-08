@@ -75,6 +75,9 @@ If you want to reproduce our results, download and unpack the kaggle images to `
 mkdir -p data/kaggle/raw
 cd data/kaggle/raw
 kaggle competitions download second-annual-data-science-bowl
+# check sha512 with
+#sha512sum second-annual-data-science-bowl.zip
+# the correct sum is: 8f300c116885b2c0d29d8a32a6ad010ac9aee69869ea9048384034258d83410c98a7307195afeded3919ed17bfd16fc19db9147e8a5bf05760f1d3a043f60eb9
 unzip second-annual-data-science-bowl.zip
 rm second-annual-data-science-bowl.zip
 ```
