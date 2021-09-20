@@ -2,9 +2,7 @@
 
 This repository supplements the publication [*Deep learning-based cardiac cine segmentation: Transfer learning application to 7T ultrahigh-field MRI*](https://doi.org/10.1002/mrm.28822 ), it contains the code, models and intermediate results to reproduce and further explore the presented results.
 You can also use everything in this repository for your own research under [MIT License](./LICENSE). Please cite our publication if you do:
->  A Deep Learning Based Cardiac Cine Segmentation Framework for Clinicians - Transfer Learning Application to 7T
-Markus J Ankenbrand, David Lohr, Wiebke Schlötelburg, Theresa Reiter, Tobias Wech, Laura Maria Schreiber
-medRxiv 2020.06.15.20131656; doi: https://doi.org/10.1101/2020.06.15.20131656 
+>   Ankenbrand, MJ, Lohr, D, Schlötelburg, W, Reiter, T, Wech, T, Schreiber, LM. Deep learning-based cardiac cine segmentation: Transfer learning application to 7T ultrahigh-field MRI. Magn Reson Med. 2021; 86: 2179– 2191. https://doi.org/10.1002/mrm.28822 
 
 ```BibTeX
 @article {Ankenbrand2020.06.15.20131656,

@@ -1,0 +1,68 @@
+cff-version: 1.2.0
+message: If you use this software, please cite both the software and the paper (see preferred-citation).
+authors:
+  - family-names: Ankenbrand
+    given-names: "Markus J"
+    orcid: 0000-0002-6620-807X
+    affiliation: "Chair for Cellular and Molecular Imaging, Comprehensive Heart Failure Center, University Hospital Würzburg, Germany"
+    email: markus.ankenbrand@uni-wuerzburg.de
+  - family-names: Lohr
+    given-names: David
+    orcid: 0000-0002-6509-3776
+    affiliation: "Chair for Cellular and Molecular Imaging, Comprehensive Heart Failure Center, University Hospital Würzburg, Germany"
+  - family-names: Schlötelburg
+    given-names: Wiebke
+    affiliation:
+    - "Chair for Cellular and Molecular Imaging, Comprehensive Heart Failure Center, University Hospital Würzburg, Germany"
+    - "Department of Radiology, University Hospital Würzburg, Germany"
+  - family-names: Reiter
+    given-names: Theresa
+    orcid: 0000-0001-8324-1560
+    affiliation:
+    - "Chair for Cellular and Molecular Imaging, Comprehensive Heart Failure Center, University Hospital Würzburg, Germany"
+    - "Department of Internal Medicine I, University Hospital Würzburg, Germany"
+  - family-names: Wech
+    given-names: Tobias
+    orcid: 0000-0002-2813-7100
+    affiliation: "Department of Radiology, University Hospital Würzburg, Germany"
+  - family-names: Schreiber
+    given-names: "Laura M"
+    orcid: 0000-0002-8827-1838
+    affiliation: "Chair for Cellular and Molecular Imaging, Comprehensive Heart Failure Center, University Hospital Würzburg, Germany"
+title: Knowledge Transfer and Transfer Learning for Cardiac Image Segmentation
+version: 1.0.0
+doi: 10.5281/zenodo.3876351
+date-released: 2020-06-04
+repository-code: https://github.com/chfc-cmi/cmr-seg-tl
+keywords:
+  - Deep Learning
+  - Neural Networks
+  - Cardiac Magnetic Resonance
+  - Transfer Learning
+  - Segmentation
+  - Ultrahigh-field MRI
+license: MIT
+url: https://chfc-cmi.github.io/misas/
+preferred-citation:
+  type: article
+  scope: Cite this paper if you used data or code from this repository in your research
+  authors:
+    - family-names: Ankenbrand
+      given-names: Markus J
+    - family-names: Lohr
+      given-names: David
+    - family-names: Schlötelburg
+      given-names: Wiebke
+    - family-names: Reiter
+      given-names: Theresa
+    - family-names: Wech
+      given-names: Tobias
+    - family-names: Schreiber
+      given-names: Laura M
+  title: "Deep learning-based cardiac cine segmentation: Transfer learning application to 7T ultrahigh-field MRI"
+  year: 2021
+  journal: Magnetic Resonance in Medicine
+  volume: 86
+  pages: "2179– 2191"
+  doi: 10.1002/mrm.28822
+  url: https://onlinelibrary.wiley.com/doi/10.1002/mrm.28822
