@@ -43,7 +43,7 @@ def diceLV(input:Tensor, targs:Tensor):
 def diceMY(input:Tensor, targs:Tensor):
     return multi_dice(input, targs, class_id=2)
 
-learn = unet_learner(dls, resnet34, metrics=[acc_seg,dice0inv,dice1,dice2], cbs=[CSVLogger(append=True)], path='fastai2')
+learn = unet_learner(dls, resnet34, metrics=[acc_seg,diceComb,diceLV,diceMY], cbs=[CSVLogger(append=True)], path='fastai2')
 
 lr=1e-4
 learn.freeze()
