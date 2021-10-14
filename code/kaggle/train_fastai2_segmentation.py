@@ -7,10 +7,13 @@ import pandas as pd
 imgList = pd.read_csv("../../analysis/kaggle/image_list_filtered_score.tsv", sep="\t")
 filteredList = imgList[imgList.score<=.05]
 
+def label_func(x):
+    return str(x['file']).replace("images", "../../data/data/masks_2class")
+
 heart = DataBlock(blocks=(ImageBlock, MaskBlock(codes = np.array(["background","left_ventricle","myocardium"]))),
     get_x=ColReader('file', pref="../../data/data/"),
     splitter=ColSplitter('is_val'),
-    get_y=lambda x: str(x['file']).replace("images", "../../data/data/masks_2class"),
+    get_y=label_func,
     item_tfms=Resize(256, method='pad', pad_mode='zeros'),
     batch_tfms=aug_transforms(do_flip=True,max_rotate=90,max_lighting=.4,max_zoom=1.2))
 
@@ -47,9 +50,18 @@ learn = unet_learner(dls, resnet34, metrics=[acc_seg,diceComb,diceLV,diceMY], cb
 
 lr=1e-4
 learn.freeze()
-learn.fit_one_cycle(30, lr)
+learn.fit_one_cycle(5, lr)
+learn.export('model-frozen-5.pkl')
+learn.fit_one_cycle(10, lr)
+learn.export('model-frozen-15.pkl')
+learn.fit_one_cycle(15, lr)
+learn.export('model-frozen-30.pkl')
 learn.unfreeze()
 lr=1e-5
-learn.fit_one_cycle(30, lr)
+learn.fit_one_cycle(5, lr)
+learn.export('model-unfrozen-5.pkl')
+learn.fit_one_cycle(10, lr)
+learn.export('model-unfrozen-15.pkl')
+learn.fit_one_cycle(15, lr)
+learn.export('model-unfrozen-30.pkl')
 
-learn.export('model.pkl')
