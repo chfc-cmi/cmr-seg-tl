@@ -48,20 +48,25 @@ def diceMY(input:Tensor, targs:Tensor):
 
 learn = unet_learner(dls, resnet34, metrics=[acc_seg,diceComb,diceLV,diceMY], cbs=[CSVLogger(append=True)], path='fastai2')
 
+def saveModel(learn, name):
+    learn.remove_cb(CSVLogger)
+    learn.export(name)
+    learn.add_cbs([CSVLogger(append=True)])
+
 lr=1e-4
 learn.freeze()
 learn.fit_one_cycle(5, lr)
-learn.export('model-frozen-5.pkl')
+saveModel(learn, 'model-frozen-5.pkl')
 learn.fit_one_cycle(10, lr)
-learn.export('model-frozen-15.pkl')
+saveModel(learn, 'model-frozen-15.pkl')
 learn.fit_one_cycle(15, lr)
-learn.export('model-frozen-30.pkl')
+saveModel(learn, 'model-frozen-30.pkl')
 learn.unfreeze()
 lr=1e-5
 learn.fit_one_cycle(5, lr)
-learn.export('model-unfrozen-5.pkl')
+saveModel(learn, 'model-unfrozen-5.pkl')
 learn.fit_one_cycle(10, lr)
-learn.export('model-unfrozen-15.pkl')
+saveModel(learn, 'model-unfrozen-15.pkl')
 learn.fit_one_cycle(15, lr)
-learn.export('model-unfrozen-30.pkl')
+saveModel(learn, 'model-unfrozen-30.pkl')
 
