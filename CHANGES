@@ -1,0 +1,27 @@
+# Change Log
+
+## v0.4.0
+
+2023-01-18
+
+- update model file (fix #1)
+- add documentation for predictions with base model
+- add documentation for re-training the base model
+
+## v0.3.0
+
+2023-01-02
+
+- update model file (drop requirement of defining custom functions)
+
+## v0.2.0
+
+2021-11-10
+
+- update base model to use fastai v2
+
+## v0.1.0
+
+2020-06-15
+
+- initial release
