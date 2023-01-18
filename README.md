@@ -15,6 +15,8 @@ You can also use everything in this repository for your own research under [MIT 
 }
 ```
 
+**Info:** If you want to use the base model (trained on Data Science Bowl Cardiac Challenge Data) for predictions or re-training on your own data, see the respective documentation: [prediction](docs/predictions.md), [re-training](docs/re-training.md). Please open an [issue](https://github.com/chfc-cmi/cmr-seg-tl/issues/) if you encounter any problems.
+
 **Note:** This README reports all the commands necessary to reproduce our results from the raw data. However, if you want to use some intermediate files you do not need to follow all steps but you can find the precalculated data either in this repository or at zenodo [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3876351.svg)](https://doi.org/10.5281/zenodo.3876351).
 
 <!-- TOC -->
