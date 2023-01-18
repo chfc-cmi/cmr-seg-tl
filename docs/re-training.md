@@ -3,14 +3,14 @@
 In order to get the base model, you can either load the model through torch hub:
 
 ```python
-import torch
+from fastai.vision.all import *
 trainedModel = torch.hub.load("chfc-cmi", "cmr_seg_base")
 ```
 
 or download the model file from the [releases page](https://github.com/chfc-cmi/cmr-seg-tl/releases) and load it with fastai:
 
 ```python
-from fastai.vision.all import load_learner
+from fastai.vision.all import *
 trainedModel = load_learner("resnet34_5percent_size256_extremeTfms_ceLoss_fastai2.pkl")
 ```
 
