@@ -12,7 +12,7 @@ def cmr_seg_base(**kwargs):
     labeled by ukbb_cardiac network https://github.com/baiwenjia/ukbb_cardiac
     """
     # Call the model, load pretrained weights
-    url = "https://github.com/chfc-cmi/cmr-seg-tl/releases/download/v0.4.0/resnet34_5percent_size256_extremeTfms_ceLoss_fastai2.pkl"
+    url = "https://github.com/chfc-cmi/cmr-seg-tl/releases/download/v0.5.0/resnet34_5percent_size256_extremeTfms_ceLoss_fastai2.pkl"
     dst_dir = torch.hub.get_dir() + '/chfc-cmi_cmr-seg-tl_master/'
     os.makedirs(dst_dir, exist_ok=True)
     dst = dst_dir + 'resnet34_5percent_size256_extremeTfms_ceLoss_fastai2.pkl'
